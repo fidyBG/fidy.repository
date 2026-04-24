@@ -1,2 +1,2 @@
-fidyBG repository for modificated (mostly bulgarian translated) addons.
+fidyBG repository for modified (mostly bulgarian translated) addons.
 All credits belongs to the developers.
