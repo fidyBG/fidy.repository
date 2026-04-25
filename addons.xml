@@ -36,8 +36,8 @@
             <summary lang="en_US">Bg Add-on Repository</summary>
             <description lang="bg_BG">Инсталира добавки за Коди на различни разработчици</description>
             <description lang="en_US">Install plugins for KODI from diferent developers</description>
-            <disclaimer lang="bg_BG">Авторите на наличните добавки в хранилището не носят отговорност за наличното през тях съдържание, както и за ефекта от инсталирането им във вашето устройство!</disclaimer>
-            <disclaimer lang="en_US">Developers of the addons in this repository are not responsible for available content via their addons and effect of installing them on your device!</disclaimer>
+            <disclaimer lang="bg_BG">Авторите на наличните добавки в хранилището не носят отговорност за наличното през тях съдържание!</disclaimer>
+            <disclaimer lang="en_US">Developers of the addons in this repository are not responsible for available content!</disclaimer>
             <platform>all</platform>
             <assets>
                 <icon>resources/icon.png</icon>
@@ -56,7 +56,6 @@
         <extension point="xbmc.addon.metadata">
             <summary>Repo from MartinStz</summary>
             <description>For installing videos, musics and subtitles addons</description>
-            <disclaimer></disclaimer>
             <platform>all</platform>
             <assets>
                 <icon>icon.png</icon>
@@ -79,7 +78,6 @@
         <extension point="xbmc.addon.metadata">
             <summary>Kodi Jellyfin Addon Repository</summary>
             <description>This repo contains addons related to the Jellyfin project</description>
-            <disclaimer></disclaimer>
             <platform>all</platform>
             <assets>
                 <icon>icon.png</icon>
@@ -146,7 +144,6 @@
         <extension point="xbmc.addon.metadata">
             <summary>Improved subtitles repository</summary>
             <description>Patched addons for ttml2ssa.</description>
-            <disclaimer></disclaimer>
             <platform>all</platform>
             <assets>
                 <icon>icon.png</icon>
@@ -165,10 +162,6 @@
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
             <description lang="en">Addons by SlyGuy (slyguy.uk)</description>
-            <license></license>
-            <language></language>
-            <website></website>
-            <news></news>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
@@ -209,8 +202,10 @@
         </extension>
         <extension point="xbmc.service" library="service.py" start="startup" />
         <extension point="xbmc.addon.metadata">
-            <summary>Автоматично скриване на екранно меню</summary>
-            <description>Скрипт за автоматично скриване на екранното меню при неактивност. Времето може да се избере в настройките на добавката (по подразбиране е 5сек).</description>
+            <summary lang="bg">Автоматично скриване на екранно меню</summary>
+            <summary lang="en">Auto-hide OSD</summary>
+            <description lang="bg">Скрипт за автоматично скриване на екранното меню при неактивност.</description>
+            <description lang="en">Script to auto-hide OSD on inactivity.</description>
             <disclaimer>Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
             <platform>all</platform>
             <assets>
@@ -220,22 +215,66 @@
     </addon>
 
     <addon id="plugin.program.packthumb.cleaner" name="Files Cleaner" version="2023.01.11.01.fmod" provider-name="MartinStZ">
-        <requires />
         <extension point="xbmc.python.pluginsource" library="default.py">
             <provides>executable</provides>
         </extension>
-        <extension point="xbmc.python.module" />
         <extension point="xbmc.addon.metadata">
             <summary lang="en">Clean Temporary Files</summary>
             <summary lang="bg">Изтрива временни файлове</summary>
             <description lang="en">Clean Temporary Files.</description>
-            <description lang="bg">Програма за освобождаване на място на устройството, като изтрива ненужните файлове (временни файлове, картинки, постери, субтитри за филми и др.) от системата.</description>
-            <disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-            <disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+            <description lang="bg">Програма за освобождаване на място на устройството чрез изтриване на ненужни файлове.</description>
             <platform>all</platform>
             <assets>
                 <icon>icon.png</icon>
             </assets>
+        </extension>
+    </addon>
+
+    <addon id="pvr.eon" version="21.7.8.fmod" name="EON PVR" provider-name="Nirvana">
+        <requires>
+            <import addon="kodi.binary.global.main" version="2.0.2"/>
+            <import addon="kodi.binary.global.general" version="1.0.5"/>
+            <import addon="kodi.binary.global.filesystem" version="1.1.8"/>
+            <import addon="kodi.binary.instance.pvr" version="8.3.0"/>
+            <import addon="inputstream.adaptive" minversion="20.0.0"/>
+            <import addon="script.module.inputstreamhelper" version="0.5.8"/>
+        </requires>
+        <extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+        <extension point="xbmc.addon.metadata">
+            <platform>android-aarch64</platform>
+            <assets>
+                <icon>eon.png</icon>
+            </assets>
+            <summary lang="en">EON PVR Client</summary>
+            <summary lang="bg">EON ПВР Клиент</summary>
+            <description lang="en">PVR-Client for EON TV. Supports TV and EPG. [COLOR red][B]Subscription required.[/B][/COLOR]</description>
+            <description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо и EPG. [COLOR red][B]Нужен е абонамент![/B][/COLOR]</description>
+            <news lang="en">•Modificated official addon version 21.7.8 from 14.05.2024.</news>
+            <news lang="bg">•Модифицирана официалната версия 21.7.8 от 14.05.2024г.</news>
+        </extension>
+    </addon>
+
+    <addon id="pvr.eon" version="21.7.8.fmod" name="EON PVR" provider-name="Nirvana">
+        <requires>
+            <import addon="kodi.binary.global.main" version="2.0.2"/>
+            <import addon="kodi.binary.global.general" version="1.0.5"/>
+            <import addon="kodi.binary.global.filesystem" version="1.1.8"/>
+            <import addon="kodi.binary.instance.pvr" version="8.3.0"/>
+            <import addon="inputstream.adaptive" minversion="20.0.0"/>
+            <import addon="script.module.inputstreamhelper" version="0.5.8"/>
+        </requires>
+        <extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+        <extension point="xbmc.addon.metadata">
+            <platform>android-armv7</platform>
+            <assets>
+                <icon>eon.png</icon>
+            </assets>
+            <summary lang="en">EON PVR Client</summary>
+            <summary lang="bg">EON ПВР Клиент</summary>
+            <description lang="en">PVR-Client for EON TV. Supports TV and EPG. [COLOR red][B]Subscription required.[/B][/COLOR]</description>
+            <description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо и EPG. [COLOR red][B]Нужен е абонамент![/B][/COLOR]</description>
+            <news lang="en">•Modificated official addon version 21.7.8 from 14.05.2024.</news>
+            <news lang="bg">•Модифицирана официалната версия 21.7.8 от 14.05.2024г.</news>
         </extension>
     </addon>
 </addons>
