@@ -206,14 +206,18 @@
 		</extension>
 	</addon>
 	<addon id="plugin.program.packthumb.cleaner" name="Files Cleaner" version="2023.01.11.01.fmod" provider-name="MartinStZ">
+		<requires/>
 		<extension point="xbmc.python.pluginsource" library="default.py">
 			<provides>executable</provides>
 		</extension>
+		<extension point="xbmc.python.module"/>
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">Clean Temporary Files</summary>
 			<summary lang="bg">Изтрива временни файлове</summary>
 			<description lang="en">Clean Temporary Files.</description>
-			<description lang="bg">Програма за освобождаване на място на устройството чрез изтриване на ненужни файлове.</description>
+			<description lang="bg">Програма за освобождаване на място на устройството, като изтрива ненужните файлове (временни файлове, картинки, постери, субтитри за филми и др.) от системата.</description>
+			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 			<platform>all</platform>
 			<assets>
 				<icon>icon.png</icon>
@@ -270,6 +274,25 @@
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 			<news lang="en">•Modificated official addon version 21.7.8 from 14.05.2024.</news>
 			<news lang="bg">•Модифицирана официалната версия 21.7.8 от 14.05.2024г.</news>
+		</extension>
+	</addon>
+	<addon id="service.subloader" name="SubLoader" version="33.1.6v.fmod" provider-name="DenimNani">
+		<requires>
+  </requires>
+		<extension point="xbmc.service" library="monitor.py" start="login"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Automatic subtitles for your content</summary>
+			<platform>all</platform>
+			<summary lang="bg">Автоматично свяляне на субтитри</summary>
+			<description lang="en">Auto download the best subtitle automatically as soon you start the video.</description>
+			<description lang="bg">Автоматично сваляне на субтитри веднага след започване на видео по предварително избрани критерии.</description>
+			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+			<news lang="en">•Added Bulgarian language.[CR]•Added Vivacom and Bulsatcom exclusion.</news>
+			<news lang="bg">•Добавен български език.[CR]•Добавено изключение за Виваком и Булсатком.</news>
+			<assets>
+				<icon>loader.png</icon>
+			</assets>
 		</extension>
 	</addon>
 </addons>
