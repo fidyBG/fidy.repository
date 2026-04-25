@@ -170,25 +170,37 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="repository.paco8" name="Improved subtitles repository" version="2.0.4" provider-name="Paco8">
-		<extension point="xbmc.addon.repository">
-			<dir minversion="19.0.0">
-				<info compressed="false">https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages-kodi-19/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages-kodi-19/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages-kodi-19</datadir>
+	<addon id="repository.dontpanic" name="Don't Panic" version="0.2.9" provider-name="pannal">
+		<extension point="xbmc.addon.repository" name="Don't Panic Kodi Repo">
+			<dir minversion="18.0.0" maxversion="18.9.9">
+				<info compressed="false">https://raw.githubusercontent.com/pannal/dontpanickodi/master/leia/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/pannal/dontpanickodi/master/leia/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/pannal/dontpanickodi/master/leia/zips/</datadir>
 			</dir>
-			<dir maxversion="18.9.0">
-				<info compressed="false">https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages</datadir>
+			<dir minversion="19.0.0" maxversion="19.9.9">
+				<info compressed="false">https://raw.githubusercontent.com/pannal/dontpanickodi/master/matrix/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/pannal/dontpanickodi/master/matrix/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/pannal/dontpanickodi/master/matrix/zips/</datadir>
+			</dir>
+			<dir minversion="20.0.0" maxversion="20.9.9">
+				<info compressed="false">https://raw.githubusercontent.com/pannal/dontpanickodi/master/nexus/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/pannal/dontpanickodi/master/nexus/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/pannal/dontpanickodi/master/nexus/zips/</datadir>
+			</dir>
+			<dir minversion="20.90.0">
+				<info compressed="false">https://raw.githubusercontent.com/pannal/dontpanickodi/master/omega/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/pannal/dontpanickodi/master/omega/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/pannal/dontpanickodi/master/omega/zips/</datadir>
 			</dir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary>Improved subtitles repository</summary>
-			<description>Patched addons for ttml2ssa.</description>
+			<summary>dontpanic</summary>
+			<description>Randomly reasonably stable hacked/improved/altered addons</description>
+			<disclaimer/>
 			<platform>all</platform>
 			<assets>
 				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
 			</assets>
 		</extension>
 	</addon>
@@ -288,6 +300,26 @@
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
+	<addon id="plugin.video.overlay" name="Overlay System Info" version="1.00" provider-name="fidyBG">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0"/>
+		</requires>
+		<extension point="xbmc.python.script" library="overlay.py">
+			<provides>executable</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">System Info</summary>
+			<summary lang="bg">Информация за системата</summary>
+			<description lang="en">Displays detailed information about playing video stream (dynamic range, resolution, frame rate, bitrate, etc.), current display resolution and refresh rate and RAM usage.</description>
+			<description lang="bg">Показва подробна информация за видео потока при възпроизвеждане (динамичен обхват, разделителна способност, честота на кадрите, битрейт и др.), текуща резолюция и честота на опресняване на екрана и използваната RAM памет.{CR}За бърз достъп с един бутон може да използвате официалната добавка Keymap Editor.</description>
+			<disclaimer lang="en">Unofficial version. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
+			<platform>all</platform>
+			<assets>
+				<icon>overlay.png</icon>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="script.hideosd" version="1.00.fmod" name="Hide OSD" provider-name="aenema">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
@@ -343,8 +375,8 @@
 			<assets>
 				<icon>eon.png</icon>
 			</assets>
-			<summary lang="en">EON PVR Client</summary>
-			<summary lang="bg">EON ПВР Клиент</summary>
+			<summary lang="en">EON PVR Client (32-bit)</summary>
+			<summary lang="bg">EON ПВР Клиент (32-bit)</summary>
 			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
 			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
 			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
@@ -369,8 +401,8 @@
 			<assets>
 				<icon>eon.png</icon>
 			</assets>
-			<summary lang="en">EON PVR Client</summary>
-			<summary lang="bg">EON ПВР Клиент</summary>
+			<summary lang="en">EON PVR Client (64-bit)</summary>
+			<summary lang="bg">EON ПВР Клиент (64-bit)</summary>
 			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
 			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
 			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
