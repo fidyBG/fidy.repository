@@ -1,241 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-    <addon id="repository.fidy" name="fidy Repository" version="1.00" provider-name="fidyBG">
-        <extension point="xbmc.addon.repository" name="fidy Repository">
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/fidyBG/fidy.repository/main/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/fidyBG/fidy.repository/main/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/fidyBG/fidy.repository/main/zips/</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <assets>
-                <icon>fidy.png</icon>
-            </assets>
-            <summary lang="en">Modified add-ons</summary>
-            <summary lang="bg">Модифицирани добавки</summary>
-            <description lang="en">Unofficial repository for modified (mostly translated into Bulgarian) add-ons. All rights and credits belong to the developers.</description>
-            <description lang="bg">Неофициално хранилище за модифицирани (предимно преведени на български език) добавки. Всички права и заслуги принадлежат на разработчиците.</description>
-            <disclaimer lang="en">Use at own risk!</disclaimer>
-            <disclaimer lang="bg">Ползвате на собствена отговорност!</disclaimer>
-        </extension>
-    </addon>
-
-    <addon id="repo.bg.plugins" name="Bg Add-ons" version="1.0.2" provider-name="kodi.dev.one@gmail.com">
-        <extension point="xbmc.addon.repository" name="Bg Add-ons">
-            <dir minversion="18.90.0">
-                <info compressed="false">https://github.com/kodi1/kodi1.github.io/raw/master/repo/addons.xml</info>
-                <checksum>https://github.com/kodi1/kodi1.github.io/raw/master/repo/addons.xml.md5</checksum>
-                <datadir zip="true">https://github.com/kodi1/kodi1.github.io/raw/master/repo/</datadir>
-                <artdir>https://github.com/kodi1/kodi1.github.io/raw/master/repo</artdir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="bg_BG">БГ Репо</summary>
-            <summary lang="en_US">Bg Add-on Repository</summary>
-            <description lang="bg_BG">Инсталира добавки за Коди на различни разработчици</description>
-            <description lang="en_US">Install plugins for KODI from diferent developers</description>
-            <disclaimer lang="bg_BG">Авторите на наличните добавки в хранилището не носят отговорност за наличното през тях съдържание, както и за ефекта от инсталирането им във вашето устройство!</disclaimer>
-            <disclaimer lang="en_US">Developers of the addons in this repository are not responsible for available content via their addons and effect of installing them on your device!</disclaimer>
-            <platform>all</platform>
-            <assets>
-                <icon>resources/icon.png</icon>
-            </assets>
-        </extension>
-    </addon>
-
-    <addon id="repository.mar33" name="Mar33 Repository" version="3.3.33" provider-name="MartinStZ">
-        <extension point="xbmc.addon.repository" name="Mar33 Repository">
-            <dir>
-                <info compressed="false">http://martinstz.com/_repo/addons.xml</info>
-                <checksum>http://martinstz.com/_repo/addons.xml.md5</checksum>
-                <datadir zip="true">http://martinstz.com/_repo/</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Repo from MartinStz</summary>
-            <description>For installing videos, musics and subtitles addons</description>
-            <disclaimer></disclaimer>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
-        </extension>
-    </addon>
-
-    <addon id="repository.jellyfin.kodi" name="Kodi Jellyfin Addons" version="1.0.0" provider-name="null_pointer,angelblue05,sualfred,im85288,xnappo">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Kodi Jellyfin Repository">
-            <dir>
-                <info compressed="false">https://repo.jellyfin.org/releases/client/kodi/addons.xml</info>
-                <checksum>https://repo.jellyfin.org/releases/client/kodi/addons.xml.md5</checksum>
-                <datadir zip="true">https://repo.jellyfin.org/releases/client/kodi</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Kodi Jellyfin Addon Repository</summary>
-            <description>This repo contains addons related to the Jellyfin project</description>
-            <disclaimer></disclaimer>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-            </assets>
-        </extension>
-    </addon>
-
-    <addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="5.0">
-        <extension point="xbmc.addon.repository" name="Michaz Repository">
-            <dir>
-                <info compressed="false">https://michaz1988.github.io/repo/addons.xml</info>
-                <checksum>https://michaz1988.github.io/repo/addons.xml.md5</checksum>
-                <datadir zip="true">https://michaz1988.github.io/repo/</datadir>
-            </dir>
-            <dir minversion="19.0.0" maxversion="19.9.0">
-                <info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml</info>
-                <checksum>https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE19/master/</datadir>
-            </dir>
-            <dir minversion="20.0.0" maxversion="20.9.0">
-                <info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml</info>
-                <checksum>https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/</datadir>
-            </dir>
-            <dir minversion="21.0.0" maxversion="21.9.0">
-                <info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/addons.xml</info>
-                <checksum>https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/</datadir>
-            </dir>
-            <dir minversion="22.0.0" maxversion="22.9.0">
-                <info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/addons.xml</info>
-                <checksum>https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/</datadir>
-            </dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <description lang="en">Addons by Michaz</description>
-            <website>https://michaz1988.github.io</website>
-            <assets>
-                <icon>icon.png</icon>
-            </assets>
-        </extension>
-    </addon>
-
-    <addon id="repository.paco8" name="Improved subtitles repository" version="2.0.4" provider-name="Paco8">
-        <extension point="xbmc.addon.repository">
-            <dir minversion="19.0.0">
-                <info compressed="false">https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages-kodi-19/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages-kodi-19/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages-kodi-19</datadir>
-            </dir>
-            <dir maxversion="18.9.0">
-                <info compressed="false">https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/Paco8/kodi-repo/master/packages</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Improved subtitles repository</summary>
-            <description>Patched addons for ttml2ssa.</description>
-            <disclaimer></disclaimer>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-            </assets>
-        </extension>
-    </addon>
-
-    <addon id="repository.slyguy" name="SlyGuy Repository" provider-name="SlyGuy" version="0.0.9">
-        <extension point="xbmc.addon.repository" name="SlyGuy Repository">
-            <dir>
-                <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
-                <checksum>https://slyguy.uk/.repo/repository.slyguy/addons.xml.md5</checksum>
-                <datadir zip="true">https://slyguy.uk/.repo/repository.slyguy/</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <description lang="en">Addons by SlyGuy (slyguy.uk)</description>
-            <license></license>
-            <language></language>
-            <website></website>
-            <news></news>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
-        </extension>
-    </addon>
-
-    <addon id="skin.aquafluence" version="5.2.0" name="Aquafluence" provider-name="fidyBG">
-        <requires>
-            <import addon="xbmc.gui" version="5.17.0"/>
-        </requires>
-        <extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
-            <res width="1920" height="1080" aspect="16:9" default="true" folder="1080p" />
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <license>GNU General Public License version 2</license>
-            <assets>
-                <icon>media/aqua.png</icon>
-            </assets>
-            <news lang="bg">[B]Експериментална версия ;)[/B]</news>
-            <news lang="en">[B]Experimental version ;)[/B]</news>
-            <summary lang="bg">Облик от fidyBG</summary>
-            <summary lang="en">Skin by fidyBG</summary>
-            <description lang="bg">Aquafluence е редактирана версия на известния облик Confluence от Jezz_X.</description>
-            <description lang="en">Aquafluence is edited version of good known skin Confluence by Jezz_X.</description>
-            <disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-            <disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-        </extension>
-    </addon>
-
-    <addon id="script.hideosd" version="1.00.fmod" name="Hide OSD" provider-name="aenema">
-        <requires>
-            <import addon="xbmc.python" version="3.0.0" />
-        </requires>
-        <extension point="xbmc.python.pluginsource" library="main.py">
-            <provides>executable</provides>
-        </extension>
-        <extension point="xbmc.service" library="service.py" start="startup" />
-        <extension point="xbmc.addon.metadata">
-            <summary>Автоматично скриване на екранно меню</summary>
-            <description>Скрипт за автоматично скриване на екранното меню при неактивност. Времето може да се избере в настройките на добавката (по подразбиране е 5сек).</description>
-            <disclaimer>Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-            </assets>
-        </extension>
-    </addon>
-
-    <addon id="plugin.program.packthumb.cleaner" name="Files Cleaner" version="2023.01.11.01.fmod" provider-name="MartinStZ">
-        <requires />
-        <extension point="xbmc.python.pluginsource" library="default.py">
-            <provides>executable</provides>
-        </extension>
-        <extension point="xbmc.python.module" />
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">Clean Temporary Files</summary>
-            <summary lang="bg">Изтрива временни файлове</summary>
-            <description lang="en">Clean Temporary Files.</description>
-            <description lang="bg">Програма за освобождаване на място на устройството, като изтрива ненужните файлове (временни файлове, картинки, постери, субтитри за филми и др.) от системата.</description>
-            <disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-            <disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-            </assets>
-        </extension>
-    </addon>
-</addons>
+<addon id="repository.fidy" name="fidy Repository" version="1.00" provider-name="fidyBG">
+	<extension point="xbmc.addon.repository" name="fidy Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/fidyBG/fidy.repository/main/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/fidyBG/fidy.repository/main/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/fidyBG/fidy.repository/main/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/fidyBG/fidy.repository/main/zips64/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/fidyBG/fidy.repository/main/zips64/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/fidyBG/fidy.repository/main/zips64/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<assets>
+			<icon>fidy.png</icon>
+		</assets>
+		<summary lang="en">Modified add-ons</summary>
+		<summary lang="bg">Модифицирани добавки</summary>
+		<description lang="en">Unofficial repository for modified (mostly translated into Bulgarian) add-ons. All rights and credits belong to the developers.</description>
+		<description lang="bg">Неофициално хранилище за модифицирани (предимно преведени на български език) добавки. Всички права и заслуги принадлежат на разработчиците.</description>
+		<disclaimer lang="en">Use at own risk!</disclaimer>
+		<disclaimer lang="bg">Ползвате на собствена отговорност!</disclaimer>
+	</extension>
+</addon>
