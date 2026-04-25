@@ -366,7 +366,7 @@
 			<import addon="inputstream.adaptive" minversion="20.0.0"/>
 			<import addon="script.module.inputstreamhelper" version="0.5.8"/>
 		</requires>
-		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+		<extension point="kodi.pvrclient"/>
 		<extension point="xbmc.addon.metadata">
 			<platform>all</platform>
 			<license>GPL-2.0-or-later</license>
