@@ -300,7 +300,7 @@
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="plugin.video.overlay" name="Overlay System Info" version="1.00" provider-name="fidyBG">
+	<addon id="plugin.video.overlay" name="Overlay System Info" version="1.40" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 		</requires>
@@ -311,7 +311,7 @@
 			<summary lang="en">System Info</summary>
 			<summary lang="bg">Информация за системата</summary>
 			<description lang="en">Displays detailed information about playing video stream (dynamic range, resolution, frame rate, bitrate, etc.), current display resolution and refresh rate and RAM usage.</description>
-			<description lang="bg">Показва подробна информация за видео потока при възпроизвеждане (динамичен обхват, разделителна способност, честота на кадрите, битрейт и др.), текуща резолюция и честота на опресняване на екрана и използваната RAM памет.{CR}За бърз достъп с един бутон може да използвате официалната добавка Keymap Editor.</description>
+			<description lang="bg">Показва подробна информация за видео потока при възпроизвеждане (динамичен обхват, разделителна способност, честота на кадрите, битрейт и др.), текуща резолюция и честота на опресняване на екрана и използваната RAM памет.[CR][CR]За бърз достъп може да използвате официалната добавка Keymap Editor, като назначите бутон по избор да стартира тази добавка веднага.</description>
 			<disclaimer lang="en">Unofficial version. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
 			<platform>all</platform>
@@ -443,6 +443,28 @@
 			</assets>
 		</extension>
 	</addon>
+	<addon id="script.video.bgtime_tv" name="bgtime.tv" version="1.0.8.fmod" provider-name="Maria Markova">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0"/>
+			<import addon="script.module.requests" version="2.7.0"/>
+			<import addon="script.module.simplecache" version="1.0.0"/>
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary lang="bg">Видео добавка за bgtime.tv</summary>
+			<summary lang="en">Video addon for bgtime.tv</summary>
+			<description lang="bg">Тази добавка предлага достъп до стриймовете нa bgtime.tv (канали на живо и архив).[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
+			<description lang="en">This addon provides access to streams of bgtime.tv (live channels and VOD).[CR][CR][CR][COLOR red]It requires active bgtime.tv registration.[/COLOR]</description>
+			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+			<assets>
+				<icon>bgtime.png</icon>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="plugin.video.torrserve" name="TorrServer Client" version="0.8.1.fmod" provider-name="Nemiroff, virserg">
 		<requires>
 			<import addon="xbmc.addon" version="16.0.0"/>
@@ -467,6 +489,54 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 			<assets>
 				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="plugin.video.bultor" name="BulTor" version="2026.03.28.01.fmod" provider-name="MartinStZ">
+		<requires>
+			<import addon="script.module.requests" version="1.1.0"/>
+			<import addon="script.module.beautifulsoup4" version="0.0.1"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE</license>
+			<summary lang="bg">Гледайте торенти от bultor.net</summary>
+			<summary lang="en">Watch torrents from bultor.net</summary>
+			<description lang="bg">Добавка за гледане на торенти без нужда от сваляне.[CR][CR][COLOR red][B]Изисквания:[CR]Инсталиран Elementum или TorrServer Client свързан с активен сървър![/B][/COLOR]</description>
+			<description lang="en">Watching torrents without downloading.[CR][CR][COLOR red][B]Required Elementum or TorrServer Client addon connected with active server![/B][/COLOR]</description>
+			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+			<news lang="bg">•Добавена е опция за плейване чрез TorrServer Client.</news>
+			<news lang="en">•Added playing option via TorrServer Client.</news>
+			<assets>
+				<icon>bultor.png</icon>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="plugin.video.p2pbg" name="p2p BG " version="2026.04.07.01.fmod" provider-name="MartinStZ">
+		<requires>
+			<import addon="script.module.requests" version="1.1.0"/>
+			<import addon="script.module.beautifulsoup4" version="0.0.1"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE</license>
+			<summary lang="bg">Гледайте торенти от p2pbg.net</summary>
+			<summary lang="en">Watch torrents from p2pbg net</summary>
+			<description lang="bg">Добавка за гледане на торенти без нужда от сваляне.[CR][CR][COLOR red][B]Изисквания:[CR]Инсталиран Elementum или TorrServer Client свързан с активен сървър![/B][/COLOR]</description>
+			<description lang="en">Watching torrents without downloading.[CR][CR][COLOR red][B]Required Elementum or TorrServer Client addon connected with active server![/B][/COLOR]</description>
+			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+			<news lang="bg">•Добавена е опция за плейване чрез TorrServer Client.[CR]•Поправка на филтъра за българско аудио.</news>
+			<news lang="en">•Added playing option via TorrServer Client.[CR]•BG audio filter fixed.</news>
+			<assets>
+				<icon>p2pbg.png</icon>
 			</assets>
 		</extension>
 	</addon>
