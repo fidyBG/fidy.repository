@@ -368,7 +368,7 @@
 		</requires>
 		<extension point="kodi.pvrclient" library_android_armv7="resources/platforms/android-armv7/libpvr.eon.so" library_android_aarch64="resources/platforms/android-aarch64/libpvr.eon.so"/>
 		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
+			<platform>android</platform>
 			<license>GPL-2.0-or-later</license>
 			<assets>
 				<icon>eon.png</icon>
