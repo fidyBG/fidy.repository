@@ -366,7 +366,7 @@
 			<import addon="inputstream.adaptive" minversion="20.0.0"/>
 			<import addon="script.module.inputstreamhelper" version="0.5.8"/>
 		</requires>
-		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+		<extension point="kodi.pvrclient" library_android_armv7="resources/platforms/android-armv7/libpvr.eon.so" library_android_aarch64="resources/platforms/android-aarch64/libpvr.eon.so"/>
 		<extension point="xbmc.addon.metadata">
 			<platform>all</platform>
 			<license>GPL-2.0-or-later</license>
@@ -379,6 +379,8 @@
 			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
 			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
+			<news lang="en">•Modificated official addon version 21.7.8 from 14.05.2024.</news>
+			<news lang="bg">•Модифицирана официалната версия 21.7.8 от 14.05.2024г.</news>
 		</extension>
 	</addon>
 	<addon id="service.subloader" name="SubLoader" version="33.1.6v.fmod" provider-name="DenimNani">
