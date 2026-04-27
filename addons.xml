@@ -277,7 +277,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="skin.aquafluence" version="5.2.0" name="Aquafluence" provider-name="fidyBG">
+	<addon id="skin.aquafluencenew" version="2026.00" name="Aquafluence Skin 2026" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
 		</requires>
@@ -288,10 +288,8 @@
 			<platform>all</platform>
 			<license>GNU General Public License version 2</license>
 			<assets>
-				<icon>media/aqua.png</icon>
+				<icon>aqua.png</icon>
 			</assets>
-			<news lang="bg">[B]Експериментална версия ;)[/B]</news>
-			<news lang="en">[B]Experimental version ;)[/B]</news>
 			<summary lang="bg">Облик от fidyBG</summary>
 			<summary lang="en">Skin by fidyBG</summary>
 			<description lang="bg">Aquafluence е редактирана версия на известния облик Confluence от Jezz_X.</description>
