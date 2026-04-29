@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 	<addon id="repository.fidy" name="fidy Repository" version="1.20" provider-name="fidyBG">
 		<extension point="xbmc.addon.repository" name="fidy Repository">
@@ -355,6 +354,54 @@
 			</assets>
 		</extension>
 	</addon>
+	<addon id="pvr.eon" version="20.7.6.fmod32" name="EON PVR" provider-name="Nirvana">
+		<requires>
+			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+			<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+			<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
+			<import addon="inputstream.adaptive" minversion="20.0.0"/>
+			<import addon="script.module.inputstreamhelper" version="0.5.8"/>
+		</requires>
+		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+		<extension point="xbmc.addon.metadata">
+			<platform>android-armv7</platform>
+			<license>GPL-2.0-or-later</license>
+			<assets>
+				<icon>eon.png</icon>
+			</assets>
+			<summary lang="en">EON PVR Client for Android 32-bit</summary>
+			<summary lang="bg">EON ПВР Клиент за Android 32-bit</summary>
+			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
+			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
+			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
+		</extension>
+	</addon>
+	<addon id="pvr.eon" version="20.7.0.fmod64" name="EON PVR" provider-name="Nirvana">
+		<requires>
+			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+			<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+			<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
+			<import addon="inputstream.adaptive" minversion="20.0.0"/>
+			<import addon="script.module.inputstreamhelper" version="0.5.8"/>
+		</requires>
+		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+		<extension point="xbmc.addon.metadata">
+			<platform>android-aarch64</platform>
+			<license>GPL-2.0-or-later</license>
+			<assets>
+				<icon>eon.png</icon>
+			</assets>
+			<summary lang="en">EON PVR Client for Android 64-bit</summary>
+			<summary lang="bg">EON ПВР Клиент за Android 64-bit</summary>
+			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
+			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
+			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
+		</extension>
+	</addon>
 	<addon id="pvr.eon" version="21.7.8.fmod32" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
@@ -404,12 +451,9 @@
 		</extension>
 	</addon>
 	<addon id="service.subloader" name="SubLoader" version="33.1.6v.fmod" provider-name="DenimNani">
-		<requires>
-  </requires>
 		<extension point="xbmc.service" library="monitor.py" start="login"/>
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">Automatic subtitles for your content</summary>
-			<platform>all</platform>
 			<summary lang="bg">Автоматично свяляне на субтитри</summary>
 			<description lang="en">Auto download the best subtitle automatically as soon you start the video.</description>
 			<description lang="bg">Автоматично сваляне на субтитри веднага след започване на видео по предварително избрани критерии.</description>
@@ -417,6 +461,7 @@
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 			<news lang="en">•Added Bulgarian language.[CR]•Added Vivacom and Bulsatcom exclusion.</news>
 			<news lang="bg">•Добавен български език.[CR]•Добавено изключение за Виваком и Булсатком.</news>
+			<platform>all</platform>
 			<assets>
 				<icon>loader.png</icon>
 			</assets>
