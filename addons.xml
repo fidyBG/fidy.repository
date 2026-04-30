@@ -297,7 +297,7 @@
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="plugin.video.overlay" name="Overlay System Info" version="1.40" provider-name="fidyBG">
+	<addon id="plugin.video.overlay" name="Overlay System Info" version="1.50" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 		</requires>
@@ -311,7 +311,6 @@
 			<description lang="bg">Показва подробна информация за видео потока при възпроизвеждане (динамичен обхват, разделителна способност, честота на кадрите, битрейт и др.), текуща резолюция и честота на опресняване на екрана и използваната RAM памет.[CR][CR]За бърз достъп може да използвате официалната добавка Keymap Editor, като назначите бутон по избор да стартира тази добавка веднага.</description>
 			<disclaimer lang="en">Unofficial version. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
-			<platform>all</platform>
 			<assets>
 				<icon>overlay.png</icon>
 			</assets>
@@ -354,233 +353,252 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="20.7.6.fmod32" name="EON PVR" provider-name="Nirvana">
-		<requires>
-			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
-			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
-			<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
-			<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
-			<import addon="inputstream.adaptive" minversion="20.0.0"/>
-			<import addon="script.module.inputstreamhelper" version="0.5.8"/>
-		</requires>
-		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
-		<extension point="xbmc.addon.metadata">
-			<platform>android-armv7</platform>
-			<license>GPL-2.0-or-later</license>
-			<assets>
-				<icon>eon.png</icon>
-			</assets>
-			<summary lang="en">EON PVR Client for Android 32-bit</summary>
-			<summary lang="bg">EON ПВР Клиент за Android 32-bit</summary>
-			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
-			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
-			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
-			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
-		</extension>
-	</addon>
-	<addon id="pvr.eon" version="20.7.0.fmod64" name="EON PVR" provider-name="Nirvana">
-		<requires>
-			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
-			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
-			<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
-			<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
-			<import addon="inputstream.adaptive" minversion="20.0.0"/>
-			<import addon="script.module.inputstreamhelper" version="0.5.8"/>
-		</requires>
-		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
-		<extension point="xbmc.addon.metadata">
-			<platform>android-aarch64</platform>
-			<license>GPL-2.0-or-later</license>
-			<assets>
-				<icon>eon.png</icon>
-			</assets>
-			<summary lang="en">EON PVR Client for Android 64-bit</summary>
-			<summary lang="bg">EON ПВР Клиент за Android 64-bit</summary>
-			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
-			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
-			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
-			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
-		</extension>
-	</addon>
-	<addon id="pvr.eon" version="21.7.8.fmod32" name="EON PVR" provider-name="Nirvana">
-		<requires>
-			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
-			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
-			<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
-			<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
-			<import addon="inputstream.adaptive" minversion="20.0.0"/>
-			<import addon="script.module.inputstreamhelper" version="0.5.8"/>
-		</requires>
-		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
-		<extension point="xbmc.addon.metadata">
-			<platform>android-armv7</platform>
-			<license>GPL-2.0-or-later</license>
-			<assets>
-				<icon>eon.png</icon>
-			</assets>
-			<summary lang="en">EON PVR Client for Android 32-bit</summary>
-			<summary lang="bg">EON ПВР Клиент за Android 32-bit</summary>
-			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
-			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
-			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
-			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
-		</extension>
-	</addon>
-	<addon id="pvr.eon" version="21.7.8.fmod64" name="EON PVR" provider-name="Nirvana">
-		<requires>
-			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
-			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
-			<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
-			<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
-			<import addon="inputstream.adaptive" minversion="20.0.0"/>
-			<import addon="script.module.inputstreamhelper" version="0.5.8"/>
-		</requires>
-		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
-		<extension point="xbmc.addon.metadata">
-			<platform>android-aarch64</platform>
-			<license>GPL-2.0-or-later</license>
-			<assets>
-				<icon>eon.png</icon>
-			</assets>
-			<summary lang="en">EON PVR Client for Android 64-bit</summary>
-			<summary lang="bg">EON ПВР Клиент за Android 64-bit</summary>
-			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
-			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
-			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
-			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
-		</extension>
-	</addon>
-	<addon id="service.subloader" name="SubLoader" version="33.1.6v.fmod" provider-name="DenimNani">
-		<extension point="xbmc.service" library="monitor.py" start="login"/>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Automatic subtitles for your content</summary>
-			<summary lang="bg">Автоматично свяляне на субтитри</summary>
-			<description lang="en">Auto download the best subtitle automatically as soon you start the video.</description>
-			<description lang="bg">Автоматично сваляне на субтитри веднага след започване на видео по предварително избрани критерии.</description>
-			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-			<news lang="en">•Added Bulgarian language.[CR]•Added Vivacom and Bulsatcom exclusion.</news>
-			<news lang="bg">•Добавен български език.[CR]•Добавено изключение за Виваком и Булсатком.</news>
-			<platform>all</platform>
-			<assets>
-				<icon>loader.png</icon>
-			</assets>
-		</extension>
-	</addon>
-	<addon id="service.subtitles.modedbg" name="Bulgarian Subtitles" version="2026.02.25.01.fmod" provider-name="MartinStZ">
-		<requires>
-			<import addon="script.module.beautifulsoup4" version="4.3.2"/>
-			<import addon="script.module.requests" version="1.1.0"/>
-			<import addon="script.module.simplejson" version="3.3.0"/>
-		</requires>
-		<extension point="xbmc.subtitle.module" library="service.py"/>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Bulgarian Subtitle Service</summary>
-			<summary lang="bg">Добавка за български субтитри</summary>
-			<description lang="en">Subtitles from:[CR] - subsunacs.net[CR] - subs.sab.bz[CR] - yavka.net[CR] - subsland.com[CR] - vladOOn.mooo.com[CR] - easternspirit.org</description>
-			<description lang="bg">Добавката търси в следните сайтове за субтитри:[CR] - subsunacs.net[CR] - subs.sab.bz[CR] - yavka.net[CR] - subsland.com[CR] - vladOOn.mooo.com[CR] - easternspirit.org</description>
-			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-			<assets>
-				<icon>subsbg.png</icon>
-			</assets>
-		</extension>
-	</addon>
-	<addon id="script.video.bgtime_tv" name="bgtime.tv" version="1.0.8.fmod" provider-name="Maria Markova">
-		<requires>
-			<import addon="xbmc.python" version="3.0.0"/>
-			<import addon="script.module.requests" version="2.7.0"/>
-			<import addon="script.module.simplecache" version="1.0.0"/>
-		</requires>
-		<extension point="xbmc.python.script" library="addon.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<summary lang="bg">Видео добавка за bgtime.tv</summary>
-			<summary lang="en">Video addon for bgtime.tv</summary>
-			<description lang="bg">Тази добавка предлага достъп до стриймовете нa bgtime.tv (канали на живо и архив).[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
-			<description lang="en">This addon provides access to streams of bgtime.tv (live channels and VOD).[CR][CR][CR][COLOR red]It requires active bgtime.tv registration.[/COLOR]</description>
-			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-			<assets>
-				<icon>bgtime.png</icon>
-			</assets>
-		</extension>
-	</addon>
-	<addon id="plugin.video.torrserve" name="TorrServer Client" version="0.8.1.fmod" provider-name="Nemiroff, virserg">
-		<requires>
-			<import addon="xbmc.addon" version="16.0.0"/>
-			<import addon="script.module.requests" optional="true"/>
-			<import addon="script.module.beautifulsoup4" optional="true"/>
-			<import addon="script.module.pyxbmct" optional="true"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="navigation.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.python.module" library="resources/site-packages/"/>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Torrent video streaming</summary>
-			<summary lang="bg">Поточно гледане на торенти</summary>
-			<summary lang="ru">Потоковое воспроизведение видеоторрентов</summary>
-			<description lang="en">TorrServer Client is a torrent streaming engine. It doesn't go on torrent websites for legal reasons.</description>
-			<description lang="bg">С помоща на TorrServer Client можете да гледате филми, сериали, видео, снимки и да слушате музика без нужда от сваляне на торентите.</description>
-			<description lang="ru">TorrServer Client - смотрите фильмы, сериалы, видео, картинки, слушайте музыку с торрентов без предварительного скачивания.</description>
-			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-			<platform>all</platform>
-			<reuselanguageinvoker>true</reuselanguageinvoker>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-		</extension>
-	</addon>
-	<addon id="plugin.video.bultor" name="BulTor" version="2026.03.28.01.fmod" provider-name="MartinStZ">
-		<requires>
-			<import addon="script.module.requests" version="1.1.0"/>
-			<import addon="script.module.beautifulsoup4" version="0.0.1"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE</license>
-			<summary lang="bg">Гледайте торенти от bultor.net</summary>
-			<summary lang="en">Watch torrents from bultor.net</summary>
-			<description lang="bg">Добавка за гледане на торенти без нужда от сваляне.[CR][CR][COLOR red][B]Изисквания:[CR]Инсталиран Elementum или TorrServer Client свързан с активен сървър![/B][/COLOR]</description>
-			<description lang="en">Watching torrents without downloading.[CR][CR][COLOR red][B]Required Elementum or TorrServer Client addon connected with active server![/B][/COLOR]</description>
-			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-			<news lang="bg">•Добавена е опция за плейване чрез TorrServer Client.</news>
-			<news lang="en">•Added playing option via TorrServer Client.</news>
-			<assets>
-				<icon>bultor.png</icon>
-			</assets>
-		</extension>
-	</addon>
-	<addon id="plugin.video.p2pbg" name="p2p BG " version="2026.04.07.01.fmod" provider-name="MartinStZ">
-		<requires>
-			<import addon="script.module.requests" version="1.1.0"/>
-			<import addon="script.module.beautifulsoup4" version="0.0.1"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE</license>
-			<summary lang="bg">Гледайте торенти от p2pbg.net</summary>
-			<summary lang="en">Watch torrents from p2pbg net</summary>
-			<description lang="bg">Добавка за гледане на торенти без нужда от сваляне.[CR][CR][COLOR red][B]Изисквания:[CR]Инсталиран Elementum или TorrServer Client свързан с активен сървър![/B][/COLOR]</description>
-			<description lang="en">Watching torrents without downloading.[CR][CR][COLOR red][B]Required Elementum or TorrServer Client addon connected with active server![/B][/COLOR]</description>
-			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-			<news lang="bg">•Добавена е опция за плейване чрез TorrServer Client.[CR]•Поправка на филтъра за българско аудио.</news>
-			<news lang="en">•Added playing option via TorrServer Client.[CR]•BG audio filter fixed.</news>
-			<assets>
-				<icon>p2pbg.png</icon>
-			</assets>
-		</extension>
-	</addon>
+	   provider-name="kodi1">
+  <requires>
+		<import addon="script.module.requests" version="1.1.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="exec.py"/>
+	<extension point="xbmc.service" library="service.py" start="start"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bulsatcom Fusion TV addon</summary>
+		<summary lang="bg">Добавка за Булсатком Фюжън ТВ</summary>
+		<description lang="en">Addon for watching Bulsatcom Fusion TV.[CR]Support live TV, radio , EPG and timeshift.[CR][CR]Thanks to otem, Majide, barev, MartinStZ and PlamenIP.</description>
+		<description lang="bg">Добавка за гледане на Булсатком Фюжън ТВ.[CR]Поддържа ТВ на живо, радио, електронен програмен справочник (EPG) и таймшифт.[CR][CR]Благодарности към otem, Majide, barev, MartinStZ and PlamenIP.</description>
+		<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+		<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+		<assets>
+			<icon>resources/fusion.png</icon>
+		</assets>
+	</extension>
+</addon>
+<addon id="pvr.eon" version="20.7.6.fmod32" name="EON PVR" provider-name="Nirvana">
+	<requires>
+		<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+		<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+		<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+		<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
+		<import addon="inputstream.adaptive" minversion="20.0.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.5.8"/>
+	</requires>
+	<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>android-armv7</platform>
+		<license>GPL-2.0-or-later</license>
+		<assets>
+			<icon>eon.png</icon>
+		</assets>
+		<summary lang="en">EON PVR Client for Android 32-bit</summary>
+		<summary lang="bg">EON ПВР Клиент за Android 32-bit</summary>
+		<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
+		<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
+		<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
+		<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
+	</extension>
+</addon>
+<addon id="pvr.eon" version="20.7.0.fmod64" name="EON PVR" provider-name="Nirvana">
+	<requires>
+		<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+		<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+		<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+		<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
+		<import addon="inputstream.adaptive" minversion="20.0.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.5.8"/>
+	</requires>
+	<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>android-aarch64</platform>
+		<license>GPL-2.0-or-later</license>
+		<assets>
+			<icon>eon.png</icon>
+		</assets>
+		<summary lang="en">EON PVR Client for Android 64-bit</summary>
+		<summary lang="bg">EON ПВР Клиент за Android 64-bit</summary>
+		<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
+		<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
+		<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
+		<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
+	</extension>
+</addon>
+<addon id="pvr.eon" version="21.7.8.fmod32" name="EON PVR" provider-name="Nirvana">
+	<requires>
+		<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+		<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+		<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+		<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
+		<import addon="inputstream.adaptive" minversion="20.0.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.5.8"/>
+	</requires>
+	<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>android-armv7</platform>
+		<license>GPL-2.0-or-later</license>
+		<assets>
+			<icon>eon.png</icon>
+		</assets>
+		<summary lang="en">EON PVR Client for Android 32-bit</summary>
+		<summary lang="bg">EON ПВР Клиент за Android 32-bit</summary>
+		<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
+		<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
+		<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
+		<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
+	</extension>
+</addon>
+<addon id="pvr.eon" version="21.7.8.fmod64" name="EON PVR" provider-name="Nirvana">
+	<requires>
+		<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+		<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+		<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+		<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
+		<import addon="inputstream.adaptive" minversion="20.0.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.5.8"/>
+	</requires>
+	<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>android-aarch64</platform>
+		<license>GPL-2.0-or-later</license>
+		<assets>
+			<icon>eon.png</icon>
+		</assets>
+		<summary lang="en">EON PVR Client for Android 64-bit</summary>
+		<summary lang="bg">EON ПВР Клиент за Android 64-bit</summary>
+		<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
+		<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
+		<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
+		<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
+	</extension>
+</addon>
+<addon id="service.subloader" name="SubLoader" version="33.1.6v.fmod" provider-name="DenimNani">
+	<extension point="xbmc.service" library="monitor.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Automatic subtitles for your content</summary>
+		<summary lang="bg">Автоматично свяляне на субтитри</summary>
+		<description lang="en">Auto download the best subtitle automatically as soon you start the video.</description>
+		<description lang="bg">Автоматично сваляне на субтитри веднага след започване на видео по предварително избрани критерии.</description>
+		<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+		<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+		<news lang="en">•Added Bulgarian language.[CR]•Added Vivacom and Bulsatcom exclusion.</news>
+		<news lang="bg">•Добавен български език.[CR]•Добавено изключение за Виваком и Булсатком.</news>
+		<platform>all</platform>
+		<assets>
+			<icon>loader.png</icon>
+		</assets>
+	</extension>
+</addon>
+<addon id="service.subtitles.modedbg" name="Bulgarian Subtitles" version="2026.02.25.01.fmod" provider-name="MartinStZ">
+	<requires>
+		<import addon="script.module.beautifulsoup4" version="4.3.2"/>
+		<import addon="script.module.requests" version="1.1.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.subtitle.module" library="service.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bulgarian Subtitle Service</summary>
+		<summary lang="bg">Добавка за български субтитри</summary>
+		<description lang="en">Subtitles from:[CR] - subsunacs.net[CR] - subs.sab.bz[CR] - yavka.net[CR] - subsland.com[CR] - vladOOn.mooo.com[CR] - easternspirit.org</description>
+		<description lang="bg">Добавката търси в следните сайтове за субтитри:[CR] - subsunacs.net[CR] - subs.sab.bz[CR] - yavka.net[CR] - subsland.com[CR] - vladOOn.mooo.com[CR] - easternspirit.org</description>
+		<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+		<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+		<assets>
+			<icon>subsbg.png</icon>
+		</assets>
+	</extension>
+</addon>
+<addon id="script.video.bgtime_tv" name="bgtime.tv" version="1.0.8.fmod" provider-name="Maria Markova">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.7.0"/>
+		<import addon="script.module.simplecache" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="bg">Видео добавка за bgtime.tv</summary>
+		<summary lang="en">Video addon for bgtime.tv</summary>
+		<description lang="bg">Тази добавка предлага достъп до стриймовете нa bgtime.tv (канали на живо и архив).[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
+		<description lang="en">This addon provides access to streams of bgtime.tv (live channels and VOD).[CR][CR][CR][COLOR red]It requires active bgtime.tv registration.[/COLOR]</description>
+		<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+		<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+		<assets>
+			<icon>bgtime.png</icon>
+		</assets>
+	</extension>
+</addon>
+<addon id="plugin.video.torrserve" name="TorrServer Client" version="0.8.1.fmod" provider-name="Nemiroff, virserg">
+	<requires>
+		<import addon="xbmc.addon" version="16.0.0"/>
+		<import addon="script.module.requests" optional="true"/>
+		<import addon="script.module.beautifulsoup4" optional="true"/>
+		<import addon="script.module.pyxbmct" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="navigation.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="resources/site-packages/"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Torrent video streaming</summary>
+		<summary lang="bg">Поточно гледане на торенти</summary>
+		<summary lang="ru">Потоковое воспроизведение видеоторрентов</summary>
+		<description lang="en">TorrServer Client is a torrent streaming engine. It doesn't go on torrent websites for legal reasons.</description>
+		<description lang="bg">С помоща на TorrServer Client можете да гледате филми, сериали, видео, снимки и да слушате музика без нужда от сваляне на торентите.</description>
+		<description lang="ru">TorrServer Client - смотрите фильмы, сериалы, видео, картинки, слушайте музыку с торрентов без предварительного скачивания.</description>
+		<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+		<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+		<platform>all</platform>
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+<addon id="plugin.video.bultor" name="BulTor" version="2026.03.28.01.fmod" provider-name="MartinStZ">
+	<requires>
+		<import addon="script.module.requests" version="1.1.0"/>
+		<import addon="script.module.beautifulsoup4" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE</license>
+		<summary lang="bg">Гледайте торенти от bultor.net</summary>
+		<summary lang="en">Watch torrents from bultor.net</summary>
+		<description lang="bg">Добавка за гледане на торенти без нужда от сваляне.[CR][CR][COLOR red][B]Изисквания:[CR]Инсталиран Elementum или TorrServer Client свързан с активен сървър![/B][/COLOR]</description>
+		<description lang="en">Watching torrents without downloading.[CR][CR][COLOR red][B]Required Elementum or TorrServer Client addon connected with active server![/B][/COLOR]</description>
+		<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+		<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+		<news lang="bg">•Добавена е опция за плейване чрез TorrServer Client.</news>
+		<news lang="en">•Added playing option via TorrServer Client.</news>
+		<assets>
+			<icon>bultor.png</icon>
+		</assets>
+	</extension>
+</addon>
+<addon id="plugin.video.p2pbg" name="p2p BG " version="2026.04.07.01.fmod" provider-name="MartinStZ">
+	<requires>
+		<import addon="script.module.requests" version="1.1.0"/>
+		<import addon="script.module.beautifulsoup4" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE</license>
+		<summary lang="bg">Гледайте торенти от p2pbg.net</summary>
+		<summary lang="en">Watch torrents from p2pbg net</summary>
+		<description lang="bg">Добавка за гледане на торенти без нужда от сваляне.[CR][CR][COLOR red][B]Изисквания:[CR]Инсталиран Elementum или TorrServer Client свързан с активен сървър![/B][/COLOR]</description>
+		<description lang="en">Watching torrents without downloading.[CR][CR][COLOR red][B]Required Elementum or TorrServer Client addon connected with active server![/B][/COLOR]</description>
+		<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+		<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+		<news lang="bg">•Добавена е опция за плейване чрез TorrServer Client.[CR]•Поправка на филтъра за българско аудио.</news>
+		<news lang="en">•Added playing option via TorrServer Client.[CR]•BG audio filter fixed.</news>
+		<assets>
+			<icon>p2pbg.png</icon>
+		</assets>
+	</extension>
+</addon>
 </addons>
