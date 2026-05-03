@@ -555,7 +555,7 @@
 			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080p"/>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
+			<platform>android</platform>
 			<license>GNU General Public License version 2</license>
 			<assets>
 				<icon>aqua.png</icon>
@@ -568,7 +568,7 @@
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="skin.aquafluencenew" version="2026.00.linux" name="Aquafluence Skin 2026" provider-name="fidyBG">
+	<addon id="skin.aquafluencenew" version="2026.05.linux" name="Aquafluence Skin 2026" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
 		</requires>
