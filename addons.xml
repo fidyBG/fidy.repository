@@ -624,7 +624,7 @@
 			<disclaimer lang="bg">Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
 			<platform>linux</platform>
 			<assets>
-				<icon>fidy.png</icon>
+				<icon>overlay.png</icon>
 			</assets>
 		</extension>
 	</addon>
@@ -633,7 +633,7 @@
 			<import addon="xbmc.python" version="3.0.0"/>
 		</requires>
 		<extension point="xbmc.python.script" library="atv.py">
-			<provides>video</provides>
+			<provides>executable</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">Reboot to Android TV</summary>
