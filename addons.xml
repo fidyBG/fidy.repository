@@ -547,7 +547,7 @@
 			<disclaimer lang="zh_TW">Estuary 是 Kodi 預設的佈景主題，移除它可能會造成問題</disclaimer>
 		</extension>
 	</addon>
-	<addon id="skin.aquafluencenew" version="2026.00" name="Aquafluence Skin 2026" provider-name="fidyBG">
+	<addon id="skin.aquafluencenew" version="2026.05" name="Aquafluence Skin 2026" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
 		</requires>
