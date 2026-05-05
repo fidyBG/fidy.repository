@@ -547,6 +547,27 @@
 			<disclaimer lang="zh_TW">Estuary 是 Kodi 預設的佈景主題，移除它可能會造成問題</disclaimer>
 		</extension>
 	</addon>
+	<addon id="resource.language.bg_bg" version="11.0.90.fmod" name="Bulgarian" provider-name="Team Kodi">
+		<requires>
+			<import addon="kodi.resource" version="1.0.0"/>
+		</requires>
+		<extension point="kodi.resource.language" locale="bg_BG">
+			<charsets>
+				<gui>CP1251</gui>
+				<subtitle>CP1251</subtitle>
+			</charsets>
+		</extension>
+		<extension point="kodi.addon.metadata">
+			<summary lang="en_gb">Bulgarian language pack</summary>
+			<summary lang="bg_bg">Български езиков пакет</summary>
+			<description lang="en_gb">Bulgarian version of all texts used in Kodi.</description>
+			<description lang="bg_bg">Български превод на целия текст използван в Коди.</description>
+			<platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="skin.aquafluencenew" version="2026.05" name="Aquafluence Skin 2026" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
@@ -612,14 +633,14 @@
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 		</requires>
-		<extension point="xbmc.python.script" library="fidy.py">
+		<extension point="xbmc.python.script" library="overlay.py">
 			<provides>executable</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">System Info</summary>
 			<summary lang="bg">Информация за системата</summary>
-			<description lang="en">Displays detailed information about video stream (dynamic range, resolution, frame rate, bitrate, etc.), current display resolution and refresh rate, RAM and CPU.</description>
-			<description lang="bg">Показва подробна информация за видео потока (динамичен обхват, разделителна способност, честота на кадрите, битрейт и др.), текуща резолюция и честота на опресняване на екрана, използваната RAM памет и процесор.</description>
+			<description lang="en">Displays detailed information about playing video stream (dynamic range, resolution, frame rate, bitrate, etc.), current display resolution and refresh rate, CPU temperature and RAM usage.[CR][CR]Can be used with official Keymap Editor addon for quick access with one click.</description>
+			<description lang="bg">Показва подробна информация за видео потока при възпроизвеждане (динамичен обхват, разделителна способност, честота на кадрите, битрейт и др.), текуща резолюция и честота на опресняване на екрана, температура на процесора и използваната RAM памет.[CR][CR]За бърз достъп може да използвате официалната добавка Keymap Editor, като назначите бутон по избор да стартира тази добавка веднага.</description>
 			<disclaimer lang="en">Unofficial version. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
 			<platform>linux</platform>
@@ -842,7 +863,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="service.subtitles.modedbg" name="Bulgarian Subtitles" version="2026.02.25.01.fmod" provider-name="MartinStZ">
+	<addon id="service.subtitles.modedbg" name="Bulgarian Subs" version="2026.02.25.01.fmod" provider-name="MartinStZ">
 		<requires>
 			<import addon="script.module.beautifulsoup4" version="4.3.2"/>
 			<import addon="script.module.requests" version="1.1.0"/>
