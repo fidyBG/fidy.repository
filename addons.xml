@@ -955,7 +955,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.video.p2pbg" name="p2p BG " version="2026.04.07.01.fmod" provider-name="MartinStZ">
+	<addon id="plugin.video.p2pbg" name="p2p BG " version="2026.05.05.01.fmod" provider-name="MartinStZ">
 		<requires>
 			<import addon="script.module.requests" version="1.1.0"/>
 			<import addon="script.module.beautifulsoup4" version="0.0.1"/>
@@ -976,6 +976,29 @@
 			<news lang="en">•Added playing option via TorrServer Client.[CR]•BG audio filter fixed.</news>
 			<assets>
 				<icon>p2pbg.png</icon>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="plugin.radio.sweet" name="Sweet Radio Bulgaria" version="1.00" provider-name="fidyBG">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0"/>
+			<import addon="script.module.requests" version="2.25.1"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="bg">Sweet Radio Bulgaria</summary>
+			<summary lang="en">Sweet Radio Bulgaria</summary>
+			<description lang="bg">Слушайте най-доброто Sweet Radio в България.</description>
+			<description lang="en">Stream the best Sweet Radio in Bulgaria.</description>
+			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+			<platform>all</platform>
+			<license>MIT</license>
+			<website>https://sweetradio.online</website>
+			<assets>
+				<icon>icon.png</icon>
 			</assets>
 		</extension>
 	</addon>
