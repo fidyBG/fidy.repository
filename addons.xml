@@ -979,7 +979,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.radio.sweet" name="Sweet Radio Bulgaria" version="1.00" provider-name="fidyBG">
+	<addon id="plugin.radio.sweet" name="Sweet Radio Bulgaria" version="1.10" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests" version="2.25.1"/>
@@ -992,11 +992,31 @@
 			<summary lang="en">Sweet Radio Bulgaria</summary>
 			<description lang="bg">Слушайте най-доброто Sweet Radio в България.</description>
 			<description lang="en">Stream the best Sweet Radio in Bulgaria.</description>
-			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+			<disclaimer lang="en">No official version. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
 			<platform>all</platform>
 			<license>MIT</license>
 			<website>https://sweetradio.online</website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="plugin.video.dzritv" name="DZRI.TV" version="0.2.1" provider-name="TopperBG">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="bg">Спорт на живо от DZRI.TV</summary>
+			<summary lang="en">Live sports streams from DZRI.TV</summary>
+			<description lang="bg">Гледайте спортни събития на живо от DZRI TV.</description>
+			<description lang="en">Browse live DZRI TV events by sport and play the available HLS streams.</description>
+			<disclaimer lang="bg">Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
+			<disclaimer lang="en">No official version. Use at own risk!</disclaimer>
+			<platform>all</platform>
 			<assets>
 				<icon>icon.png</icon>
 			</assets>
