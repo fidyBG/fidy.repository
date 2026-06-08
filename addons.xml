@@ -568,7 +568,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="skin.aquafluencenew" version="2026.05" name="Aquafluence Skin 2026" provider-name="fidyBG">
+	<addon id="skin.aquafluencenew" version="2026.06" name="Aquafluence Skin 2026" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
 		</requires>
@@ -1020,6 +1020,28 @@
 			<assets>
 				<icon>icon.png</icon>
 			</assets>
+		</extension>
+	</addon>
+	<addon id="script.keymap" name="Keymap Editor" version="1.4.0.fmod" provider-name="takoi,pkscout">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0"/>
+			<import addon="script.module.defusedxml" version="0.6.0+matrix.1"/>
+		</requires>
+		<extension point="xbmc.python.script" library="default.py"/>
+		<extension point="xbmc.addon.metadata">
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<platform>all</platform>
+			<license>GPL-3.0-only</license>
+			<forum>https://forum.kodi.tv/showthread.php?tid=168767</forum>
+			<source>https://github.com/pkscout/script.keymap</source>
+			<summary lang="en">An editor for keymap files</summary>
+			<summary lang="bg">Редактор за клавишни комбинации</summary>
+			<description lang="en">Keymap Editor is a GUI for configuring mappings for remotes, keyboard and other inputs supported by KODI.</description>
+			<description lang="bg">Графичен интерфейс за конфигуриране на клавишни комбинации за дистанционни управления, клавиатури и други устройства за въвеждане, поддържани от КОДИ.</description>
+			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
 </addons>
