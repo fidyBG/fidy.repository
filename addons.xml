@@ -979,6 +979,24 @@
 			</assets>
 		</extension>
 	</addon>
+	<addon id="plugin.program.glebul.m3u" name="GleBul IPTV m3u Generator" version="1.00" provider-name="fidyBG">
+		<requires>
+			<import addon="script.module.requests" version="1.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>executable</provides>
+		</extension>
+		<extension point="xbmc.service" library="service.py" start="login"/>
+		<extension point="xbmc.addon.metadata">
+			<platform>android</platform>
+			<summary>Телевизия на живо от glebul.com</summary>
+			<description>Добавката генерира m3u файл с директните стриймове от glebul.com и го синхронизира с програмния справочник на Open-EPG за да може да се използва и на други устройства с IPTV плейър по избор (TiviMate, IPTV Pro, Sparkle TV...). Файлът е активен само няколо часа, като през това време не е нужно Kodi да работи.</description>
+			<disclaimer>Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="plugin.radio.sweet" name="Sweet Radio Bulgaria" version="1.10" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
