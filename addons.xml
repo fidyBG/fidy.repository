@@ -863,7 +863,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="service.subtitles.modedbg" name="Bulgarian Subs" version="2026.02.25.01.fmod" provider-name="MartinStZ">
+	<addon id="service.subtitles.modedbg" name="Bulgarian Subs" version="2026.06.03.01.fmod" provider-name="MartinStZ">
 		<requires>
 			<import addon="script.module.beautifulsoup4" version="4.3.2"/>
 			<import addon="script.module.requests" version="1.1.0"/>
@@ -873,10 +873,12 @@
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">Bulgarian Subtitle Service</summary>
 			<summary lang="bg">Добавка за български субтитри</summary>
-			<description lang="en">Subtitles from:[CR] - subsunacs.net[CR] - subs.sab.bz[CR] - yavka.net[CR] - subsland.com[CR] - vladOOn.mooo.com[CR] - easternspirit.org</description>
-			<description lang="bg">Добавката търси в следните сайтове за субтитри:[CR] - subsunacs.net[CR] - subs.sab.bz[CR] - yavka.net[CR] - subsland.com[CR] - vladOOn.mooo.com[CR] - easternspirit.org</description>
+			<description lang="en">Subtitles from:[CR] - subsunacs.net[CR] - subs.sab.bz[CR] - yavka.net[CR] - subsland.com[CR] - vladOOn.mooo.com[CR] - bayflix.sb[CR] - easternspirit.org</description>
+			<description lang="bg">Добавката търси в следните сайтове за субтитри:[CR] - subsunacs.net[CR] - subs.sab.bz[CR] - yavka.net[CR] - subsland.com[CR] - vladOOn.mooo.com[CR] - bayflix.sb[CR] - easternspirit.org</description>
 			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+			<news lang="bg">• Добавен е BayFlix.sb</news>
+			<news lang="en">• Added BayFlix.sb</news>
 			<assets>
 				<icon>subsbg.png</icon>
 			</assets>
@@ -979,7 +981,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.program.glebul.m3u" name="GleBul IPTV m3u Generator" version="1.00" provider-name="fidyBG">
+	<addon id="plugin.program.glebul.m3u" name="GleBul IPTV m3u Generator" version="1.10" provider-name="fidyBG">
 		<requires>
 			<import addon="script.module.requests" version="1.1.0"/>
 		</requires>
@@ -990,7 +992,7 @@
 		<extension point="xbmc.addon.metadata">
 			<platform>android</platform>
 			<summary>Телевизия на живо от glebul.com</summary>
-			<description>Добавката генерира m3u файл с директните стриймове от glebul.com и го синхронизира с програмния справочник на Open-EPG за да може да се използва и на други устройства с IPTV плейър по избор (TiviMate, IPTV Pro, Sparkle TV...). Файлът е активен само няколо часа, като през това време не е нужно Kodi да работи.</description>
+			<description>Добавката генерира m3u файл с директните стриймове от glebul.com и го синхронизира с програмния справочник на Open-EPG за да може да се използва и на други устройства с IPTV плейър по избор - TiviMate, IPTV Pro, Sparkle TV...[CR]Файлът е активен само няколо часа, като през това време не е нужно КОДИ да работи.</description>
 			<disclaimer>Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 			<assets>
 				<icon>icon.png</icon>
