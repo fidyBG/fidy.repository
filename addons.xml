@@ -992,7 +992,7 @@
 		<extension point="xbmc.addon.metadata">
 			<platform>android</platform>
 			<summary>Телевизия на живо от glebul.com</summary>
-			<description>Добавката генерира m3u файл с директните стриймове от glebul.com и го синхронизира с програмния справочник на Open-EPG за да може да се използва и на други устройства с IPTV плейър по избор - TiviMate, IPTV Pro, Sparkle TV...[CR]Файлът е активен само няколо часа, като през това време не е нужно КОДИ да работи.</description>
+			<description>Добавката генерира m3u файл с директните стриймове от glebul.com и го синхронизира с програмния справочник на Open-EPG за да може да се използва и на други устройства с IPTV плейър по избор - TiviMate, IPTV Pro, Sparkle TV...[CR]Файлът е активен само няколко часа, като през това време не е нужно КОДИ да работи.</description>
 			<disclaimer>Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 			<assets>
 				<icon>icon.png</icon>
