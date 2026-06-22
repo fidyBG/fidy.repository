@@ -127,6 +127,38 @@
 			</assets>
 		</extension>
 	</addon>
+	<addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.7">
+		<requires>
+			<!--<import addon="xbmc.python" version="3.0.0"/>-->
+		</requires>
+		<extension point="xbmc.addon.repository">
+			<dir>
+				<info>http://127.0.0.1:65223/addons.xml</info>
+				<checksum>http://127.0.0.1:65223/addons.xml.md5</checksum>
+				<datadir>http://127.0.0.1:65223/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.python.script" library="default.py"/>
+		<extension point="xbmc.service" library="service.py"/>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<license>See https://github.com/ElementumOrg/repository.elementumorg/blob/master/LICENSE</license>
+			<source>https://github.com/ElementumOrg/repository.elementumorg</source>
+			<summary lang="en">GitHub virtual Add-on repository</summary>
+			<description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
+			<news>
+- Allow running in standalone mode
+- Migrate to GitHub API
+- Add support for "tag_pattern" field
+- Add support for private repositories by supplying a "token"
+- Try to automatically determine zip ref from version
+- Multiple minor improvements
+        </news>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="5.0">
 		<extension point="xbmc.addon.repository" name="Michaz Repository">
 			<dir>
@@ -354,6 +386,24 @@
 			<summary lang="de">Addon Repository der Kodinerds Community</summary>
 			<description lang="de">Das 'Nerdsrepo' ist das Addon Repository der deutschen Kodi-Community 'Kodinerds' (www.kodinerds.net). Die meisten der hier im Nerdsrepo gehosteten Addons werden von den Mitgliedern der Community aktiv entwickelt und unterstützt. Das Nerdsrepo ist ein unoffizielles Repository der Kodi Media Center Software.</description>
 			<disclaimer/>
+			<platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="repository.zachmorris" name="Zach Morris Add-ons" version="1.0.4" provider-name="zachmorris">
+		<extension point="xbmc.addon.repository" name="Zach Morris Add-ons">
+			<dir minversion="18.0.0">
+				<info compressed="false">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
+				<checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/zach-morris/repository.zachmorris/raw/master/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_GB">Zach Morris Add-ons</summary>
+			<description>Zach Morris Add-ons</description>
 			<platform>all</platform>
 			<assets>
 				<icon>icon.png</icon>
@@ -711,6 +761,22 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
+	<addon id="plugin.program.gitsync" name="GitHub Sync" version="1.00" provider-name="fidyBG">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0"/>
+		</requires>
+		<extension point="xbmc.python.script" library="default.py"/>
+		<extension point="xbmc.service" library="service.py" start="login"/>
+		<extension point="xbmc.addon.metadata">
+			<platform>android</platform>
+			<summary>Сонхронизация на папка с GitHub</summary>
+			<description>Добавката автоматично качва файлове от избрана папка на устройството през определено време директно във вашето GitHub хранилище.</description>
+			<disclaimer>Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="script.hideosd" version="1.00.fmod" name="Hide OSD" provider-name="aenema">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
@@ -729,11 +795,9 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.program.packthumb.cleaner" name="Files Cleaner" version="2023.01.11.01.fmod" provider-name="MartinStZ">
+	<addon id="plugin.program.packthumb.cleaner" name="Files Cleaner" version="2023.01.11.06.fmod" provider-name="MartinStZ">
 		<requires/>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>executable</provides>
-		</extension>
+		<extension point="xbmc.python.script" library="default.py"/>
 		<extension point="xbmc.python.module"/>
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">Clean Temporary Files</summary>
@@ -888,6 +952,33 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
+	<addon id="plugin.video.vavooto" name="VAVOO.BG" version="2026.06.19.fmod" provider-name="kasi,michaz">
+		<requires>
+			<import addon="xbmc.python" version="3.0.1"/>
+			<import addon="script.module.requests"/>
+			<import addon="script.module.resolveurl"/>
+			<import addon="script.module.dateutil"/>
+			<import addon="inputstream.adaptive"/>
+			<import addon="inputstream.ffmpegdirect"/>
+			<import addon="script.module.infotagger"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="resources/main.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.python.module" library="resources"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="de">VAVOO.TO Video Add-on</summary>
+			<summary lang="bg">Телевизия, филми и сериали от VAVOO</summary>
+			<description lang="de">Video-Add-on für Live-TV, Filme und Serien mit VAVOO- und Stalker-Quellen.</description>
+			<description lang="bg">Добавка за безплатна телевизия на живо от различни държави, онлайн филми и сериали дублирани на немски език от VAVOO и STALKER портали.</description>
+			<disclaimer lang="de">Modifikation. Nutzung auf eigene Gefahr!</disclaimer>
+			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+			<platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="service.subloader" name="SubLoader" version="33.1.6v.fmod" provider-name="DenimNani">
 		<extension point="xbmc.service" library="monitor.py" start="login"/>
 		<extension point="xbmc.addon.metadata">
@@ -905,7 +996,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="service.subtitles.modedbg" name="Bulgarian Subs" version="2026.06.03.01.fmod" provider-name="MartinStZ">
+	<addon id="service.subtitles.modedbg" name="Bulgarian Subs" version="2026.06.13.01.fmod" provider-name="MartinStZ">
 		<requires>
 			<import addon="script.module.beautifulsoup4" version="4.3.2"/>
 			<import addon="script.module.requests" version="1.1.0"/>
@@ -919,8 +1010,8 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<description lang="bg">Добавката търси в следните сайтове за субтитри:[CR] - subsunacs.net[CR] - subs.sab.bz[CR] - yavka.net[CR] - subsland.com[CR] - vladOOn.mooo.com[CR] - bayflix.sb[CR] - easternspirit.org</description>
 			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-			<news lang="bg">• Добавен е BayFlix.sb</news>
-			<news lang="en">• Added BayFlix.sb</news>
+			<news lang="bg">•Добавен е BayFlix.sb</news>
+			<news lang="en">•Added BayFlix.sb</news>
 			<assets>
 				<icon>subsbg.png</icon>
 			</assets>
