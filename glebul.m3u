@@ -1,105 +1,105 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/fidyBG/fidy.repository/main/bulsat.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-name="От 08.07.2026 в 09:36" tvg-logo="https://dl.dropbox.com/scl/fi/ig5rfwqf0d1ykb8vapjjg/info.png?rlkey=uo0fuqq1tjtquslk9zcadr4eu&st=jrjywhuh&dl=1",От 08.07.2026 в 09:36
+#EXTINF:-1 tvg-id="" tvg-name="От 08.07.2026 в 11:36" tvg-logo="https://dl.dropbox.com/scl/fi/ig5rfwqf0d1ykb8vapjjg/info.png?rlkey=uo0fuqq1tjtquslk9zcadr4eu&st=jrjywhuh&dl=1",От 08.07.2026 в 11:36
 http://dl.dropbox.com/s/w3xjc8peakqtx37/fintro.mp4?dl=1
 #EXTINF:-1 tvg-id="bnt2" tvg-name="БНТ 2" tvg-logo="https://glebul.com/images/tv-logo/bnt-2.png",БНТ 2
-https://raid0.glebul.com:8443/dvr/bnt-2/tracks-v1a1/rewind-43200.m3u8?token=5d3ac2ca97cfa2836f8025253d8dbd7536484e28-cbb1dcb20611ebf309adfbf5e2bf5e77-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/bnt-2/tracks-v1a1/rewind-43200.m3u8?token=c265b665d97624372ac25a12f36f43b9109e6dd9-a6ffcec67ba23e8a471d7eeae2c8c777-1783510292-1783499492
 #EXTINF:-1 tvg-id="bntworld" tvg-name="БНТ 4" tvg-logo="https://glebul.com/images/tv-logo/bnt-4.png",БНТ 4
-https://raid0.glebul.com:8443/dvr/bnt-4/tracks-v1a1/rewind-43200.m3u8?token=8598bdf7bf0e7f2a75730cb12a8edf8f626f7a61-a67b3d0990652f9483ab17f09cc587fd-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/bnt-4/tracks-v1a1/rewind-43200.m3u8?token=6e972b20e5d0b378ca159ebf1f7a6dee40ae342c-89281973873f584672ee156644c739f8-1783510292-1783499492
 #EXTINF:-1 tvg-id="novatv" tvg-name="Nova HD" tvg-logo="https://glebul.com/images/tv-logo/nova-tv-hd.png",Nova HD
-https://raid0.glebul.com:8443/dvr/hd-nova-tv-hd/tracks-v1a1/rewind-43200.m3u8?token=aeee09e4c1457f1dc3f80d44d6a964f48a885930-927f42895f7e702cada26a00d82c67fc-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/hd-nova-tv-hd/tracks-v1a1/rewind-43200.m3u8?token=5bc874c37bb9a3a892e98b52e6d62d5d1d0813e7-86170fa953cc24f55abeec9c9ccb1017-1783510292-1783499492
 #EXTINF:-1 tvg-id="btv" tvg-name="bTV HD" tvg-logo="https://glebul.com/images/tv-logo/btv-hd.png",bTV HD
-https://raid0.glebul.com:8443/dvr/hd-btv-hd/tracks-v1a1/rewind-43200.m3u8?token=8ccac5b525cd32634d4a5d3e42eaaf86afb2382d-e7982710a390aa82570f9fb91824c17a-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/hd-btv-hd/tracks-v1a1/rewind-43200.m3u8?token=2156c73a91c2b0927c75bf0dcf860b1bb873404c-b7709ff54dd73e66798ab6603eb41cfc-1783510292-1783499492
 #EXTINF:-1 tvg-id="btv_action" tvg-name="bTV Action HD" tvg-logo="https://glebul.com/images/tv-logo/btv-action-hd.png",bTV Action HD
-https://raid0.glebul.com:8443/dvr/hd-btv-action-hd/tracks-v1a1/rewind-43200.m3u8?token=b8990177874763618e6cc8132246235047b6907f-432d3a2cc5edb0132a1514359a5bd0c6-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/hd-btv-action-hd/tracks-v1a1/rewind-43200.m3u8?token=42df770c94bac61855b6cd7b40e91c5a4457a9d7-ce45b5ee856683e77e0bd34b0054906e-1783510292-1783499492
 #EXTINF:-1 tvg-id="btv_cinema" tvg-name="bTV Cinema" tvg-logo="https://glebul.com/images/tv-logo/btv-cinema.png",bTV Cinema
-https://raid0.glebul.com:8443/dvr/btv-cinema/tracks-v1a1/rewind-43200.m3u8?token=8a4768ffee358e26029a7bfe9852d1a97e1894be-529c8bab7e9ab66e6876506657ce3dc3-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/btv-cinema/tracks-v1a1/rewind-43200.m3u8?token=f15104af36cb865c59a9c7c58c65ade8553c70eb-1040e701c475fcfe1a57de08f126758c-1783510292-1783499492
 #EXTINF:-1 tvg-id="btv_comedy" tvg-name="bTV Comedy HD" tvg-logo="https://glebul.com/images/tv-logo/btv-comedy-hd.png",bTV Comedy HD
-https://raid0.glebul.com:8443/dvr/hd-btv-comedy-hd/tracks-v1a1/rewind-43200.m3u8?token=02570c6d47c251492a816b380d6a006b44da19aa-3403ee1747145665b272807285b8a21d-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/hd-btv-comedy-hd/tracks-v1a1/rewind-43200.m3u8?token=b50b5afe62f59830b0d6a3d54ddc2f412a35284c-9cce4d4243838642fd3a3dfd1df727eb-1783510292-1783499492
 #EXTINF:-1 tvg-id="bTVStory" tvg-name="bTV Story" tvg-logo="https://glebul.com/images/tv-logo/btv-story.png",bTV Story
-https://raid0.glebul.com:8443/dvr/btv-story/tracks-v1a1/rewind-43200.m3u8?token=bf62de8c6e4f4fc8dac0aae4861a19378c9e1c75-219ae78f9fa7caebc205df485aed97e0-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/btv-story/tracks-v1a1/rewind-43200.m3u8?token=f78b3bdd5b7e9cf6501d5a830babfe25ab682512-c6facfc306e68f580576b687ae1674e1-1783510292-1783499492
 #EXTINF:-1 tvg-id="bulgaria_on_air" tvg-name="Bulgaria On Air" tvg-logo="https://glebul.com/images/tv-logo/bulgaria-on-air.png",Bulgaria On Air
-https://raid0.glebul.com:8443/dvr/bulgaria-on-air/tracks-v1a1/rewind-43200.m3u8?token=23b9d6723b1335cc559243c82f6e7d9e639a8434-7377cc823a56a9f59d5cef522a7311b3-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/bulgaria-on-air/tracks-v1a1/rewind-43200.m3u8?token=abb2381e0a0b163af1e44c8a8e10238af95f32e5-dfd2e9c36c72380b100378f5e93110db-1783510292-1783499492
 #EXTINF:-1 tvg-id="cn" tvg-name="Cartoon Network" tvg-logo="https://glebul.com/images/tv-logo/cartoon-network.png",Cartoon Network
-https://raid0.glebul.com:8443/dvr/cartoon-network/tracks-v1a1/rewind-43200.m3u8?token=cb5c83508a6cc66377cb7bf00c71d75d2ccfc9b3-fa5da446a8b7aab4f473579a2e7293d6-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/cartoon-network/tracks-v1a1/rewind-43200.m3u8?token=06b3cd0ad814d1a5960dea6bffd34c06443f586c-b1d5a551f5e2da4d7b42770714fce419-1783510292-1783499492
 #EXTINF:-1 tvg-id="city_tv" tvg-name="CITY TV" tvg-logo="https://glebul.com/images/tv-logo/city-tv.png",CITY TV
-https://raid0.glebul.com:8443/dvr/city-tv/tracks-v1a1/rewind-43200.m3u8?token=be2dab6b49be131312f357fd9f2078fedb46066a-db6c24328eb9c8ff9275973215ab6f3a-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/city-tv/tracks-v1a1/rewind-43200.m3u8?token=9d2738b6f1ea727611c66035675090e20ec78200-b88d80ea6e90b95617c180eecb4484a6-1783510292-1783499492
 #EXTINF:-1 tvg-id="359tv_hd" tvg-name="Code Fashion HD" tvg-logo="https://glebul.com/images/tv-logo/code-fashion-tv-hd.png",Code Fashion HD
-https://raid0.glebul.com:8443/dvr/hd-code-fashion-tv-hd/tracks-v1a1/rewind-43200.m3u8?token=242137627461d29bba200e0c9c191531f1f0aab9-5b0756da83ca67d00a1d4650d81f3f97-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/hd-code-fashion-tv-hd/tracks-v1a1/rewind-43200.m3u8?token=5457195cd87ced9e6ae8d1bde2589e442eddda31-92b8841a519093e04e458751584cee45-1783510292-1783499492
 #EXTINF:-1 tvg-id="diema_family" tvg-name="Diema Family HD" tvg-logo="https://glebul.com/images/tv-logo/diema-family-hd.png",Diema Family HD
-https://raid0.glebul.com:8443/dvr/hd-diema-family-hd/tracks-v1a1/rewind-43200.m3u8?token=581c0cba7ef39d58bb2da7e5c0d3caddc6744b1c-1517aa6974946a65837e0a0df82b7e23-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/hd-diema-family-hd/tracks-v1a1/rewind-43200.m3u8?token=ac6730e40ee68b5578058fea6b9a0b3925d85330-b10ac7e8428034f8b43a340f55a09c18-1783510293-1783499493
 #EXTINF:-1 tvg-id="diema" tvg-name="Diema HD" tvg-logo="https://glebul.com/images/tv-logo/diema-hd.png",Diema HD
-https://raid0.glebul.com:8443/dvr/hd-diema-hd/tracks-v1a1/rewind-43200.m3u8?token=a2f932445eb97393d8b0540347b93acc2079ef96-66278cbe09c5d03ba2fe56f149b90253-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/hd-diema-hd/tracks-v1a1/rewind-43200.m3u8?token=cb5a16551ce904ce125ca96b66bc3f1b6211c33f-6831fa1be2859eb7e750e3ed3a6f2f42-1783510293-1783499493
 #EXTINF:-1 tvg-id="discovery" tvg-name="Discovery Channel" tvg-logo="https://glebul.com/images/tv-logo/discovery-channel-hd.png",Discovery Channel
-https://raid0.glebul.com:8443/dvr/hd-discovery-channel-hd/tracks-v1a1/rewind-43200.m3u8?token=468c0de7a680fb8dd4f9a6a616ecd84596164112-add6449a022fb54fcf4b25d64511b78a-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/hd-discovery-channel-hd/tracks-v1a1/rewind-43200.m3u8?token=d94f9f963088ab50afd9d3d5dee78773f143127f-5e420250fdabc651bc05b36b08e3b931-1783510293-1783499493
 #EXTINF:-1 tvg-id="disney_channel" tvg-name="Disney Channel" tvg-logo="https://glebul.com/images/tv-logo/disney-channel.png",Disney Channel
-https://raid0.glebul.com:8443/dvr/disney-channel/tracks-v1a1/rewind-43200.m3u8?token=690b7465c74d48ccad8d3dc7ab0247e00bb372e4-e723ceae4fffcd44627ec8037e7ab684-1783503085-1783492285
+https://raid0.glebul.com:8443/dvr/disney-channel/tracks-v1a1/rewind-43200.m3u8?token=244a33d145aa13a1aad3f0094b8d5e0b2726afc9-7a91f4abb9309793bbceb87d46c28a05-1783510293-1783499493
 #EXTINF:-1 tvg-id="dstv" tvg-name="DSTV" tvg-logo="https://glebul.com/images/tv-logo/dstv.png",DSTV
-https://raid0.glebul.com:8443/dvr/dstv/tracks-v1a1/rewind-43200.m3u8?token=215dd87623e40fa33a14347dc3f25ae87103f603-82ae49d342d513b3459bec0ea16dc00e-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/dstv/tracks-v1a1/rewind-43200.m3u8?token=c408556d4318200eece4dd2d9693333dc76c3bfb-b0dab87a8344e6851b0ef5cfd33b5ca7-1783510293-1783499493
 #EXTINF:-1 tvg-id="ekids" tvg-name="E-Kids" tvg-logo="https://glebul.com/images/tv-logo/e-kids.png",E-Kids
-https://raid0.glebul.com:8443/dvr/e-kids/tracks-v1a1/rewind-43200.m3u8?token=9ca49f31ce2572785172adefa60881a468c4161f-5a0da35fc8513fecf7eb3c73d6b377a0-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/e-kids/tracks-v1a1/rewind-43200.m3u8?token=ce83e7e9e30d363eb0ff71f62d25b4aca780119e-2c42a4b6998d43a82d6e3ed338d2fc5c-1783510293-1783499493
 #EXTINF:-1 tvg-id="epic_drama" tvg-name="Epic Drama" tvg-logo="https://glebul.com/images/tv-logo/epic-drama-hd.png",Epic Drama
-https://raid0.glebul.com:8443/dvr/hd-epic-drama-hd/tracks-v1a1/rewind-43200.m3u8?token=945c7ce898f0cd76386d2e330eadcfc01fed45f7-4c7a7f4ea3aac565d96430fe7eea0f81-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/hd-epic-drama-hd/tracks-v1a1/rewind-43200.m3u8?token=20ac4e042aeb94eb22c031b6e22103f57fbe7a2a-df4525757178032501562f3a78d6ac45-1783510293-1783499493
 #EXTINF:-1 tvg-id="tvevropa" tvg-name="Euronews Bulgaria" tvg-logo="https://glebul.com/images/tv-logo/euronews-bulgaria.png",Euronews Bulgaria
-https://raid0.glebul.com:8443/dvr/euronews-bulgaria/tracks-v1a1/rewind-43200.m3u8?token=dee1ef5d05adf195b2299d14257bfbce38611104-1e7f062b513df44213018a91f8a889a2-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/euronews-bulgaria/tracks-v1a1/rewind-43200.m3u8?token=caae60e22edcb5cad98f051220b6723fe38413e9-17838c78da0f0fec7da7bd4b1743efa5-1783510293-1783499493
 #EXTINF:-1 tvg-id="evrokom" tvg-name="Евроком" tvg-logo="https://glebul.com/images/tv-logo/evrokom.png",Евроком
-https://raid0.glebul.com:8443/dvr/evrokom/tracks-v1a1/rewind-43200.m3u8?token=7b05a5f5c9e480558386ce51bb34d11223b35e43-6c4ff4290341f5965fb801f3144d27f5-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/evrokom/tracks-v1a1/rewind-43200.m3u8?token=30946517969e3945668d4a62d7cdee4a7248c2d8-65d5877ed3e03d2e7c6a5da6d2667eaa-1783510293-1783499493
 #EXTINF:-1 tvg-id="folklor_tv_hd" tvg-name="Фолклор ТВ" tvg-logo="https://glebul.com/images/tv-logo/folklor-tv.png",Фолклор ТВ
-https://raid0.glebul.com:8443/dvr/folklor-tv/tracks-v1a1/rewind-43200.m3u8?token=d701ce8dc539a3a91be67d589ae3b2ed1782f554-4c5940f9a2943132dc8a907d6e5e00d4-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/folklor-tv/tracks-v1a1/rewind-43200.m3u8?token=7a1f920c00a3f833f1dcf086ea4e034b1b042c42-2f6334280012fb777756dfe10cf2233a-1783510293-1783499493
 #EXTINF:-1 tvg-id="food_network_hd" tvg-name="Food Network" tvg-logo="https://glebul.com/images/tv-logo/food-network-hd.png",Food Network
-https://raid0.glebul.com:8443/dvr/hd-food-network-hd/tracks-v1a1/rewind-43200.m3u8?token=4b1067ac630f1aef8a815b9cd8edb2128f5a4387-c5bd1e3ffb9d79c83ba88ac4f3097b4e-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/hd-food-network-hd/tracks-v1a1/rewind-43200.m3u8?token=96b2b60f6ee38ccd4959a802020c792e6aa80bec-4dd560157f9ccfffbf932088352ff7b6-1783510293-1783499493
 #EXTINF:-1 tvg-id="fox_crime" tvg-name="Star Crime HD" tvg-logo="https://glebul.com/images/tv-logo/star-crime-hd.png",Star Crime HD
-https://raid0.glebul.com:8443/dvr/hd-star-crime-hd/tracks-v1a1/rewind-43200.m3u8?token=20e97999367dc7bf53bfb694ba70ff8b3a65c9f5-12d008c00074fcf44136f8b5ccad8a62-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/hd-star-crime-hd/tracks-v1a1/rewind-43200.m3u8?token=32f4ec0a2e4c1a60788fff762ac970c1123207fc-f10e92c3c9c86f2a58e685497bff7bea-1783510293-1783499493
 #EXTINF:-1 tvg-id="fox" tvg-name="Star Channel HD" tvg-logo="https://glebul.com/images/tv-logo/star-channel-hd.png",Star Channel HD
-https://raid0.glebul.com:8443/dvr/hd-star-channel-hd/tracks-v1a1/rewind-43200.m3u8?token=7283be31ce1998d0c252f4af6ac5351ceca5f7b4-f08f6bf08063a95badc39bf673574c6e-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/hd-star-channel-hd/tracks-v1a1/rewind-43200.m3u8?token=6179181ec972da534ab10394377c8b977ab461ff-b61f57e91747e7bb9805e236d2dc69c6-1783510293-1783499493
 #EXTINF:-1 tvg-id="fox_life" tvg-name="Star Life HD" tvg-logo="https://glebul.com/images/tv-logo/star-life-hd.png",Star Life HD
-https://raid0.glebul.com:8443/dvr/hd-star-life-hd/tracks-v1a1/rewind-43200.m3u8?token=0091b9e5eed51e781d3ef6a08061577f5de46121-f46afbb4ab138c75ea1bfc390fbf3f70-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/hd-star-life-hd/tracks-v1a1/rewind-43200.m3u8?token=bef145abb64a50ef7709eca4aa549ab1f15d7d97-d34b04a9090a63ef475a35a73f3c6bcf-1783510293-1783499493
 #EXTINF:-1 tvg-id="id_xtra" tvg-name="Investigation HD" tvg-logo="https://glebul.com/images/tv-logo/id-xtra-hd.png",Investigation HD
-https://raid0.glebul.com:8443/dvr/hd-id-xtra-hd/tracks-v1a1/rewind-43200.m3u8?token=14e5064ec628d9108c7e9155837e9ba029dae2cb-ef510d489c4b54ba4c577434e128501a-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/hd-id-xtra-hd/tracks-v1a1/rewind-43200.m3u8?token=b61f41d5e2ae555807f88373b16107fd2f0a761b-1d879c3ba80f2921bbfc5a3e351832a5-1783510293-1783499493
 #EXTINF:-1 tvg-id="kinonova" tvg-name="Kino Nova HD" tvg-logo="https://glebul.com/images/tv-logo/kino-nova-hd.png",Kino Nova HD
-https://raid0.glebul.com:8443/dvr/hd-kino-nova-hd/tracks-v1a1/rewind-43200.m3u8?token=ded80e16c75e3ce9fd6b912cfbf965426f6d4f6c-c7f305747c7f318685b367d3c639883c-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/hd-kino-nova-hd/tracks-v1a1/rewind-43200.m3u8?token=4de32d499855f7d85a3ef30e997a091cddceeaaf-f430ff9e4a897ee73fd0e0a2ebbcf923-1783510293-1783499493
 #EXTINF:-1 tvg-id="nat_geo_hd" tvg-name="Nat Geo HD" tvg-logo="https://glebul.com/images/tv-logo/nat-geo-hd.png",Nat Geo HD
-https://raid0.glebul.com:8443/dvr/hd-nat-geo-hd/tracks-v1a1/rewind-43200.m3u8?token=91443a7d4bcaa52de61e24edca90e5fd12852a78-835cf54065bf6ba5261c5a6a8edf1f7d-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/hd-nat-geo-hd/tracks-v1a1/rewind-43200.m3u8?token=304028c21afe10a5e74291c9bd11319d115f8a51-378c13ceba12d48bafd6b7bea4d3faf1-1783510293-1783499493
 #EXTINF:-1 tvg-id="nat_geo_wild" tvg-name="Nat Geo Wild HD" tvg-logo="https://glebul.com/images/tv-logo/nat-geo-wild-hd.png",Nat Geo Wild HD
-https://raid0.glebul.com:8443/dvr/hd-nat-geo-wild-hd/tracks-v1a1/rewind-43200.m3u8?token=b572b644901cf95391f07eb85c1d3e453af2cca4-685e42421db2b31f97e6c463107514ba-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/hd-nat-geo-wild-hd/tracks-v1a1/rewind-43200.m3u8?token=96dd20f0eea74251374f2e53dafbd22d36619cab-5f402f51836e0aee72191672a5697578-1783510294-1783499494
 #EXTINF:-1 tvg-id="nick_jr" tvg-name="Nick Jr" tvg-logo="https://glebul.com/images/tv-logo/nick-jr.png",Nick Jr
-https://raid0.glebul.com:8443/dvr/nick-jr/tracks-v1a1/rewind-43200.m3u8?token=37786441dcf3b07af69d2b073b875b80cc769336-be4b4797374e0468c421d13b6edb5321-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/nick-jr/tracks-v1a1/rewind-43200.m3u8?token=4589a0764c651a2586d1e82485fed391b7041e59-6d30ca5b53d6f66189371fd059f12ef4-1783510294-1783499494
 #EXTINF:-1 tvg-id="nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://glebul.com/images/tv-logo/nickelodeon.png",Nickelodeon
-https://raid0.glebul.com:8443/dvr/nickelodeon/tracks-v1a1/rewind-43200.m3u8?token=07090a46759c85f0623057547da6aa65e4517c0c-91302c3946ec06a7a53b629366a42368-1783503086-1783492286
+https://raid0.glebul.com:8443/dvr/nickelodeon/tracks-v1a1/rewind-43200.m3u8?token=5566b8f99ca68126833c42bffa38f3888c2cac75-e63242f7286250a01668492b2db72677-1783510294-1783499494
 #EXTINF:-1 tvg-id="nicktoons" tvg-name="Nicktoons" tvg-logo="https://glebul.com/images/tv-logo/nicktoons.png",Nicktoons
-https://raid0.glebul.com:8443/dvr/nicktoons/tracks-v1a1/rewind-43200.m3u8?token=19c31dd202d87a8ecfbce60de07a6f175ba42664-83e3c1adefbe182f69f61bb7e0ec1329-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/nicktoons/tracks-v1a1/rewind-43200.m3u8?token=c7194b84bfc6770dc3bb6b146f864f7760be0904-e8663fd1107a4b4c1ba04aa9c7151453-1783510294-1783499494
 #EXTINF:-1 tvg-id="nova_news" tvg-name="Nova News" tvg-logo="https://glebul.com/images/tv-logo/nova-news-hd.png",Nova News
-https://raid0.glebul.com:8443/dvr/hd-nova-news-hd/tracks-v1a1/rewind-43200.m3u8?token=151baafb5f9cd032483cec957f608d8e2c42e39c-1fead709cb71cc5a9f8aa8e3c50b2051-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/hd-nova-news-hd/tracks-v1a1/rewind-43200.m3u8?token=8a4f5c0e99843eaf190dfea7118d8f1b9cb49c6c-a04164d6c72edb16330f877057d529a7-1783510294-1783499494
 #EXTINF:-1 tvg-id="planeta_folk" tvg-name="Planeta Folk" tvg-logo="https://glebul.com/images/tv-logo/planeta-folk.png",Planeta Folk
-https://raid0.glebul.com:8443/dvr/planeta-folk/tracks-v1a1/rewind-43200.m3u8?token=2f3ef1067e8cb68d0c08c020933552d1bc357df3-49565d0ffc89ec94274703638a612b96-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/planeta-folk/tracks-v1a1/rewind-43200.m3u8?token=e1e040a530d55dce16247c1c590554577ef873f0-719a8a35ef4dcbecd99b17e45122f35c-1783510294-1783499494
 #EXTINF:-1 tvg-id="planetahd" tvg-name="Planeta HD" tvg-logo="https://glebul.com/images/tv-logo/planeta-hd.png",Planeta HD
-https://raid0.glebul.com:8443/dvr/hd-planeta-hd/tracks-v1a1/rewind-43200.m3u8?token=60583a27aba803546124d9bc08dd574f3c5cde23-4bd9ea5cc1b3eb32d3ebc58a3ed4f3aa-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/hd-planeta-hd/tracks-v1a1/rewind-43200.m3u8?token=08620ab7a525b40f4353b021693bd61d6628831f-9aa2076098d719e62b702543fa04c4d1-1783510294-1783499494
 #EXTINF:-1 tvg-id="tv_rodina_hd" tvg-name="Родина ТВ" tvg-logo="https://glebul.com/images/tv-logo/rodina-tv.png",Родина ТВ
-https://raid0.glebul.com:8443/dvr/rodina-tv/tracks-v1a1/rewind-43200.m3u8?token=4e0fdf1aeccf99c0c19b8c362b39998e8acdf289-974a8408fc2cb88d5b3669dc281d4a5f-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/rodina-tv/tracks-v1a1/rewind-43200.m3u8?token=85fa0615788064cbeea78dfc539396c10b601152-41de50285229ae152b43122478401f69-1783510294-1783499494
 #EXTINF:-1 tvg-id="sedemosm" tvg-name="7/8 TV HD" tvg-logo="https://glebul.com/images/tv-logo/78-tv-hd.png",7/8 TV HD
-https://raid0.glebul.com:8443/dvr/hd-78-tv-hd/tracks-v1a1/rewind-43200.m3u8?token=ea1c17dca932406919fc34869da162f6d82dff84-dbcb3a15c5f6b974bd4e4547a66bd1e1-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/hd-78-tv-hd/tracks-v1a1/rewind-43200.m3u8?token=fdcf2d92e3a8344e7e4c7fe43327601916ad149e-2459c68684c04e4752f69b642d34b8ca-1783510294-1783499494
 #EXTINF:-1 tvg-id="skat" tvg-name="CKAT" tvg-logo="https://glebul.com/images/tv-logo/skat.png",CKAT
-https://raid0.glebul.com:8443/dvr/skat/tracks-v1a1/rewind-43200.m3u8?token=b2ab1be001a03209505d095f595b01cee41aadfb-16acea8f53ad1bfcc819a5337bb22202-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/skat/tracks-v1a1/rewind-43200.m3u8?token=bee832dfcfbc20aca408af1ce78107f73e16e7ca-33888ce4b83bb293a16805aa0d1e1650-1783510294-1783499494
 #EXTINF:-1 tvg-id="the_voice" tvg-name="The Voice" tvg-logo="https://glebul.com/images/tv-logo/the-voice.png",The Voice
-https://raid0.glebul.com:8443/dvr/the-voice/tracks-v1a1/rewind-43200.m3u8?token=0b63c94533d79cefc4b2c91491ea1fab2335c016-7616bc757916b76df01169414d6f075d-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/the-voice/tracks-v1a1/rewind-43200.m3u8?token=caf4cd14fabf452a69cb24ed573db1ac07fb05b3-5f8c54fdbd42ee15d66041d8e79bc94d-1783510294-1783499494
 #EXTINF:-1 tvg-id="tiankov_folk_hd" tvg-name="Tiankov Folk" tvg-logo="https://glebul.com/images/tv-logo/tiankov-tv.png",Tiankov Folk
-https://raid0.glebul.com:8443/dvr/tiankov-tv/tracks-v1a1/rewind-43200.m3u8?token=455c2ed9ef20f647d2322f9d060129ec2754464a-b2fdf15aa8749fcc8a26f7ac4c486ea0-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/tiankov-tv/tracks-v1a1/rewind-43200.m3u8?token=560d8e83ddeb4aa326a0197fca52df2d723ee1bf-c7fceb1d03786a3bc0cf8dc9e8cb30ca-1783510294-1783499494
 #EXTINF:-1 tvg-id="tlc" tvg-name="TLC" tvg-logo="https://glebul.com/images/tv-logo/tlc.png",TLC
-https://raid0.glebul.com:8443/dvr/tlc/tracks-v1a1/rewind-43200.m3u8?token=c748e4ee81bd0454e1c98a2b03ccf92eb850a427-a5a115ba7ab13fbda1ea224a2a759048-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/tlc/tracks-v1a1/rewind-43200.m3u8?token=f18c521907704943acd0a79b1b65bb442c4bfd2b-913616c20c3ce458fa4b99899d33a182-1783510294-1783499494
 #EXTINF:-1 tvg-id="travel_channel" tvg-name="Travel Channel" tvg-logo="https://glebul.com/images/tv-logo/travel-channel-hd.png",Travel Channel
-https://raid0.glebul.com:8443/dvr/hd-travel-channel-hd/tracks-v1a1/rewind-43200.m3u8?token=10e3b4c674818cdbe475f26ccf16a6837993d313-14942ad3fef66a9643cd4ceb7c9f92a6-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/hd-travel-channel-hd/tracks-v1a1/rewind-43200.m3u8?token=2739eba3265747baed65af333b18d407e799a0a0-746413bc70d2d80b6dba083e11283509-1783510294-1783499494
 #EXTINF:-1 tvg-id="travel_tv" tvg-name="Travel TV" tvg-logo="https://glebul.com/images/tv-logo/travel-tv.png",Travel TV
-https://raid0.glebul.com:8443/dvr/travel-tv/tracks-v1a1/rewind-43200.m3u8?token=9adbc3296361d5f6981321689123917fed147570-14d0d9edf3a9cb6cc148ac4925a54ae7-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/travel-tv/tracks-v1a1/rewind-43200.m3u8?token=efa3cbf824941f6ece4b032c05c9426c71e9dc21-5edc69a0c0ffa5c44c85e9b4deb294e0-1783510294-1783499494
 #EXTINF:-1 tvg-id="vtk" tvg-name="Военен ТВ Канал" tvg-logo="https://glebul.com/images/tv-logo/vtk.png",Военен ТВ Канал
-https://raid0.glebul.com:8443/dvr/vtk/tracks-v1a1/rewind-43200.m3u8?token=f88db3523dbbffad08e79f6c523f5ce18360b6b9-f0d4e755cf529acb8c43247cbf9b9e51-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/vtk/tracks-v1a1/rewind-43200.m3u8?token=4e64659bc55e4a275bba0c0cc7ef4ea8eb27b76f-9d17cd60a4281bde2e70d78efa7ea775-1783510294-1783499494
 #EXTINF:-1 tvg-id="viasat_explorer" tvg-name="Viasat Explore" tvg-logo="https://glebul.com/images/tv-logo/viasat-explore.png",Viasat Explore
-https://raid0.glebul.com:8443/dvr/viasat-explore/tracks-v1a1/rewind-43200.m3u8?token=62ceda29af52066db95e4a96b42f66e1be277f87-d8e8fe59940b0e793dbd45004f924f79-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/viasat-explore/tracks-v1a1/rewind-43200.m3u8?token=39a3cd90d642896b34dca5c03e2d75dbbd5fddb8-dc48f8247731fd9733a3e92813ddd435-1783510294-1783499494
 #EXTINF:-1 tvg-id="24_kitchen" tvg-name="24 Kitchen HD" tvg-logo="https://glebul.com/images/tv-logo/24-kitchen-hd.png",24 Kitchen HD
-https://raid0.glebul.com:8443/dvr/hd-24-kitchen-hd/tracks-v1a1/rewind-43200.m3u8?token=6592dbac6a2932332ab91d8d5857783ce2db7ae4-25437e613733422113adbe0fa0f88517-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/hd-24-kitchen-hd/tracks-v1a1/rewind-43200.m3u8?token=f42583462c5f2bab56c1f54563feea7e3b975b72-612bf8354dbb94ab45919a03a3705b2a-1783510295-1783499495
 #EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://glebul.com/images/tv-logo/axn.png",AXN
-https://raid0.glebul.com:8443/dvr/axn/tracks-v1a1/rewind-43200.m3u8?token=07ac138ef37cee205db5ed302697af54dd931bd8-1e805044f4a55da4a22700bcc5cc9eba-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/axn/tracks-v1a1/rewind-43200.m3u8?token=9fb4c58d3adda5c8a433c5fa461f1528ca397979-de99ffe945cc7f0e9b7a69d969dde2c4-1783510295-1783499495
 #EXTINF:-1 tvg-id="AXNBlack" tvg-name="AXN Black" tvg-logo="https://glebul.com/images/tv-logo/axn-black.png",AXN Black
-https://raid0.glebul.com:8443/dvr/axn-black/tracks-v1a1/rewind-43200.m3u8?token=0d006d9a3d7b0f9cea18a9b18ed45adb47b8529f-b0566e71742d68f6a253fe1a6d4f8da0-1783503087-1783492287
+https://raid0.glebul.com:8443/dvr/axn-black/tracks-v1a1/rewind-43200.m3u8?token=01963072c96386c25c051c6700d3ec23efbc5099-b54471f9d5854996ace58447418ffde1-1783510295-1783499495
 #EXTINF:-1 tvg-id="AXNWhite" tvg-name="AXN White" tvg-logo="https://glebul.com/images/tv-logo/axn-white.png",AXN White
-https://raid0.glebul.com:8443/dvr/axn-white/tracks-v1a1/rewind-43200.m3u8?token=9b07470e67c2ab12d15538873a3709b0012d9185-1393a9cbfc4002ed028cb331df246128-1783503088-1783492288
+https://raid0.glebul.com:8443/dvr/axn-white/tracks-v1a1/rewind-43200.m3u8?token=b360036b2b1d487c8292f27d81c6d599bbb96b11-d73a47d761ec25a2f1e6f8b10b18d216-1783510295-1783499495
 #EXTINF:-1 tvg-id="bloomberg_tv" tvg-name="Bloomberg BG" tvg-logo="https://glebul.com/images/tv-logo/bloomberg-tv.png",Bloomberg BG
-https://raid0.glebul.com:8443/dvr/bloomberg-tv/tracks-v1a1/rewind-43200.m3u8?token=0203c084e5b5183aa69df885dfd8d9fb9211e9a1-42968030723863b0d16b64f6b83f0cf8-1783503088-1783492288
+https://raid0.glebul.com:8443/dvr/bloomberg-tv/tracks-v1a1/rewind-43200.m3u8?token=903846872f04ab4e04049c80f3281de7d1b80160-70fd8d0a1f3693349ece2d83312c9d45-1783510295-1783499495
