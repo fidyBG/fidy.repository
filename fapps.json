@@ -25,7 +25,7 @@
       "title": "TVBoxBG Installer",
       "description": "Импровизиран магазин за приложения, събирани и организирани от потребители на групата TVBoxBG в телеграм.",
       "url": "http://dl.dropbox.com/scl/fi/b9qh1l8ackj0rw5dkmdtw/tvboxbg.apk?rlkey=w697i7hsknnzrpzne1m9x00zj&st=9ypgkkd4&dl=1",
-      "ver": "7.7",
+      "ver": "7.60",
       "category": "TopperBG"
     },
     {
@@ -205,14 +205,14 @@
     },
     {
       "title": "Wolfy Launcher",
-      "description": "Персонализиран лаунчър, създаден от SweenWolf, който ще промени потребителския интерфейс на вашето стрийминг устройство, след което вече няма да виждате рекламите показвани от заводския. Поддържа и добавяне на притурки. Тази модифицирана версия е изцяло на преведена на български език.",
+      "description": "Персонализиран лаунчър, създаден от SweenWolf, който ще промени потребителския интерфейс на вашето стрийминг устройство, след което вече няма да виждате рекламите показвани от заводския. Поддържа и добавяне на притурки. Тази модифицирана версия е изцяло преведена на български език.",
       "url": "http://dl.dropbox.com/scl/fi/0vcr98oh2dtg57ikvahhi/WolfyBG.apk?rlkey=n8f070rktaz56a7i30n0xa79p&st=7b9yf7ci&dl=1",
       "ver": "1.3.BG",
       "category": "fidyBG"
     },
     {
       "title": "ATV Launcher Pro",
-      "description": "Приложение за заместване на началния екран за Android TV смарт телевизори и стрийминг устройства. То замества стандартния интерфейс на Google TV и Android TV с по-изчистен дизайн без реклами и ви позволява да добавяте персонализирани притурки. Тази модифицирана версия е изцяло на преведена на български език.",
+      "description": "Приложение за заместване на началния екран за Android TV смарт телевизори и стрийминг устройства. То замества стандартния интерфейс на Google TV и Android TV с по-изчистен дизайн без реклами и ви позволява да добавяте персонализирани притурки. Тази модифицирана версия е изцяло преведена на български език.",
       "url": "http://dl.dropbox.com/scl/fi/n7bnq5znju4w7hgmxniu5/ATVLauncherBG.apk?rlkey=1fqawdcrqk0lzsd0hmoep2eog&st=4v91ge9v&dl=1",
       "ver": "1.0.BG",
       "category": "fidyBG"
@@ -230,6 +230,34 @@
       "url": "http://dl.dropbox.com/scl/fi/ir1nor0e2o42bjlpqvbqm/AIDA64.apk?rlkey=6t0mq04dfq5it0kaypi2vgfr4&st=pjlx1qzh&dl=1",
       "ver": "1.8.3",
       "category": "Strannik"
+    },
+    {
+      "title": "Via Browser",
+      "description": "Лек, минималистичен уеб браузър, създаден специално за Android устройства. Той използва вградения в системата WebView рендерер, за да осигури светкавичнa бързина, докато блокира досадните реклами и изкачащи прозорци и в същото време консумира много малко място за съхранение и памет.",
+      "url": "http://dl.dropbox.com/scl/fi/9f5hp2wfweym6vt3sngx5/ViaBrowser.apk?rlkey=1fl9d5tmvykv9luem72qm5xjp&st=9a24wvs1&dl=1",
+      "ver": "7.2.0",
+      "category": "AnBo39"
+    },
+    {
+      "title": "EchoGram Premium",
+      "description": "Неофициален, високо оценен видео плейър за Telegram, специално разработен за Android TV. Той позволява на потребителите да стриймват видеоклипове, филми и телевизионни предавания от своите Telegram канали или чатове директно на по-голям телевизионен екран, заобикаляйки нуждата от телефон или таблет.",
+      "url": "http://dl.dropbox.com/scl/fi/rcr3izctvayw9jxj6m6zi/EchoGram.apk?rlkey=sa0cykt216voub41sqzse0y4x&st=8zbkz7pv&dl=1",
+      "ver": "1.0-rc.final",
+      "category": "TryRoom"
+    },
+    {
+      "title": "M3U IPTV Premium",
+      "description": "Приложение, където забавлението среща удобството. Открийте несравнимо развлекателно изживяване с лекота и гъвкавост, напълно безплатно и без реклама. С нашето приложение можете да се наслаждавате на вашите IPTV плейлисти на любимото ви устройство.",
+      "url": "http://dl.dropbox.com/scl/fi/wkgvr55p4lum25gs62owx/M3UIPTV.apk?rlkey=8n71k5vp54u7pwdqscf9svusa&st=3xhivwln&dl=1",
+      "ver": "3.0.14",
+      "category": "TryRoom"
+    },
+    {
+      "title": "ADB TV App Manager",
+      "description": "Мощно приложение за Android TV и Google TV, което ви позволява да управлявате, деактивирате (замразявате) и деинсталирате приложения, без да е необходим root достъп. Единственото изискване е да активирате Опции за програмисти (Developer Options) и включите Отстраняване на грешки през USB в настройките на вашето устройство. Използва се Android Debug Bridge (ADB), за да взаимодейства със системните файлове директно от него.",
+      "url": "http://dl.dropbox.com/scl/fi/mz6jdeplx7yocc6o88e35/ADBTV.apk?rlkey=wyh0taf73j27d0kibkktr8ji4&st=cagg9owh&dl=1",
+      "ver": "1.12",
+      "category": "Official"
     }
   ]
 }
