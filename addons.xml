@@ -753,7 +753,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.program.gitsync" name="GitHub Sync" version="1.00" provider-name="fidyBG">
+	<addon id="plugin.program.gitsync" name="GitHub Sync" version="1.10" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 		</requires>
@@ -761,7 +761,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 		<extension point="xbmc.service" library="service.py" start="login"/>
 		<extension point="xbmc.addon.metadata">
 			<platform>android</platform>
-			<summary>Сонхронизация на папка с GitHub</summary>
+			<summary>Синхронизация на папка с GitHub</summary>
 			<description>Добавката автоматично качва файлове от избрана папка на устройството през определено време директно във вашето GitHub хранилище.</description>
 			<disclaimer>Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
 			<assets>
@@ -871,7 +871,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="21.7.8.fmod32" name="EON PVR" provider-name="Nirvana">
+	<addon id="pvr.eon" version="21.7.9.fmod32" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
@@ -895,7 +895,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="21.7.8.fmod64" name="EON PVR" provider-name="Nirvana">
+	<addon id="pvr.eon" version="21.7.9.fmod64" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
