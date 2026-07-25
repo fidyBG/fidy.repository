@@ -1,6 +1,13 @@
 {
   "apps": [
     {
+      "title": "fidy APK Installer",
+      "description": "Импровизиран магазин с безплатни и модифицирани приложения за Android TV, които могат да се инсталират и чрез ADB (Android Debug Bridge).",
+      "url": "http://dl.dropbox.com/scl/fi/mvy9jlcvdubqxfqcpvpss/fidyAPK.apk?rlkey=l0ror9den615mx0ct82rqdqgk&st=2x5jeue4&dl=1",
+      "ver": "1.00",
+      "category": "fidyBG"
+    },
+    {
       "title": "Aptoide TV App Store",
       "description": "Безплатен алтернативен магазин за приложения за Android TV.",
       "url": "http://dl.dropbox.com/scl/fi/f5a1z53z5n4wl9etn22yv/AptoideTV.apk?rlkey=xjem5lxgo2m81z2ddswtk8mb1&st=hi8i3efb&dl=1",
@@ -9,7 +16,7 @@
     },
     {
       "title": "Aurora App Store",
-      "description": "Неофициален клиент за Google Play.Търсете, изтегляйте и инсталирайте приложения от официалния магазин Google Play. Можете да разглеждате описания на приложения, екранни снимки, актуализации и да съхраните APK файл директно от Google Play на вашето устройство.",
+      "description": "Неофициален клиент за Google Play. Търсете, изтегляйте и инсталирайте приложения от официалния магазин Google Play. Можете да разглеждате описания на приложения, екранни снимки, актуализации и да съхраните APK файл директно от Google Play на вашето устройство.",
       "url": "http://dl.dropbox.com/scl/fi/uclhntks9h8muq1cb4hg2/AuroraStore.apk?rlkey=3fejsdmp1oe5bpti41jx0j6tj&st=mwam6d9l&dl=1",
       "ver": "4.8.3",
       "category": "Official"
