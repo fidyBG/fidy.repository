@@ -896,7 +896,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="plugin.video.vavooto" name="VAVOO.BG" version="2026.07.19.fmod" provider-name="kasi,michaz">
+	<addon id="plugin.video.vavooto" name="VAVOO.BG" version="2026.07.25.fmod" provider-name="kasi,michaz">
 		<requires>
 			<import addon="xbmc.python" version="3.0.1"/>
 			<import addon="script.module.requests"/>
