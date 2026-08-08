@@ -127,38 +127,6 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.7">
-		<requires>
-			<!--<import addon="xbmc.python" version="3.0.0"/>-->
-		</requires>
-		<extension point="xbmc.addon.repository">
-			<dir>
-				<info>http://127.0.0.1:65223/addons.xml</info>
-				<checksum>http://127.0.0.1:65223/addons.xml.md5</checksum>
-				<datadir>http://127.0.0.1:65223/</datadir>
-			</dir>
-		</extension>
-		<extension point="xbmc.python.script" library="default.py"/>
-		<extension point="xbmc.service" library="service.py"/>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<license>See https://github.com/ElementumOrg/repository.elementumorg/blob/master/LICENSE</license>
-			<source>https://github.com/ElementumOrg/repository.elementumorg</source>
-			<summary lang="en">GitHub virtual Add-on repository</summary>
-			<description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
-			<news>
-- Allow running in standalone mode
-- Migrate to GitHub API
-- Add support for "tag_pattern" field
-- Add support for private repositories by supplying a "token"
-- Try to automatically determine zip ref from version
-- Multiple minor improvements
-        </news>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-		</extension>
-	</addon>
 	<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="5.0">
 		<extension point="xbmc.addon.repository" name="Michaz Repository">
 			<dir>
@@ -694,7 +662,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="plugin.video.overlay" name="Overlay System Info" version="1.50" provider-name="fidyBG">
+	<addon id="plugin.video.overlay" name="Overlay System Info" version="1.60" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 		</requires>
@@ -705,7 +673,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<summary lang="en">System Info</summary>
 			<summary lang="bg">Информация за системата</summary>
 			<description lang="en">Displays detailed information about playing video stream (dynamic range, resolution, frame rate, bitrate, etc.), current display resolution and refresh rate and RAM usage.</description>
-			<description lang="bg">Показва подробна информация за видео потока при възпроизвеждане (динамичен обхват, разделителна способност, честота на кадрите, битрейт и др.), текуща резолюция и честота на опресняване на екрана и използваната RAM памет.[CR][CR]За бърз достъп може да използвате официалната добавка Keymap Editor, като назначите бутон по избор да стартира тази добавка веднага.</description>
+			<description lang="bg">Показва подробна информация за видео потока при възпроизвеждане (динамичен обхват, разделителна способност, честота на кадрите, битрейт и др.), текуща резолюция и честота на опресняване на екрана и използваната RAM памет.[CR]За бърз достъп може да използвате официалната добавка Keymap Editor, като назначите бутон по избор да стартира тази добавка веднага.</description>
 			<disclaimer lang="en">Unofficial version. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
 			<assets>
@@ -823,7 +791,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="21.7.12.fmod32" name="EON PVR" provider-name="Nirvana">
+	<addon id="pvr.eon" version="21.7.9.fmod32" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
@@ -847,7 +815,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="21.7.12.fmod64" name="EON PVR" provider-name="Nirvana">
+	<addon id="pvr.eon" version="21.7.9.fmod64" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
@@ -871,7 +839,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="21.7.12.linux64" name="EON PVR" provider-name="Nirvana">
+	<addon id="pvr.eon" version="21.7.9.linux64" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
@@ -894,6 +862,30 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
 			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
+		</extension>
+	</addon>
+	<addon id="plugin.video.eonvod" version="1.1.0.fmod" name="EON On Demand" provider-name="dEXE">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0"/>
+			<import addon="pvr.eon" version="20.0.0"/>
+			<import addon="inputstream.adaptive" optional="true"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.service" library="service.py" start="startup"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Browse and play EON On Demand</summary>
+			<summary lang="bg">Гледайте видеотеката на EON</summary>
+			<description lang="en">Browses the EON On Demand catalogue and plays films and series in Kodi.[CR][CR]Uses the account, device and stream credentials already held by [B]pvr.eon[/B]. The VOD plugin does not store independent EON credentials and does not create a second EON device or session.[CR][CR]Install and configure [B]pvr.eon[/B] first, then open Live TV once so it can log in and save the session.</description>
+			<description lang="bg">Видео по заявка (VOD) е видео каталог с филмите и сериалите на EON, които може да гледате в Коди. Използва същият акаунт, който е в [B]EON PVR[/B] добавката. Не може да се използва самостоятелно или с друг акаунт, така че първо инсталирайте и настройте [B]EON PVR[/B].</description>
+			<disclaimer lang="en">Unofficial add-on. Not affiliated with, endorsed by or supported by United Group, SBB, Telemach, Vivacom, Nova or any related company. A valid EON subscription is required. No content is provided or hosted by this add-on.</disclaimer>
+			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
+			<platform>all</platform>
+			<license>GPL-3.0-or-later</license>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
 		</extension>
 	</addon>
 	<addon id="plugin.video.vavooto" name="VAVOO.BG" version="2026.07.25.fmod" provider-name="kasi,michaz">
@@ -1083,24 +1075,6 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.program.glebul.m3u" name="GleBul IPTV m3u Generator" version="1.10" provider-name="fidyBG">
-		<requires>
-			<import addon="script.module.requests" version="1.1.0"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>executable</provides>
-		</extension>
-		<extension point="xbmc.service" library="service.py" start="login"/>
-		<extension point="xbmc.addon.metadata">
-			<platform>android</platform>
-			<summary>Телевизия на живо от glebul.com</summary>
-			<description>Добавката генерира m3u файл с директните стриймове от glebul.com и го синхронизира с програмния справочник на Open-EPG за да може да се използва и на други устройства с IPTV плейър по избор - TiviMate, IPTV Pro, Sparkle TV...[CR]Файлът е активен само няколко часа, като през това време не е нужно КОДИ да работи.</description>
-			<disclaimer>Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-		</extension>
-	</addon>
 	<addon id="plugin.radio.sweet" name="Sweet Radio Bulgaria" version="1.10" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
@@ -1144,6 +1118,187 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
+	<addon id="context.elementum" name="Elementum Context Helper" version="0.0.15" provider-name="elgatito">
+		<requires>
+			<import addon="xbmc.addon" version="16.0.0"/>
+			<import addon="script.module.requests"/>
+			<import addon="plugin.video.elementum" optional="true"/>
+			<import addon="script.module.future" version="0.16.0.4"/>
+		</requires>
+		<extension point="kodi.context.item">
+			<menu id="kodi.core.main">
+				<menu>
+					<label>32011</label>
+					<item library="context_play.py">
+						<label>32000</label>
+						<visible>StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | StringCompare(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,season)</visible>
+					</item>
+					<item library="context_custom_play.py">
+						<label>32020</label>
+						<visible>StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | StringCompare(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,season)</visible>
+					</item>
+					<item library="context_download.py">
+						<label>32012</label>
+						<visible>StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | StringCompare(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,season)</visible>
+					</item>
+					<item library="context_custom_download.py">
+						<label>32021</label>
+						<visible>StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | StringCompare(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,season)</visible>
+					</item>
+					<item library="context_assign.py">
+						<label>32002</label>
+						<visible>StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | StringCompare(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,season)</visible>
+					</item>
+					<item library="context_library.py" args="remove">
+						<label>32017</label>
+						<visible>Integer.IsGreater(ListItem.DBID,0)+[StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
+					</item>
+					<item library="context_trakt.py" args="watched">
+						<label>32018</label>
+						<visible>[Integer.IsGreater(ListItem.DBID,0) | Integer.IsGreater(ListItem.UniqueID(tmdb),0)]+Integer.IsEqual(ListItem.PlayCount,0)+[StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | StringCompare(ListItem.dbtype,season) | StringCompare(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
+					</item>
+					<item library="context_trakt.py" args="unwatched">
+						<label>32019</label>
+						<visible>[Integer.IsGreater(ListItem.DBID,0) | Integer.IsGreater(ListItem.UniqueID(tmdb),0)]+Integer.IsGreater(ListItem.PlayCount,0)+[StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | StringCompare(ListItem.dbtype,season) | StringCompare(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
+					</item>
+					<item library="context_info.py">
+						<label>32001</label>
+						<visible>System.GetBool(debug.extralogging)+[StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | StringCompare(ListItem.dbtype,season) | StringCompare(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
+					</item>
+				</menu>
+			</menu>
+		</extension>
+		<extension point="kodi.addon.metadata">
+			<summary lang="ru">Elementum Контекстное меню</summary>
+			<summary lang="en">Elementum Context Menu</summary>
+			<description lang="ru">Контекстное меню для Elementum.</description>
+			<description lang="en">Context Menu for Elementum.</description>
+			<disclaimer lang="ru">Автор не несёт ответственности за использование дополнения, не распространяет данные, выводимые дополнением.</disclaimer>
+			<disclaimer lang="en">The author is not responsible for addon usage and does not host or distribute any of the content displayed by this addon.</disclaimer>
+			<license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
+			<website>https://elementum.surge.sh</website>
+			<source>https://github.com/elgatito/context.elementum</source>
+			<forum/>
+		</extension>
+	</addon>
+	<addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.99" provider-name="elgatito">
+		<requires>
+			<import addon="xbmc.addon" version="16.0.0"/>
+			<import addon="plugin.video.elementum" optional="true"/>
+			<import addon="script.module.kodi-six"/>
+			<import addon="script.module.requests"/>
+			<import addon="script.module.future" version="0.16.0.4"/>
+			<import addon="script.module.pycryptodome" optional="true"/>
+		</requires>
+		<extension point="xbmc.python.script" library="burst.py">
+			<provides>executable</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Elementum torrents provider</summary>
+			<summary lang="hr">Elementum torrent pružatelji usluga</summary>
+			<summary lang="es">Proveedor de torrents Elementum</summary>
+			<summary lang="ru">Поисковое дополнение Elementum</summary>
+			<summary lang="sv">Elementum-torrentleverantör</summary>
+			<description lang="en">Elementum Burst is a lean and mean multi-provider for Elementum.</description>
+			<description lang="hr">Elementum Burst je višestruki pružatelj usluga za Elementum.</description>
+			<description lang="es">Elementum Burst es un multi-proveedor simple y eficiente para Elementum.</description>
+			<description lang="ru">Elementum Burst это поисковое дополнение, для поиска торрентов для Elementum.</description>
+			<description lang="sv">Elementum Burst är en enkel och effektiv multi-leverantör för Elementum.</description>
+			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+			<disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
+			<disclaimer lang="es">El autor no aloja ni distribuye ninguno de los contenidos mostrados por este complemento. El autor no tiene ninguna afiliación con los proveedores de contenido.</disclaimer>
+			<disclaimer lang="ru">Автор не несёт ответственности за использование дополнения, не распространяет данные, выводимые дополнением.</disclaimer>
+			<disclaimer lang="sv">Skaparen är inte värd eller distribuerar något av innehållet som visas av detta tillägg. Skaparen har ingen anslutning till innehållsleverantörerna.</disclaimer>
+			<license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
+			<website>https://elementum.surge.sh</website>
+			<source>https://github.com/elgatito/script.elementum.burst</source>
+			<forum>TODO</forum>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="plugin.video.elementum" name="Elementum" version="0.1.114.armv7" provider-name="elgatito">
+		<requires>
+			<import addon="xbmc.addon" version="16.0.0"/>
+			<import addon="repository.elementumorg" optional="true"/>
+			<import addon="script.module.kodi-six"/>
+			<import addon="script.module.requests" version="2.9.1"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="navigation.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.service" library="service.py" start="startup"/>
+		<extension point="xbmc.python.module" library="resources/site-packages"/>
+		<extension point="xbmc.subtitle.module" library="navigation.py"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="ru">Elementum: Стриминг видео</summary>
+			<summary lang="en">Elementum: Media streaming</summary>
+			<summary lang="hr">Elementum: Medijsko strujanje</summary>
+			<summary lang="es">Elementum: Transmisión de medios</summary>
+			<summary lang="sv">Elementum: medieströmning</summary>
+			<description lang="ru">Elementum это дополнение для поиска и воспроизведения торрентов. Дополнение не ходит на запрещенные сайты самостоятельно. Хотя, для поиска используются дополнения (называемые провайдерами), которые устанавливаются отдельно.[CR]Этот проект является ответвлением хорошо извесных, но не поддерживаемых Pulsar/Quasar от steeve и scakemyer.</description>
+			<description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
+			<description lang="hr">Elementum je pogon pretraživanja i strujanja. Ne posjećuje torrent web stranice iz pravnih razloga. Ipak, koristi posebno napravljene dodatke (nazvane pružatelji usluge) koji su instalirani odvojeno.[CR]Ovaj projekt je ogranak dobro poznatih, ali više ne održavanih Pulsar/Quasar projekata od autora steevea i scakemyera.</description>
+			<description lang="es">Elementum es un motor de búsqueda y transmisión torrent. No navega por sitios web torrent por razones legales. Sin embargo, llama a complementos especialmente diseñados para ello (denominados providers o proveedores) que se instalan por separado.[CR]Este proyecto es un fork de los bien conocidos, pero ya sin soporte proyectos Pulsar/Quasar de steeve y scakemyer.[CR]</description>
+			<description lang="sv">Elementum är en torrentsöknings- och strömningsmotor. Det går inte till torrentwebbplatser av juridiska skäl. Den anropar dock speciellt utformade tillägg (kallade leverantörer) som installeras separat.[CR]Detta projekt är en förgrening av de välkända, men inte längre underhållna Pulsar/Quasar-projekten av steeve och scakemyer. </description>
+			<disclaimer lang="ru">Автор дополнения не несёт ответственности за скачивание или поиск информации и содержимого в этом дополнении. Автор никак не связан с Kodi, командой Kodi, или XBMC Foundation.</disclaimer>
+			<disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+			<disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
+			<disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
+			<disclaimer lang="sv">Skaparen äger inte eller är värd av något innehåll som finns i detta tillägg. Författaren är inte ansluten till eller på något annat sätt en del av Kodi, Team Kodi eller XBMC Foundation.</disclaimer>
+			<language>en el es de fi fr he hr it nl pt ro sk sv</language>
+			<platform>android-armv7</platform>
+			<website>http://elementum.surge.sh/</website>
+			<source>https://github.com/elgatito/plugin.video.elementum</source>
+			<forum/>
+			<license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="plugin.video.elementum" name="Elementum" version="0.1.114.armv8" provider-name="elgatito">
+		<requires>
+			<import addon="xbmc.addon" version="16.0.0"/>
+			<import addon="repository.elementumorg" optional="true"/>
+			<import addon="script.module.kodi-six"/>
+			<import addon="script.module.requests" version="2.9.1"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="navigation.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.service" library="service.py" start="startup"/>
+		<extension point="xbmc.python.module" library="resources/site-packages"/>
+		<extension point="xbmc.subtitle.module" library="navigation.py"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="ru">Elementum: Стриминг видео</summary>
+			<summary lang="en">Elementum: Media streaming</summary>
+			<summary lang="hr">Elementum: Medijsko strujanje</summary>
+			<summary lang="es">Elementum: Transmisión de medios</summary>
+			<summary lang="sv">Elementum: medieströmning</summary>
+			<description lang="ru">Elementum это дополнение для поиска и воспроизведения торрентов. Дополнение не ходит на запрещенные сайты самостоятельно. Хотя, для поиска используются дополнения (называемые провайдерами), которые устанавливаются отдельно.[CR]Этот проект является ответвлением хорошо извесных, но не поддерживаемых Pulsar/Quasar от steeve и scakemyer.</description>
+			<description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
+			<description lang="hr">Elementum je pogon pretraživanja i strujanja. Ne posjećuje torrent web stranice iz pravnih razloga. Ipak, koristi posebno napravljene dodatke (nazvane pružatelji usluge) koji su instalirani odvojeno.[CR]Ovaj projekt je ogranak dobro poznatih, ali više ne održavanih Pulsar/Quasar projekata od autora steevea i scakemyera.</description>
+			<description lang="es">Elementum es un motor de búsqueda y transmisión torrent. No navega por sitios web torrent por razones legales. Sin embargo, llama a complementos especialmente diseñados para ello (denominados providers o proveedores) que se instalan por separado.[CR]Este proyecto es un fork de los bien conocidos, pero ya sin soporte proyectos Pulsar/Quasar de steeve y scakemyer.[CR]</description>
+			<description lang="sv">Elementum är en torrentsöknings- och strömningsmotor. Det går inte till torrentwebbplatser av juridiska skäl. Den anropar dock speciellt utformade tillägg (kallade leverantörer) som installeras separat.[CR]Detta projekt är en förgrening av de välkända, men inte längre underhållna Pulsar/Quasar-projekten av steeve och scakemyer. </description>
+			<disclaimer lang="ru">Автор дополнения не несёт ответственности за скачивание или поиск информации и содержимого в этом дополнении. Автор никак не связан с Kodi, командой Kodi, или XBMC Foundation.</disclaimer>
+			<disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+			<disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
+			<disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
+			<disclaimer lang="sv">Skaparen äger inte eller är värd av något innehåll som finns i detta tillägg. Författaren är inte ansluten till eller på något annat sätt en del av Kodi, Team Kodi eller XBMC Foundation.</disclaimer>
+			<language>en el es de fi fr he hr it nl pt ro sk sv</language>
+			<platform>android-aarch64</platform>
+			<website>http://elementum.surge.sh/</website>
+			<source>https://github.com/elgatito/plugin.video.elementum</source>
+			<forum/>
+			<license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="script.keymap" name="Keymap Editor" version="1.4.0.fmod" provider-name="takoi,pkscout">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
@@ -1164,139 +1319,6 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<description lang="bg">Графичен интерфейс за конфигуриране на клавишни комбинации за дистанционни управления, клавиатури и други устройства за въвеждане, поддържани от КОДИ.</description>
 			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-		</extension>
-	</addon>
-	<addon id="repository.dexe" name="dEXE's Addons Repository" version="1.0.11" provider-name="dEXE">
-		<extension point="xbmc.addon.repository" name="dEXE's Addons Repository">
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/repo/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/deklica/repo.dexe/master/repo/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/deklica/repo.dexe/master/repo/</datadir>
-			</dir>
-			<dir minversion="19.0.0">
-				<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/deklica/repo.dexe/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/deklica/repo.dexe/master/zips/</datadir>
-				<hashes>false</hashes>
-			</dir>
-			<dir minversion="19.0.0">
-				<info compressed="false">https://gitfront.io/r/dexe/n7TtSm9NEVFs/dexerepo/raw/addons.xml</info>
-				<checksum>https://gitfront.io/r/dexe/n7TtSm9NEVFs/dexerepo/raw/addons.xml.md5</checksum>
-				<datadir zip="true">https://gitfront.io/r/dexe/n7TtSm9NEVFs/dexerepo/raw/zips/</datadir>
-				<hashes>false</hashes>
-			</dir>
-			<dir minversion="19.0.0">
-				<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/misc/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/deklica/repo.dexe/master/misc/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/deklica/repo.dexe/master/misc/</datadir>
-				<hashes>false</hashes>
-			</dir>
-
-<!--  Repositories  -->
-
-<!--  Umbrella Repository 2.2.4 -->
-			<dir minversion="18.9.701" maxversion="19.5">
-				<info compressed="false">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/matrix/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/matrix/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/matrix/zips/</datadir>
-			</dir>
-			<dir minversion="19.8.0">
-				<info compressed="false">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/nexus/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/nexus/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/nexus/zips/</datadir>
-			</dir>
-
-<!--  kodifitzwell repository 0.0.1  -->
-			<dir minversion="19.0.0">
-				<info compressed="false">https://kodiyashimaru.github.io/repo/packages/addons.xml</info>
-				<checksum>https://kodiyashimaru.github.io/repo/packages/addons.xml.md5</checksum>
-				<datadir zip="true">https://kodiyashimaru.github.io/repo/</datadir>
-			</dir>
-			<dir minversion="19.0.0">
-				<info compressed="false">https://kodifitzwell.github.io/repo/packages/addons.xml</info>
-				<checksum>https://kodifitzwell.github.io/repo/packages/addons.xml.md5</checksum>
-				<datadir zip="true">https://kodifitzwell.github.io/repo/</datadir>
-			</dir>
-
-<!--  Jacktook Add-on Repository 0.0.5  -->
-			<dir minversion="19.0.0">
-				<info compressed="false">https://raw.githubusercontent.com/Sam-Max/repository.jacktook/master/repo/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Sam-Max/repository.jacktook/master/repo/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Sam-Max/repository.jacktook/master/repo/zips/</datadir>
-			</dir>
-
-<!--  Dobbelina Repository 1.0.4  -->
-			<dir minversion="19.0.0">
-				<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
-			</dir>
-
-<!--  a4kSubtitles Repository 1.1.1  -->
-			<dir minversion="19.0">
-				<info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
-				<datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
-				<artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
-			</dir>
-
-<!--  ResolveURL Repository 1.0.0  -->
-			<dir minversion="19.0.0">
-				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-			</dir>
-
-<!--  Orion Repository 5.0.0  -->
-			<dir minversion="19.0.0">
-				<info compressed="false">https://repo.orionoid.com/addons.xml</info>
-				<checksum>https://repo.orionoid.com/addons.xml.md5</checksum>
-				<datadir zip="true">https://repo.orionoid.com</datadir>
-			</dir>
-
-<!--  Yatse Kodi Add-on repository 1.1.0  -->
-			<dir minversion="18.9.0">
-				<info compressed="false">https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/matrix/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/matrix/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/matrix/</datadir>
-				<hashes>false</hashes>
-			</dir>
-
-<!--  pkscout's Skin Modifications 2.1.1  -->
-			<dir maxversion="19.9.0">
-				<info>https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/matrix/addons.xml</info>
-				<checksum>https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/matrix/addons.xml.md5</checksum>
-				<datadir zip="true">https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/matrix/download</datadir>
-				<artdir>https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/matrix/download</artdir>
-				<hashes>false</hashes>
-			</dir>
-			<dir maxversion="20.8.900">
-				<info>https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/nexus/addons.xml</info>
-				<checksum>https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/nexus/addons.xml.md5</checksum>
-				<datadir zip="true">https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/nexus/download</datadir>
-				<artdir>https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/nexus/download</artdir>
-				<hashes>false</hashes>
-			</dir>
-			<dir minversion="20.9.0">
-				<info>https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/omega/addons.xml</info>
-				<checksum>https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/omega/addons.xml.md5</checksum>
-				<datadir zip="true">https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/omega/download</datadir>
-				<artdir>https://github.com/pkscout/repository.skins.pkscout/raw/refs/heads/omega/download</artdir>
-				<hashes>false</hashes>
-			</dir>
-
-
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Kodi dEXE's Repo</summary>
-			<description>A collection of my, fixed/modded, best and latest Kodi add-ons and dependencies.[CR]One repo to rule them all ;)[CR][CR][I]For additional repos and skins install Roooar! (Repo of all Repositories).[/I][CR][CR]Please do NOT post this Repository on Youtube, Facebook, Blogs, or anywhere on the internet, thank you.</description>
-			<disclaimer lang="en">This repository nor the addons within does not form part of the Kodi Media Centre. Please do not seek assistance with this repository or the addons from any of the Official Kodi Support Channels. The authors do not host any of the content in these add-ons and take no responsibility for the content found.</disclaimer>
-			<language>en</language>
-			<platform>all</platform>
-			<assets>
-				<icon>icon.png</icon>
-				<fanart>fanart.jpg</fanart>
-			</assets>
 		</extension>
 	</addon>
 </addons>
