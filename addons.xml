@@ -248,7 +248,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="5.0">
+	<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="5.1">
 		<extension point="xbmc.addon.repository" name="Michaz Repository">
 			<dir>
 				<info compressed="false">https://michaz1988.github.io/repo/addons.xml</info>
@@ -442,6 +442,25 @@
 			<description lang="en">The 'Nerdsrepo' is the Repository of the german Kodi Community 'Kodinerds' (www.kodinerds.net). Most of the hosted Addons here are active developed and supported by the members of the Community. Nerdsrepo is an unofficial Repository of the Kodi Media Center Software</description>
 			<summary lang="de">Addon Repository der Kodinerds Community</summary>
 			<description lang="de">Das 'Nerdsrepo' ist das Addon Repository der deutschen Kodi-Community 'Kodinerds' (www.kodinerds.net). Die meisten der hier im Nerdsrepo gehosteten Addons werden von den Mitgliedern der Community aktiv entwickelt und unterstützt. Das Nerdsrepo ist ein unoffizielles Repository der Kodi Media Center Software.</description>
+			<disclaimer/>
+			<platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="repository.thetriple666mafia" name="[COLOR red]thetriple666Mafia[/COLOR]" version="1.1" provider-name="thetriple666mafia">
+		<extension point="xbmc.addon.repository" name="Example Repository">
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/blry12/thetriple666mafia/refs/heads/main/repo/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/blry12/thetriple666mafia/refs/heads/main/repo/zips/addons.xml</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/blry12/thetriple666mafia/refs/heads/main/repo/zips/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>thetriple666mafia</summary>
+			<description>Repo for the thetriple666mafia Wizard</description>
 			<disclaimer/>
 			<platform>all</platform>
 			<assets>
@@ -762,7 +781,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="skin.aquafluencenew" version="2026.05.linux" name="Aquafluence Skin 2026" provider-name="fidyBG">
+	<addon id="skin.aquafluencenew" version="2026.08.linux" name="Aquafluence Skin 2026" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
 		</requires>
@@ -802,7 +821,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.video.overlay" name="Overlay System Info" version="1.50.linux" provider-name="fidyBG">
+	<addon id="plugin.video.overlay" name="Overlay System Info" version="1.60.linux" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 		</requires>
@@ -812,8 +831,8 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">System Info</summary>
 			<summary lang="bg">Информация за системата</summary>
-			<description lang="en">Displays detailed information about playing video stream (dynamic range, resolution, frame rate, bitrate, etc.), current display resolution and refresh rate, CPU temperature and RAM usage.[CR][CR]Can be used with official Keymap Editor addon for quick access with one click.</description>
-			<description lang="bg">Показва подробна информация за видео потока при възпроизвеждане (динамичен обхват, разделителна способност, честота на кадрите, битрейт и др.), текуща резолюция и честота на опресняване на екрана, температура на процесора и използваната RAM памет.[CR][CR]За бърз достъп може да използвате официалната добавка Keymap Editor, като назначите бутон по избор да стартира тази добавка веднага.</description>
+			<description lang="en">Displays detailed information about playing video stream (dynamic range, resolution, frame rate, bitrate, etc.), current display resolution and refresh rate, CPU temperature and RAM usage.[CR]Can be used with official Keymap Editor addon for quick access with one click.</description>
+			<description lang="bg">Показва подробна информация за видео потока при възпроизвеждане (динамичен обхват, разделителна способност, честота на кадрите, битрейт и др.), текуща резолюция и честота на опресняване на екрана, температура на процесора и използваната RAM памет.[CR]За бърз достъп може да използвате официалната добавка Keymap Editor, като назначите бутон по избор да стартира тази добавка веднага.</description>
 			<disclaimer lang="en">Unofficial version. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
 			<platform>linux</platform>
@@ -1009,7 +1028,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.video.vavooto" name="VAVOO.BG" version="2026.07.25.fmod" provider-name="kasi,michaz">
+	<addon id="plugin.video.vavooto" name="VAVOO.BG" version="2026.08.17.fmod" provider-name="kasi,michaz">
 		<requires>
 			<import addon="xbmc.python" version="3.0.1"/>
 			<import addon="script.module.requests"/>
@@ -1340,7 +1359,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.video.elementum" name="Elementum" version="0.1.114.armv7" provider-name="elgatito">
+	<addon id="plugin.video.elementum" name="Elementum" version="0.1.114" provider-name="elgatito">
 		<requires>
 			<import addon="xbmc.addon" version="16.0.0"/>
 			<import addon="repository.elementumorg" optional="true"/>
