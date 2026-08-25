@@ -1,410 +1,410 @@
 {
   "apps": [
     {
-      "title": "fidy APK Installer",
-      "description": "Импровизиран магазин с безплатни и модифицирани приложения за Android TV, които могат да се инсталират и чрез ADB (Android Debug Bridge).",
-      "url": "http://dl.dropbox.com/scl/fi/mvy9jlcvdubqxfqcpvpss/fidyAPK.apk?rlkey=l0ror9den615mx0ct82rqdqgk&st=2x5jeue4&dl=1",
-      "ver": " 1.00",
-      "category": "fidyBG"
-    },
-    {
-      "title": "TVBoxBG Installer",
-      "description": "Импровизиран магазин за приложения, събирани и организирани от потребители на групата TVBoxBG в телеграм.",
-      "url": "http://dl.dropbox.com/scl/fi/b9qh1l8ackj0rw5dkmdtw/tvboxbg.apk?rlkey=w697i7hsknnzrpzne1m9x00zj&st=9ypgkkd4&dl=1",
-      "ver": " 7.7",
-      "category": "TopperBG"
-    },
-    {
-      "title": "Downloader for TVBoxBG",
-      "description": "Импровизиран магазин за приложения, събирани и организирани от потребители на групата TVBoxBG в телеграм.",
-      "url": "http://dl.dropbox.com/scl/fi/uj90cvo8pxsbpp7qdrbem/Downloader.apk?rlkey=bnt7zc4xcj1shk3t1l60502bo&st=fxia3wo3&dl=1",
-      "ver": " 9.9.9",
-      "category": "fidyBG"
-    },
-    {
-      "title": "Aptoide TV App Store",
-      "description": "Безплатен алтернативен магазин за приложения за Android TV.",
-      "url": "http://dl.dropbox.com/scl/fi/f5a1z53z5n4wl9etn22yv/AptoideTV.apk?rlkey=xjem5lxgo2m81z2ddswtk8mb1&st=hi8i3efb&dl=1",
-      "ver": " 5.1.3",
-      "category": "Official"
-    },
-    {
-      "title": "Aurora App Store",
-      "description": "Неофициален клиент за Google Play. Търсете, изтегляйте и инсталирайте приложения от официалния магазин Google Play. Можете да разглеждате описания на приложения, екранни снимки, актуализации и да съхраните APK файл директно от Google Play на вашето устройство.",
-      "url": "http://dl.dropbox.com/scl/fi/uclhntks9h8muq1cb4hg2/AuroraStore.apk?rlkey=3fejsdmp1oe5bpti41jx0j6tj&st=mwam6d9l&dl=1",
-      "ver": " 4.8.4",
-      "category": "Official"
-    },
-    {
-      "title": "RuStore for TV",
-      "description": "Официален руски магазин за приложения за Android, разработен от руската онлайн социална мрежа VK (ВКонтакте). Магазинът предлага над 110 000 игри и приложения от разработчици в 70 държави, като потребителите могат да ги инсталират или актуализират, да ги оценяват и да правят покупки, използвайки всички популярни методи за разплащане, докато разработчиците могат да публикуват своите продукти, да взаимодействат с потребителите и да развиват бизнеса си.",
-      "url": "http://dl.dropbox.com/scl/fi/acuf6rmr6e8ykx9blf2d1/RuStoreTV.apk?rlkey=7y03w564l0finhjuxprom7xcq&st=rszvsmmn&dl=1",
-      "ver": " 1.107.0.2",
-      "category": "Official"
-    },
-    {
-      "title": "X-plore File Manager",
-      "description": "Високоефективен файлов мениджър с два панела, създаден за опитни потребители, които се нуждаят от усъвършенствани инструменти за управление на локални файлове, достъп до локални мрежи, отдалечени сървъри (облаци) и навигиране във вътрешни йерархии на директории. Модифицирана версия без реклами.",
-      "url": "http://dl.dropbox.com/scl/fi/bp24bt5vjn0j5fe2ntbki/X-plore.apk?rlkey=xl725f82o1bdo0jz241bu8l1z&st=j0zeswn2&dl=1",
-      "ver": " 4.49.10",
-      "category": "youarefinished"
-    },
-    {
-      "title": "File Manager Plus Premium",
-      "description": "Лесен и мощен файлов мениджър за Android устройства. Изключително лесен за употреба, с който можете да управлявате вашите файлове и папки локално на устройството ви, по мрежата и в облачни хранилища като Dropbox и Google Диск.",
-      "url": "http://dl.dropbox.com/scl/fi/ix1m5etdb03oaib2kcj8z/FileManagerPlus.apk?rlkey=kj0yvdn1iwipl9yv7fm3t0l4o&st=o34eklom&dl=1",
-      "ver": " 3.8.3",
-      "category": "Balatan"
-    },
-    {
-      "title": "Solid Explorer File Manager Pro",
-      "description": "Файлов мениджър предлагащ управление чрез два панела с елегантен и интуитивен интерфейс, който крие мощни функции за организиране на файлове и архиви локално, по мрежата и облачно, което го прави отличен избор за всички потребители.",
-      "url": "http://dl.dropbox.com/scl/fi/ut3qmeuksogfmygv321aq/SolidX.apk?rlkey=z4tbw1z0tlu1uh0i0aedxe0zj&st=mlam9f78&dl=1",
-      "ver": " 3.5.19",
-      "category": "Balatan"
-    },
-    {
-      "title": "ES File Explorer Premium",
-      "description": "Известният софтуер за управление и организиране на файлове,папки и хранилища в Android, iOS и компютри беше един от най-изтегляните файлови мениджъри в миналото. Той обаче беше премахнат от Google Play, поради опасения за поверителността и сигурността, тъй като компанията майка беше хваната в измамни кликвания, рекламен софтуер и прекомерни фонови процеси.",
-      "url": "http://dl.dropbox.com/scl/fi/6551ky2ylnrj1ehyk92au/esfile.apk?rlkey=va5ek1lt0sx4q25q8xwufwi19&st=guuxu7mg&dl=1",
-      "ver": " 4.4.3.7",
-      "category": "Balatan"
-    },
-    {
-      "title": "MiXplorer Silver File Manager",
-      "description": "Бърз, красив, надежден и пълнофункционален файлов мениджър за Android с опростен и интуитивен потребителски интерфейс.",
-      "url": "http://dl.dropbox.com/scl/fi/j1spxj219vtebi8qhpc10/MiXplorer.apk?rlkey=fb5u5ze1ay77102plza77175n&st=9c4rawhf&dl=1",
-      "ver": " 6.71.11",
-      "category": "Balatan"
-    },
-    {
-      "title": "Send Files To TV",
-      "description": "Лесно прехвърляне на файлове към Android TV от мобилен телефон или компютър. Модифицирана версия без реклами.",
-      "url": "http://dl.dropbox.com/scl/fi/xru7oouflbgafay8q1jc5/sfttv.apk?rlkey=j22fe7bj2vv1ief3wnx9nox21&st=6tup22md&dl=1",
-      "ver": " 1.4.22b",
-      "category": "TryRoom"
-    },
-    {
-      "title": "Kodi BG (ARM-v7a)",
-      "description": "Модифицирана версия на добре познатият мултимедиен развлекателен център, който обединява всички ваши дигитални медии в красив и лесен за ползване интерфейс.",
-      "url": "http://dl.dropbox.com/scl/fi/cfc5v7ghk458lrqteujy6/Kodi-BG-ARM-v7a.apk?rlkey=4yf0pxt01qjemn8r8m4bklgru&st=agj1yl5g&dl=1",
-      "ver": " 21.3",
-      "category": "fidyBG"
-    },
-    {
-      "title": "Kodi BG (ARM-v8a)",
-      "description": "Модифицирана версия на добре познатият мултимедиен развлекателен център, който обединява всички ваши дигитални медии в красив и лесен за ползване интерфейс.",
-      "url": "http://dl.dropbox.com/scl/fi/vuqci61z6h4cupabcgsr0/Kodi-BG-ARM-v8a.apk?rlkey=07y0yx7tdtbgwi3nem12046ks&st=58qf6ukv&dl=1",
-      "ver": " 21.3",
-      "category": "fidyBG"
-    },
-    {
-      "title": "Modi (ARM-v7a)",
-      "description": "Супер олекотена модификация на КОДИ за тези, които го използват предимно за плейър. Може да се инсталира заедно с официалните версии. Основните промени са: български език по подразбиране, заменен е стандартния облик със Aquafluence, промяна в настройките по подразбиране, леки оптимизации и подобрения.",
-      "url": "http://dl.dropbox.com/scl/fi/3tjatan17p0ujm69savmq/Modi-ARM-v7a.apk?rlkey=ftgbniugk3rrk8dy0a7ch0wtf&st=6km696ip&dl=1",
-      "ver": " 21.3",
-      "category": "fidyBG"
-    },
-    {
-      "title": "Modi (ARM-v8a)",
-      "description": "Супер олекотена модификация на КОДИ за тези, които го използват предимно за плейър. Може да се инсталира заедно с официалните версии. Основните промени са: български език по подразбиране, заменен е стандартния облик със Aquafluence, промяна в настройките по подразбиране, леки оптимизации и подобрения.",
-      "url": "://dl.dropbox.com/scl/fi/jzppa5czhp4f4br4cms4g/Modi-ARM-v8a.apk?rlkey=70mth54golez4mscpm39hhlr7&st=vspzyasn&dl=1",
-      "ver": " 21.3",
-      "category": "fidyBG"
-    },
-    {
-      "title": "Modi Plus (ARM-v7a)",
-      "description": "Модификация на КОДИ предимно за поточно гледане на филми и сериали през торент тракери със автоматично търсене на български субтитри. Предварително са инсталирани няколко хранилища, официалните добавки Elementum и Elementum Burst, както и модифицираните Bulgarian Subs, SubLoader, TorrServer Client, BulTor и p2pBG.",
-      "url": "http://dl.dropbox.com/scl/fi/fetjo58c610z9srcp9esp/ModiPlus.apk?rlkey=oyw6xhj3h6bjeoo4s8ir9vfbm&st=cct9esb7&dl=1",
-      "ver": " 21.3.27",
-      "category": "fidyBG"
-    },
-    {
-      "title": "fidy WEB App",
-      "description": "Уеб базирано приложение с добавени линкове за бърз достъп до най-използваните сайтове за торенти, онлайн филми, сериали, видео, телевизия на живо, уеб камери и т.н. За по-лесна навигация е нужна мишка.",
-      "url": "http://dl.dropbox.com/scl/fi/oos5ux5m25m8ry740k5gx/fidyWEB.apk?rlkey=5qqoko1e0o5edl16d3hk2zizt&st=d40pt4nd&dl=1",
-      "ver": " 5.0",
-      "category": "fidyBG"
-    },
-    {
-      "title": "Sparkle TV Plus",
-      "description": "Лесен за употреба първокласен IPTV плейър, който издига гледането на телевизия на ново ниво и не прави компромис с функционалността. Поддържат се формати на доставчици като m3u, Xtream кодове, xmltv и ефирна антена, използваща HD HomeRun, Plex или Jellyfin.",
-      "url": "http://dl.dropbox.com/scl/fi/mhwvzhq62o6e4nze4u0w4/Sparkle.apk?rlkey=dczhh5nlevpyolyxx2vcfmgtx&st=0am7dmv6&dl=1",
-      "ver": " 2.3.1",
-      "category": "fidyBG"
-    },
-    {
-      "title": "TiViMate Premium",
-      "description": "Много популярен и лесен за работа IPTV плейър, който е смятан за най-добрия в класа си заради опростеният интерфейс и гладкото управление с дистанционно. Това е стара модифицирана и клонирана версия изцяло на български език, което означава че получавате всички платени функции на плейъра и едновременно може да имате и официалната версия на същото устройство, ако желаете.",
-      "url": "http://dl.dropbox.com/scl/fi/5ptlrxkcle8s6ojphxex1/tivimatebg.apk?rlkey=esb33njyzg1ce6cg0ec1mlkte&st=kqdxqz4y&dl=1",
-      "ver": " 2.1.5",
-      "category": "fidyBG"
-    },
-    {
-      "title": "IPTV Pro",
-      "description": "Много добър и бърз IPTV плейър, работещ с Xtream кодове, m3u файлове и линкове.",
-      "url": "http://dl.dropbox.com/scl/fi/k6i84wdad1y4hgbe4szkn/IPTV.apk?rlkey=n4of7nc8mscw3wxnt9k9mumhn&st=a4hf8r42&dl=1",
-      "ver": " 9.1.25",
-      "category": "Balatan"
-    },
-    {
-      "title": "Televizo Premium",
-      "description": "IPTV плейър за устройства с Android, който позволява на потребителите да гледат телевизия на живо, филми и сериали, като свързват свои собствени плейлисти от външни IPTV доставчици. Поддържа M3U плейлисти и Xtream кодове, както и електронен програмен справочник (EPG), таймшифт и архиви.",
-      "url": "http://dl.dropbox.com/scl/fi/dnxy8wv54gafpmsrdna7c/TelevizoPremium.apk?rlkey=0nosxc8ckevxb338fxn6cfquy&st=99d5osx5&dl=1",
-      "ver": " 1.9.9.31-g",
-      "category": "DexUnpacker"
-    },
-    {
-      "title": "OTT Navigator Premium",
-      "description": "Мощен, изчистен, модерен IPTV видео плейър. Създайте свой собствен плейлист - ние ще се погрижим за останалото. Въведете вашия m3u линк или Xtream код акаунт и започнете да гледате телевизия на живо, филми и сериали в изискан интерфейс, предназначен за ежедневна употреба.",
-      "url": "http://dl.dropbox.com/scl/fi/r6aj0fdfaksl7kbjf288a/OTTNavigator.apk?rlkey=as1wpldli3hxis9qaxtcf0mi8&st=77jzzqgq&dl=1",
-      "ver": " 1.7.4.1",
-      "category": "TryRoom"
-    },
-    {
-      "title": "Jellyfin for Android TV",
-      "description": "Медийно безплатно решение с отворен код, създадено от доброволци, което ви дава пълен контрол над вашите медии. Колекционирайте, управлявайте и стриймвайте медийни файлове с перфектно качество към всяко устройство от вашия собствен сървър, без никакви условия и ограничения. Модифицирана версия с корекция на българския превод.",
-      "url": "http://dl.dropbox.com/scl/fi/8cbjod8sernvm47abshng/jellyfintv.apk?rlkey=ib3q71oe3ts2yc1lzz80ykvqe&st=kyrf4iil&dl=1",
-      "ver": " 0.19.10",
-      "category": "fidyBG"
-    },
-    {
-      "title": "Emby for Android TV",
-      "description": "Клиент за вашия личен медиен Emby сървър, с който може да гледате вашите видеоклипове, музика, снимки и телевизия на живо на всички ваши устройства, където и да се намирате.",
-      "url": "http://dl.dropbox.com/scl/fi/2ahirx3snurnwg5p3jg2f/EmbyATV.apk?rlkey=s8qegdhnc05z9z94wvzi7amip&st=yu8n59oc&dl=1",
-      "ver": " 2.1.55g",
-      "category": "Kirlif'"
-    },
-    {
-      "title": "SmartTube",
-      "description": "Медиен клиент за YouTube с отворен код за Android TV с разширени функции за възпроизвеждане на любимите ви видеоклипове без реклами.",
-      "url": "http://dl.dropbox.com/scl/fi/l13zvb1h9yhpy0l88lero/SmartTube.apk?rlkey=51qrxxslcg3fe80eugd6y8qy0&st=vuit73qt&dl=1",
-      "ver": " 32.10",
-      "category": "Official"
-    },
-    {
-      "title": "TizenTube",
-      "description": "Безплатен клиент за YouTube с отворен код, който премахва всички реклами, пропуска спонсори и ви дава пълен контрол върху гледането. Модифицирана версия с оригиналното име и лого на YouTube.",
-      "url": "http://dl.dropbox.com/scl/fi/w0k3hzm64mqbsfufmidmt/TizenTube.apk?rlkey=avbokben1nuiufatkpwnht5zc&st=mv6thpjt&dl=1",
-      "ver": " 2.0.2",
-      "category": "BlackFlux"
-    },
-    {
-      "title": "LazyMedia Deluxe Pro",
-      "description": "Иновативно приложение, предназначено за стрийминг на филми, телевизионни предавания и сериали от множество онлайн платформи. С лесен за употреба интерфейс и бърза навигация, то позволява персонализирано качество на видеото и опции за възпроизвеждане. Потребителите могат да управляват любими и да използват външни плейъри, осигурявайки персонализирано изживяване при гледане.",
-      "url": "http://dl.dropbox.com/scl/fi/qig0wbzanejuwwu4mv6y3/LazyMedia.apk?rlkey=reeux6hpewgem1xc5kihmc6zz&st=1xz9yl3a&dl=1",
-      "ver": " 3.463",
-      "category": "Strannik"
-    },
-    {
       "title": "Movian M7",
-      "description": "Медиен център с отворен код подобно на КОДИ. Проектирано предимно за телевизионни интерфейси, то позволява на потребителите да стриймват локални и интернет видеоклипове, музика и подкасти. Особено популярно е в общността на домашните разработчици на PlayStation 3 заради заобикалянето на ограниченията на оригиналните файлови формати.",
+      "description": "•Дата на добавяне: 25.08.2026\n•Компилация: Официална\n•Описание: Медиен център с отворен код подобно на КОДИ. Проектирано предимно за телевизионни интерфейси, то позволява на потребителите да стриймват локални и интернет видеоклипове, музика и подкасти. Особено популярно е в общността на домашните разработчици на PlayStation 3 заради заобикалянето на ограниченията на оригиналните файлови формати.",
       "url": "http://dl.dropbox.com/scl/fi/wm9xgie5447ywcskgpxpb/movian.apk?rlkey=ctswu9clm4cmwsdu0oi1wnjl6&st=kcposeh5&dl=1",
-      "ver": " 7.0.275",
-      "category": "Official"
-    },
-    {
-      "title": "LAMPA",
-      "description": "Инструмент за откриване на най-новите продукции във филмовата индустрия, включително филми, телевизионни сериали, анимационни филми и друга информация, чрез уебсайта с отворен код TMDB. Приложението поддържа плъгини, които включват решения за онлайн гледане, търсене на торенти и показване на рейтинги на филми и телевизионни сериали от услуги на трети страни (Kinopoisk, TMDB, IMDB).",
-      "url": "http://dl.dropbox.com/scl/fi/xkmz0b8xvvhkf53fdk4ou/LAMPA.apk?rlkey=nxmmhgh1nzutu9k1tvjeylz0u&st=u7wkf2t0&dl=1",
-      "ver": " 1.12.9",
-      "category": "Official"
-    },
-    {
-      "title": "NUM BG - No UI Movies",
-      "description": "Проста програма за търсене на филми и сериали без потребителски интерфейс - No User Interface Movies, разработена специално за Android TV и Google TV. Впоследствие обаче разработчикът реши програмата все пак да има интерфейс. Това е модифицирана версия преведена на български език.",
-      "url": "http://dl.dropbox.com/scl/fi/2skf4664fg7swtjxdnxks/NUM-BG.apk?rlkey=snykbbur6lca2egm9mwjaaivr&st=ais1qapt&dl=1",
-      "ver": " 1.0.150",
-      "category": "fidyBG"
-    },
-    {
-      "title": "TeaTv",
-      "description": "Безплатно стрийминг приложение за Android, предназначено да помогне на потребителите да намират и гледат филми и сериали от различни онлайн източници със високо качество и български субтитри. Вместо да хоства собствено съдържание, приложението събира налични стрийминг връзки от различни доставчици и ги показва в интерфейса си. Нужно е да инсталирате и видео плейъра TPlayer.",
-      "url": "http://dl.dropbox.com/scl/fi/lhzpk9398x2e1o8kn033c/TeaTV.apk?rlkey=lwntbgrmfuexwm2xwaxahwyqg&st=psvqz2l1&dl=1",
-      "ver": " 11.1.8",
-      "category": "Balatan"
-    },
-    {
-      "title": "TPlayer Premium",
-      "description": "Универсален медиен плейър за възпроизвеждане на видео и аудио файлове в различни формати на устройства с Android и Android TV. То често се използва и като вграден или външен плейър за различни стрийминг приложения. Поддържа почти всички популярни видео и аудио формати без нужда от допълнителни кодеци.",
-      "url": "http://dl.dropbox.com/scl/fi/w08u399g11tp0e8quo41h/TPlayer.apk?rlkey=xnz4tlq5x0bg7su4n2irvojj4&st=o3vm184g&dl=1",
-      "ver": " 8.2a",
-      "category": "youarefinished"
-    },
-    {
-      "title": "TorrServe Matrix",
-      "description": "Програма, която позволява на потребителите да гледат торенти онлайн, без да е необходимо предварително изтегляне на файлове. Основната функционалност на TorrServer включва кеширане на торенти и последващо прехвърляне на данни чрез HTTP протокол към плейър по желание, което позволява размерът на кеша да се регулира според системните параметри и скоростта на интернет връзката на потребителя.",
-      "url": "http://dl.dropbox.com/scl/fi/18yzf96qevk1txprqnrpe/TorrServe.apk?rlkey=po4bk5rgpw68msydlxjxu0n0h&st=76u8i40z&dl=1",
-      "ver": " 141.Client",
-      "category": "Official"
-    },
-    {
-      "title": "Replaio Radio for TV Premium",
-      "description": "Популярно приложение за интернет радио, което позволява на потребителите да слушат стрийминг на над 50 000 радиостанции от цял свят. То действа като оптимизиран медиен плейър, без да хоства аудио съдържание. С безплатна регистрация можете да синхрозирате любимите си радиостанции между всички устройства.",
-      "url": "http://dl.dropbox.com/scl/fi/uc4dz90heix6bso8f9636/ReplaioTV.apk?rlkey=ecnlbrahu9mwraezy6ci6bsii&st=xuc06cit&dl=1",
-      "ver": " 1.0.3tv",
-      "category": "Nurik"
-    },
-    {
-      "title": "tvQuickActions Pro",
-      "description": "Мощен инструмент за преназначаване на бутони и клавиши за устройства с Android TV и Google TV. Той ви позволява да персонализирате дистанционното си, като преназначите бутоните, зададете действия за двойно или дълго натискане и създадете макроси за бърз достъп (като отваряне на специфични настройки, активиране на таймер за заспиване или отваряне на вградена виртуална мишка).",
-      "url": "http://dl.dropbox.com/scl/fi/tzck3s3x1oy6k1c0a1338/tvQuickActions.apk?rlkey=jxhp1rxi0j7ee3k5hnm3g1rdt&st=g0um2kjz&dl=1",
-      "ver": " 3.7.0",
-      "category": "ogo2012"
-    },
-    {
-      "title": "Button Mapper Pro",
-      "description": "Приложението улеснява назначаването на персонализирани действия с бутоните за сила на звука, бутона Bixby или други хардуерни бутони на вашия телефон, таблет или телевизор. Стартирайте приложения и преки пътища или задайте персонализирани действия при единични, двойни и дълги натискания на хардуерните бутони на вашето устройство.",
-      "url": "http://dl.dropbox.com/scl/fi/hwauk6wy2fe7befky83v1/ButtonMapper.apk?rlkey=b6tdehmmh47tjda4z1kdsw8wo&st=72fh7te7&dl=1",
-      "ver": " 4.07",
-      "category": "Maximoff"
-    },
-    {
-      "title": "Projectivy+ Launcher Premium",
-      "description": "Кажете сбогом на претрупаните екрани и натрапчивите реклами. Запознайте се с Projectivy Launcher, най-добрият персонализируем лаунчър, който превръща началния ви екран в елегантен център за забавление без реклами. Автоматично замества заводския лаунчър, дори той да не може да се деактивира или деинсталира без допълнителни действия или програми.",
-      "url": "http://dl.dropbox.com/scl/fi/m5y2wya55yfa14snx9y2s/Projectivybg.apk?rlkey=wp4rc8kyyv8ao19qweveoc8xq&st=f78ltyw1&dl=1",
-      "ver": " 4.71",
-      "category": "fidyBG"
-    },
-    {
-      "title": "Nexfy Launcher Premium",
-      "description": "Минималистичен, бърз и интелигентен лаунчър, който е специално разработен за Android TV устройства, което дава приоритет на скоростта, простотата и потребителското изживяване, основано на изкуствен интелект. Поддържа интеграция с API на OpenAI, Gemini, Cloudflare, OpenRouter и др. Ако сте уморени от претрупани интерфейси, натоварващи очите реклами и ненужен софтуер, който забавя системата ви, Nexfy предлага леката, модерна и интелигентна алтернатива, която търсите.",
-      "url": "http://dl.dropbox.com/scl/fi/jn78yz8pmu17dikym72i0/NexfyLauncher.apk?rlkey=omed69g3yn6bko1pjzg9jjhep&st=mxkgniq8&dl=1",
-      "ver": " 1.1.17",
-      "category": "TryRoom"
-    },
-    {
-      "title": "Monet Launcher Premium",
-      "description": "Алтернативен лаунчър, създаден специално за устройства с Android TV и Google TV. Основната му цел е да замени фабричния интерфейс, премахвайки натрапчивите реклами и тромавия дизайн. Основното му вдъхновение идва от дизайнерския език Material You на Google, като интерфейсът му автоматично променя своите цветове, акценти и теми спрямо избрания от вас тапет (ефект, известен в Android като „Monet“).",
-      "url": "http://dl.dropbox.com/scl/fi/7owjk61fc91nd5rkzfb4r/MonetLauncher.apk?rlkey=nhto8darznz2zfb64a3i42bwa&st=28gaygs1&dl=1",
-      "ver": " 1.0.76",
-      "category": "TryRoom"
-    },
-    {
-      "title": "Wolfy Launcher",
-      "description": "Персонализиран лаунчър, създаден от SweenWolf, който ще промени потребителския интерфейс на вашето стрийминг устройство, след което вече няма да виждате рекламите показвани от заводския. Поддържа и добавяне на притурки. Тази модифицирана версия е изцяло преведена на български език.",
-      "url": "http://dl.dropbox.com/scl/fi/0vcr98oh2dtg57ikvahhi/WolfyBG.apk?rlkey=n8f070rktaz56a7i30n0xa79p&st=7b9yf7ci&dl=1",
-      "ver": " 1.3.BG",
-      "category": "fidyBG"
-    },
-    {
-      "title": "ATV Launcher Pro",
-      "description": "Многофункционален лаунчър с висококачествена графика и производителност за Android TV устройства. Програма с ясен, цветен интерфейс и проста система за управление, достъпна за всеки начинаещ, трансформираща техните системи в по-удобна и красива структура с висока степен на функционалност. Тази модифицирана версия е изцяло преведена на български език.",
-      "url": "http://dl.dropbox.com/scl/fi/n7bnq5znju4w7hgmxniu5/ATVLauncherBG.apk?rlkey=1fqawdcrqk0lzsd0hmoep2eog&st=4v91ge9v&dl=1",
-      "ver": " 0.1.39",
-      "category": "fidyBG"
-    },
-    {
-      "title": "Aerial Views Screensaver",
-      "description": "Скрийнсейвър за ТВ и мобилни устройства с Android вдъхновен от красивия видео скрийнсейвър на Apple TV.",
-      "url": "http://dl.dropbox.com/scl/fi/glf0p3bgkaty9o0gnega8/aerial.apk?rlkey=32vma6djahuz4wfe2uz068v0k&st=rx9mfnrs&dl=1",
-      "ver": " 1.8.4",
-      "category": "Official"
-    },
-    {
-      "title": "Transparent Clock&Weather Pro",
-      "description": "Приложение за времето, което ви помага да планирате деня си с точни прогнози, радар на живо и персонализируеми притурки за часовник и време. Получавайте почасова прогноза, както и ясна вероятност за валежи от дъжд или сняг, усещане за температури, качество на въздуха и UV индекс, влажност, видимост, посока или скорост на вятъра и тенденции в налягането, за да можете да излезете навън подготвени.",
-      "url": "http://dl.dropbox.com/scl/fi/kltvf3yo3wmdiavr9hfy2/MatrixTV.apk?rlkey=9ym3vno0ukk7897s0g2q6cihs&st=d46ioxgo&dl=1",
-      "ver": " 9.14.0",
-      "category": "ogo2012"
-    },
-    {
-      "title": "Matrix TV Live Wallpaper",
-      "description": "Скрийнсейвър с анимиран ефект на кода от Матрицата за устройства с Android TV. Модифицирана версия без реклами.",
-      "url": "http://dl.dropbox.com/scl/fi/kltvf3yo3wmdiavr9hfy2/MatrixTV.apk?rlkey=9ym3vno0ukk7897s0g2q6cihs&st=d46ioxgo&dl=1",
-      "ver": " 1.1.0",
-      "category": "ogo2012"
-    },
-    {
-      "title": "SecretoTools TV",
-      "description": "Професионален инструмент за диагностика, създаден специално за устройства с Android TV и Google TV. Той ви помага да инспектирате, анализирате и управлявате телевизионното си устройство чрез изчистен интерфейс, оптимизиран за навигация с дистанционно управление. Модифицирана версия без реклами.",
-      "url": "http://dl.dropbox.com/scl/fi/im4ibh2ue7xjlih6z393u/SecretoTools.apk?rlkey=3ork7n1nnt6x1s0lcjgtu5140&st=zd1xpyia&dl=1",
-      "ver": " 1.0.1",
-      "category": "TryRoom"
+      "ver": " 7.0.277",
+      "category": "Мултимедия"
     },
     {
       "title": "AIDA64",
-      "description": "Мощен инструмент за получаване на изчерпателна информация за вашето устройство, както за хардуера, така и за софтуера. Модифицирана версия без реклами.",
+      "description": "•Дата на добавяне: 25.08.2026\n•Компилация: Strannik\n•Описание: Мощен инструмент за получаване на изчерпателна информация за вашето устройство, както за хардуера, така и за софтуера. Модифицирана версия без реклами.",
       "url": "http://dl.dropbox.com/scl/fi/ir1nor0e2o42bjlpqvbqm/AIDA64.apk?rlkey=6t0mq04dfq5it0kaypi2vgfr4&st=pjlx1qzh&dl=1",
       "ver": " 2.22",
-      "category": "Strannik"
+      "category": "Инструменти"
     },
     {
       "title": "Via Browser",
-      "description": "Лек, минималистичен уеб браузър, създаден специално за Android устройства. Той използва вградения в системата WebView рендерер, за да осигури светкавичнa бързина, докато блокира досадните реклами и изскачащи прозорци и в същото време консумира много малко място за съхранение и памет.",
+      "description": "•Дата на добавяне: 25.08.2026\n•Компилация: AnBo39\n•Описание: Лек, минималистичен уеб браузър, създаден специално за Android устройства. Той използва вградения в системата WebView рендерер, за да осигури светкавична бързина, докато блокира досадните реклами и изскачащи прозорци и в същото време консумира много малко място за съхранение и памет.",
       "url": "http://dl.dropbox.com/scl/fi/9f5hp2wfweym6vt3sngx5/ViaBrowser.apk?rlkey=1fl9d5tmvykv9luem72qm5xjp&st=9a24wvs1&dl=1",
-      "ver": " 7.3.0",
-      "category": "AnBo39"
+      "ver": " 7.3.3",
+      "category": "Инструменти"
     },
     {
-      "title": "EchoGram Premium",
-      "description": "Неофициален, високо оценен видео плейър за Telegram, специално разработен за Android TV. Той позволява на потребителите да стриймват видеоклипове, филми и телевизионни предавания от своите Telegram канали или чатове директно на по-голям телевизионен екран, заобикаляйки нуждата от телефон или таблет.",
-      "url": "http://dl.dropbox.com/scl/fi/rcr3izctvayw9jxj6m6zi/EchoGram.apk?rlkey=sa0cykt216voub41sqzse0y4x&st=8zbkz7pv&dl=1",
+      "title": "NUM BG - No UI Movies",
+      "description": "•Дата на добавяне: 23.08.2026\n•Компилация: fidyBG\n•Описание: Проста програма за търсене на филми и сериали без потребителски интерфейс - No User Interface Movies, разработена специално за Android TV и Google TV. Впоследствие обаче разработчикът реши програмата все пак да има интерфейс. Това е модифицирана версия преведена на български език.",
+      "url": "http://dl.dropbox.com/scl/fi/2skf4664fg7swtjxdnxks/NUM-BG.apk?rlkey=snykbbur6lca2egm9mwjaaivr&st=ais1qapt&dl=1",
+      "ver": " 1.0.150",
+      "category": "Филми и Сериали"
+    },
+    {
+      "title": "Nexfy Launcher Premium",
+      "description": "•Дата на добавяне: 22.08.2026\n•Компилация: TryRoom\n•Описание: Минималистичен, бърз и интелигентен лаунчър, който е специално разработен за Android TV устройства, което дава приоритет на скоростта, простотата и потребителското изживяване, основано на изкуствен интелект. Поддържа интеграция с API на OpenAI, Gemini, Cloudflare, OpenRouter и др. Ако сте уморени от претрупани интерфейси, натоварващи очите реклами и ненужен софтуер, който забавя системата ви, Nexfy предлага леката, модерна и интелигентна алтернатива, която търсите.",
+      "url": "http://dl.dropbox.com/scl/fi/jn78yz8pmu17dikym72i0/NexfyLauncher.apk?rlkey=omed69g3yn6bko1pjzg9jjhep&st=mxkgniq8&dl=1",
+      "ver": " 1.1.17",
+      "category": "Лаунчъри"
+    },
+    {
+      "title": "Monet Launcher Premium",
+      "description": "•Дата на добавяне: 22.08.2026\n•Компилация: TryRoom\n•Описание: Алтернативен лаунчър, създаден специално за устройства с Android TV и Google TV. Основната му цел е да замени фабричния интерфейс, премахвайки натрапчивите реклами и тромавия дизайн. Основното му вдъхновение идва от дизайнерския език Material You на Google, като интерфейсът му автоматично променя своите цветове, акценти и теми спрямо избрания от вас тапет (ефект, известен в Android като „Monet“).",
+      "url": "http://dl.dropbox.com/scl/fi/7owjk61fc91nd5rkzfb4r/MonetLauncher.apk?rlkey=nhto8darznz2zfb64a3i42bwa&st=28gaygs1&dl=1",
+      "ver": " 1.0.76",
+      "category": "Лаунчъри"
+    },
+    {
+      "title": "Solid Explorer File Manager Pro",
+      "description": "•Дата на добавяне: 21.08.2026\n•Компилация: Balatan\n•Описание: Файлов мениджър предлагащ управление чрез два панела с елегантен и интуитивен интерфейс, който крие мощни функции за организиране на файлове и архиви локално, по мрежата и облачно, което го прави отличен избор за всички потребители.",
+      "url": "http://dl.dropbox.com/scl/fi/ut3qmeuksogfmygv321aq/SolidX.apk?rlkey=z4tbw1z0tlu1uh0i0aedxe0zj&st=mlam9f78&dl=1",
+      "ver": " 3.5.19",
+      "category": "Файл мениджъри"
+    },
+    {
+      "title": "Emby for Android TV",
+      "description": "•Дата на добавяне: 21.08.2026\n•Компилация: Kirlif'\n•Описание: Клиент за вашия личен медиен Emby сървър, с който може да гледате вашите видеоклипове, музика, снимки и телевизия на живо на всички ваши устройства, където и да се намирате.",
+      "url": "http://dl.dropbox.com/scl/fi/2ahirx3snurnwg5p3jg2f/EmbyATV.apk?rlkey=s8qegdhnc05z9z94wvzi7amip&st=yu8n59oc&dl=1",
+      "ver": " 2.1.55g",
+      "category": "Стрийминг'"
+    },
+    {
+      "title": "MiXplorer Silver File Manager",
+      "description": "•Дата на добавяне: 18.08.2026\n•Компилация: Balatan\n•Описание: Бърз, красив, надежден и пълнофункционален файлов мениджър за Android с опростен и интуитивен потребителски интерфейс.",
+      "url": "http://dl.dropbox.com/scl/fi/j1spxj219vtebi8qhpc10/MiXplorer.apk?rlkey=fb5u5ze1ay77102plza77175n&st=9c4rawhf&dl=1",
+      "ver": " 6.71.11",
+      "category": "Файл мениджъри"
+    },
+    {
+      "title": "SecretoTools TV",
+      "description": "•Дата на добавяне: 18.08.2026\n•Компилация: TryRoom\n•Описание: Професионален инструмент за диагностика, създаден специално за устройства с Android TV и Google TV. Той ви помага да инспектирате, анализирате и управлявате телевизионното си устройство чрез изчистен интерфейс, оптимизиран за навигация с дистанционно управление. Модифицирана версия без реклами.",
+      "url": "http://dl.dropbox.com/scl/fi/im4ibh2ue7xjlih6z393u/SecretoTools.apk?rlkey=3ork7n1nnt6x1s0lcjgtu5140&st=zd1xpyia&dl=1",
       "ver": " 1.0.1",
-      "category": "TryRoom"
-    },
-    {
-      "title": "Tevegram Premium (ARM-v7a)",
-      "description": "Неофициален Telegram клиент, създаден специално за Android TV, който преоткрива начина, по който взаимодействате с функциите на Telegram. Гледайте филмите и медиите си, пишете си с приятели, семейство и колеги директно от вашия телевизор. Не пропускайте нито един момент от любимите си предавания или филми, тъй като уникалните плаващи известия на Tevegram предоставят важни актуализации и съобщения, без да прекъсват зрителското ви изживяване.",
-      "url": "http://dl.dropbox.com/scl/fi/ak1obszjauxf9v8ht5f33/Tevegram-ARM-v7a.apk?rlkey=l1z5owiqrf8c92lwu5qeqwbgx&st=ebaajdu0&dl=1",
-      "ver": " 3.3.9",
-      "category": "TryRoom"
-    },
-    {
-      "title": "Tevegram Premium (ARM-v8a)",
-      "description": "Неофициален Telegram клиент, създаден специално за Android TV, който преоткрива начина, по който взаимодействате с функциите на Telegram. Гледайте филмите и медиите си, пишете си с приятели, семейство и колеги директно от вашия телевизор. Не пропускайте нито един момент от любимите си предавания или филми, тъй като уникалните плаващи известия на Tevegram предоставят важни актуализации и съобщения, без да прекъсват зрителското ви изживяване.",
-      "url": "http://dl.dropbox.com/scl/fi/2d6u6wghz1jnxu9xp1y3y/Tevegram-ARM-v8a.apk?rlkey=525p1to5jkm32pc5rw3ydgdlb&st=bobg7l02&dl=1",
-      "ver": " 3.3.9",
-      "category": "TryRoom"
-    },
-    {
-      "title": "IPTV Smarters Pro",
-      "description": "Невероятен медиен стрийминг плейър, разработен специално за потребители, които искат да имат възможността да гледат телевизия на живо, филми, сериали и TV Catchup на своя смарт телевизор.",
-      "url": "http://dl.dropbox.com/scl/fi/bnfujo2ev1bojjh0qxxvp/IPTVSmarters.apk?rlkey=acldidry72duyzsevs96x19n5&st=uy8kcct0&dl=1",
-      "ver": " 5.0",
-      "category": "TryRoom"
-    },
-    {
-      "title": "M3U IPTV Premium",
-      "description": "Приложение, където забавлението среща удобството. Открийте несравнимо развлекателно изживяване с лекота и гъвкавост, напълно безплатно и без реклама. С нашето приложение можете да се наслаждавате на вашите IPTV плейлисти на любимото ви устройство.",
-      "url": "http://dl.dropbox.com/scl/fi/wkgvr55p4lum25gs62owx/M3UIPTV.apk?rlkey=8n71k5vp54u7pwdqscf9svusa&st=3xhivwln&dl=1",
-      "ver": " 3.0.18.1",
-      "category": "TryRoom"
-    },
-    {
-      "title": "ADB TV App Manager",
-      "description": "Мощно приложение за Android TV и Google TV, което ви позволява да управлявате, деактивирате (замразявате) и деинсталирате приложения, без да е необходим root достъп. Единственото изискване е да активирате Опции за програмисти (Developer Options) и включите Отстраняване на грешки през USB в настройките на вашето устройство. Използва се Android Debug Bridge (ADB), за да взаимодейства със системните файлове директно от него.",
-      "url": "http://dl.dropbox.com/scl/fi/mz6jdeplx7yocc6o88e35/ADBTV.apk?rlkey=wyh0taf73j27d0kibkktr8ji4&st=cagg9owh&dl=1",
-      "ver": " 1.12",
-      "category": "Official"
-    },
-    {
-      "title": "IP Camera Viewer PRO",
-      "description": "Преглед и възпроизвеждане на IP камерu или домашни системи за видеонаблюдение директно на вашия андроид телевизор.",
-      "url": "http://dl.dropbox.com/scl/fi/awvv7upg1i8n970eo6z28/CamView.apk?rlkey=9wkd8knvvi0g9ggl3a99nhj5b&st=hvajqx9r&dl=1",
-      "ver": " 11.1.7",
-      "category": "TRUMods"
-    },
-    {
-      "title": "Vimu Media Player (ARM-v7a)",
-      "description": "Специализиран видео и аудио плейър, създаден специално за Android TV. С негова помощ можете да възпроизвеждате файлове локално или от USB устройства, както и стрийминг на съдържание от домашни мрежи като SMB, DLNA и WebDAV. Модифицирана версия с активиран лиценз и работещ Dolby Vision.",
-      "url": "http://dl.dropbox.com/scl/fi/6oav5jntoye2tsruialnk/VimuMediaPlayer-ARM-v7a.apk?rlkey=f5757mt78n8eb4a1rmklosinu&st=wkisjsm7&dl=1",
-      "ver": " 10.10",
-      "category": "Strannik"
-    },
-    {
-      "title": "Vimu Media Player (ARM-v8a)",
-      "description": "Специализиран видео и аудио плейър, създаден специално за Android TV. С негова помощ можете да възпроизвеждате файлове локално или от USB устройства, както и стрийминг на съдържание от домашни мрежи като SMB, DLNA и WebDAV. Модифицирана версия с активиран лиценз и работещ Dolby Vision.",
-      "url": "http://dl.dropbox.com/scl/fi/t1yyyc1lbulwj8c360v88/VimuMediaPlayer-ARM-v8a.apk?rlkey=qsh9lygkhf3w0qwgmlmnribff&st=apjdjjff&dl=1",
-      "ver": " 10.10",
-      "category": "Strannik"
+      "category": "Инструменти"
     },
     {
       "title": "XEQ Equalizer Pro",
-      "description": "Еквалайзер и професионален усилвател на басите за Android, създаден за потребители, които искат пълен контрол над звука си. XEQ осигурява звук със студийно качество без никакви изкривявания.",
+      "description": "•Дата на добавяне: 18.08.2026\n•Компилация: TryRoom\n•Описание: Еквалайзер и професионален усилвател на басите за Android, създаден за потребители, които искат пълен контрол над звука си. XEQ осигурява звук със студийно качество без никакви изкривявания.",
       "url": "http://dl.dropbox.com/scl/fi/vjowpb5mx6akjetnwyvcw/XEQEqualizer.apk?rlkey=lalshhtv7w55f4hpp94e1ux5n&st=0rtscc9i&dl=1",
       "ver": " 39.0.5",
-      "category": "TryRoom"
+      "category": "Инструменти"
+    },
+    {
+      "title": "RuStore for TV",
+      "description": "•Дата на добавяне: 17.08.2026\n•Компилация: Официална\n•Описание: Официален руски магазин за приложения за Android, разработен от руската онлайн социална мрежа VK (ВКонтакте). Магазинът предлага над 110 000 игри и приложения от разработчици в над 70 държави, като потребителите могат да ги инсталират или актуализират, да ги оценяват и да правят покупки, използвайки всички популярни методи за разплащане, докато разработчиците могат да публикуват своите продукти, да взаимодействат с потребителите и да развиват бизнеса си.",
+      "url": "http://dl.dropbox.com/scl/fi/acuf6rmr6e8ykx9blf2d1/RuStoreTV.apk?rlkey=7y03w564l0finhjuxprom7xcq&st=rszvsmmn&dl=1",
+      "ver": " 1.107.0.2",
+      "category": "Магазини"
+    },
+    {
+      "title": "M3U IPTV Premium",
+      "description": "•Дата на добавяне: 17.08.2026\n•Компилация: TryRoom\n•Описание: Приложение, където забавлението среща удобството. Открийте несравнимо развлекателно изживяване с лекота и гъвкавост, напълно безплатно и без реклама. С нашето приложение можете да се наслаждавате на вашите IPTV плейлисти на любимото ви устройство.",
+      "url": "http://dl.dropbox.com/scl/fi/wkgvr55p4lum25gs62owx/M3UIPTV.apk?rlkey=8n71k5vp54u7pwdqscf9svusa&st=3xhivwln&dl=1",
+      "ver": " 3.0.18.1",
+      "category": "Телевизия"
+    },
+    {
+      "title": "Jellyfin for Android TV",
+      "description": "•Дата на добавяне: 16.08.2026\n•Компилация: fidyBG\n•Описание: Медийно безплатно решение с отворен код, създадено от доброволци, което ви дава пълен контрол над вашите медии. Колекционирайте, управлявайте и стриймвайте медийни файлове с перфектно качество към всяко устройство от вашия собствен сървър, без никакви условия и ограничения. Модифицирана версия с корекция на българския превод.",
+      "url": "http://dl.dropbox.com/scl/fi/8cbjod8sernvm47abshng/jellyfintv.apk?rlkey=ib3q71oe3ts2yc1lzz80ykvqe&st=kyrf4iil&dl=1",
+      "ver": " 0.19.10",
+      "category": "Стрийминг"
+    },
+    {
+      "title": "LazyMedia Deluxe Pro",
+      "description": "•Дата на добавяне: 15.08.2026\n•Компилация: Strannik\n•Описание: Иновативно приложение, предназначено за стрийминг на филми, телевизионни предавания и сериали от множество онлайн платформи. С лесен за употреба интерфейс и бърза навигация, то позволява персонализирано качество на видеото и опции за възпроизвеждане. Потребителите могат да управляват любими и да използват външни плейъри, осигурявайки персонализирано изживяване при гледане.",
+      "url": "http://dl.dropbox.com/scl/fi/qig0wbzanejuwwu4mv6y3/LazyMedia.apk?rlkey=reeux6hpewgem1xc5kihmc6zz&st=1xz9yl3a&dl=1",
+      "ver": " 3.463",
+      "category": "Филми и Сериали"
+    },
+    {
+      "title": "IP Camera Viewer PRO",
+      "description": "•Дата на добавяне: 14.08.2026\n•Компилация: TRUMods\n•Описание: Преглед и възпроизвеждане на IP камери или домашни системи за видеонаблюдение директно на вашия андроид телевизор.",
+      "url": "http://dl.dropbox.com/scl/fi/awvv7upg1i8n970eo6z28/CamView.apk?rlkey=9wkd8knvvi0g9ggl3a99nhj5b&st=hvajqx9r&dl=1",
+      "ver": " 11.1.7",
+      "category": "Инструменти"
+    },
+    {
+      "title": "Televizo Premium",
+      "description": "•Дата на добавяне: 12.08.2026\n•Компилация: DexUnpacker\n•Описание: IPTV плейър за устройства с Android, който позволява на потребителите да гледат телевизия на живо, филми и сериали, като свързват свои собствени плейлисти от външни IPTV доставчици. Поддържа M3U плейлисти и Xtream кодове, както и електронен програмен справочник (EPG), таймшифт и архиви.",
+      "url": "http://dl.dropbox.com/scl/fi/dnxy8wv54gafpmsrdna7c/TelevizoPremium.apk?rlkey=0nosxc8ckevxb338fxn6cfquy&st=99d5osx5&dl=1",
+      "ver": " 1.9.9.31-g",
+      "category": "Телевизия"
+    },
+    {
+      "title": "IPTV Pro",
+      "description": "•Дата на добавяне: 10.08.2026\n•Компилация: Balatan\n•Описание: Много добър и бърз IPTV плейър, работещ с Xtream кодове, m3u файлове и линкове.",
+      "url": "http://dl.dropbox.com/scl/fi/k6i84wdad1y4hgbe4szkn/IPTV.apk?rlkey=n4of7nc8mscw3wxnt9k9mumhn&st=a4hf8r42&dl=1",
+      "ver": " 9.1.25",
+      "category": "Телевизия"
+    },
+    {
+      "title": "SmartTube",
+      "description": "•Дата на добавяне: 08.08.2026\n•Компилация: Официална\n•Описание: Медиен клиент за YouTube с отворен код за Android TV с разширени функции за възпроизвеждане на любимите ви видеоклипове без реклами.",
+      "url": "http://dl.dropbox.com/scl/fi/l13zvb1h9yhpy0l88lero/SmartTube.apk?rlkey=51qrxxslcg3fe80eugd6y8qy0&st=vuit73qt&dl=1",
+      "ver": " 32.10",
+      "category": "Стрийминг"
+    },
+    {
+      "title": "X-plore File Manager",
+      "description": "•Дата на добавяне: 05.08.2026\n•Компилация: youarefinished\n•Описание: Високоефективен файлов мениджър с два панела, създаден за опитни потребители, които се нуждаят от усъвършенствани инструменти за управление на локални файлове, достъп до локални мрежи, отдалечени сървъри (облаци) и навигиране във вътрешни йерархии на директории. Модифицирана версия без реклами.",
+      "url": "http://dl.dropbox.com/scl/fi/bp24bt5vjn0j5fe2ntbki/X-plore.apk?rlkey=xl725f82o1bdo0jz241bu8l1z&st=j0zeswn2&dl=1",
+      "ver": " 4.49.10",
+      "category": "Файл мениджъри"
+    },
+    {
+      "title": "Aerial Views Screensaver",
+      "description": "•Дата на добавяне: 05.08.2026\n•Компилация: Официална\n• Описание: Скрийнсейвър за ТВ и мобилни устройства с Android вдъхновен от красивия видео скрийнсейвър на Apple TV.",
+      "url": "http://dl.dropbox.com/scl/fi/glf0p3bgkaty9o0gnega8/aerial.apk?rlkey=32vma6djahuz4wfe2uz068v0k&st=rx9mfnrs&dl=1",
+      "ver": " 1.8.4",
+      "category": "Скрийнсейвъри"
+    },
+    {
+      "title": "Transparent Clock&Weather Pro",
+      "description": "•Дата на добавяне: 05.08.2026\n•Компилация: ogo2012\n•Описание: Приложение за времето, което ви помага да планирате деня си с точни прогнози, радар на живо и персонализируеми притурки за часовник и време. Получавайте почасова прогноза, както и ясна вероятност за валежи от дъжд или сняг, усещане за температури, качество на въздуха и UV индекс, влажност, видимост, посока или скорост на вятъра и тенденции в налягането, за да можете да излезете навън подготвени.",
+      "url": "http://dl.dropbox.com/scl/fi/kltvf3yo3wmdiavr9hfy2/MatrixTV.apk?rlkey=9ym3vno0ukk7897s0g2q6cihs&st=d46ioxgo&dl=1",
+      "ver": " 9.14.0",
+      "category": "Инструменти"
+    },
+    {
+      "title": "TPlayer Premium",
+      "description": "•Дата на добавяне: 04.08.2026\n•Компилация: youarefinished\n•Описание: Универсален медиен плейър за възпроизвеждане на видео и аудио файлове в различни формати на устройства с Android и Android TV. То често се използва и като вграден или външен плейър за различни стрийминг приложения. Поддържа почти всички популярни видео и аудио формати без нужда от допълнителни кодеци.",
+      "url": "http://dl.dropbox.com/scl/fi/w08u399g11tp0e8quo41h/TPlayer.apk?rlkey=xnz4tlq5x0bg7su4n2irvojj4&st=o3vm184g&dl=1",
+      "ver": " 8.2a",
+      "category": "Плейъри"
+    },
+    {
+      "title": "LAMPA",
+      "description": "•Дата на добавяне: 31.07.2026\n•Компилация: Официална\n•Описание: Инструмент за откриване на най-новите продукции във филмовата индустрия, включително филми, телевизионни сериали, анимационни филми и друга информация, чрез уебсайта с отворен код TMDB. Приложението поддържа плъгини, които включват решения за онлайн гледане, търсене на торенти и показване на рейтинги на филми и телевизионни сериали от услуги на трети страни (Kinopoisk, TMDB, IMDB).",
+      "url": "http://dl.dropbox.com/scl/fi/xkmz0b8xvvhkf53fdk4ou/LAMPA.apk?rlkey=nxmmhgh1nzutu9k1tvjeylz0u&st=u7wkf2t0&dl=1",
+      "ver": " 1.12.9",
+      "category": "Филми и Сериали"
+    },
+    {
+      "title": "Aurora App Store",
+      "description": "•Дата на добавяне: 28.07.2026\n•Компилация: Официална\n•Описание: Неофициален клиент за Google Play. Търсете, изтегляйте и инсталирайте приложения от официалния магазин Google Play. Можете да разглеждате описания на приложения, екранни снимки, актуализации и да съхраните APK файл директно от Google Play на вашето устройство.",
+      "url": "http://dl.dropbox.com/scl/fi/uclhntks9h8muq1cb4hg2/AuroraStore.apk?rlkey=3fejsdmp1oe5bpti41jx0j6tj&st=mwam6d9l&dl=1",
+      "ver": " 4.8.4",
+      "category": "Магазини"
+    },
+    {
+      "title": "TeaTv",
+      "description": "•Дата на добавяне: 27.07.2026\n•Компилация: Balatan\n•Описание: Безплатно стрийминг приложение за Android, предназначено да помогне на потребителите да намират и гледат филми и сериали от различни онлайн източници със високо качество и български субтитри. Вместо да хоства собствено съдържание, приложението събира налични стрийминг връзки от различни доставчици и ги показва в интерфейса си. Нужно е да инсталирате и видео плейъра TPlayer.",
+      "url": "http://dl.dropbox.com/scl/fi/lhzpk9398x2e1o8kn033c/TeaTV.apk?rlkey=lwntbgrmfuexwm2xwaxahwyqg&st=psvqz2l1&dl=1",
+      "ver": " 11.1.8",
+      "category": "Филми и Сериали"
+    },
+    {
+      "title": "tvQuickActions Pro",
+      "description": "•Дата на добавяне: 26.07.2026\n•Компилация: ogo2012\n•Описание: Мощен инструмент за преназначаване на бутони и клавиши за устройства с Android TV и Google TV. Той ви позволява да персонализирате дистанционното си, като преназначите бутоните, зададете действия за двойно или дълго натискане и създадете макроси за бърз достъп (като отваряне на специфични настройки, активиране на таймер за заспиване или отваряне на вградена виртуална мишка).",
+      "url": "http://dl.dropbox.com/scl/fi/tzck3s3x1oy6k1c0a1338/tvQuickActions.apk?rlkey=jxhp1rxi0j7ee3k5hnm3g1rdt&st=g0um2kjz&dl=1",
+      "ver": " 3.7.0",
+      "category": "Иструменти"
+    },
+    {
+      "title": "fidy APK Installer",
+      "description": "•Дата на добавяне: 25.07.2026\n•Компилация: fidyBG\n•Описание: Импровизиран магазин с безплатни и модифицирани приложения за Android TV, които могат да се инсталират и чрез ADB (Android Debug Bridge).",
+      "url": "http://dl.dropbox.com/scl/fi/mvy9jlcvdubqxfqcpvpss/fidyAPK.apk?rlkey=l0ror9den615mx0ct82rqdqgk&st=2x5jeue4&dl=1",
+      "ver": " 1.00",
+      "category": "Магазини"
+    },
+    {
+      "title": "File Manager Plus Premium",
+      "description": "•Дата на добавяне: 25.07.2026\n•Компилация: Balatan\n•Описание: Лесен за работа и мощен файлов мениджър за Android устройства. Изключително удобен за употреба, с който можете да управлявате вашите файлове и папки локално на устройството ви, по мрежата и в облачни хранилища като Dropbox и Google Диск.",
+      "url": "http://dl.dropbox.com/scl/fi/ix1m5etdb03oaib2kcj8z/FileManagerPlus.apk?rlkey=kj0yvdn1iwipl9yv7fm3t0l4o&st=o34eklom&dl=1",
+      "ver": " 3.8.3",
+      "category": "Файл мениджъри"
+    },
+    {
+      "title": "ATV Launcher Pro",
+      "description": "•Дата на добавяне: 24.07.2026\n•Компилация: fidyBG\n•Описание: Многофункционален лаунчър с висококачествена графика и производителност за Android TV устройства. Програма с ясен, цветен интерфейс и проста система за управление, достъпна за всеки начинаещ, трансформираща техните системи в по-удобна и красива структура с висока степен на функционалност. Тази модифицирана версия е изцяло преведена на български език.",
+      "url": "http://dl.dropbox.com/scl/fi/n7bnq5znju4w7hgmxniu5/ATVLauncherBG.apk?rlkey=1fqawdcrqk0lzsd0hmoep2eog&st=4v91ge9v&dl=1",
+      "ver": " 0.1.39",
+      "category": "Лаунчъри"
+    },
+    {
+      "title": "EchoGram Premium",
+      "description": "•Дата на добавяне: 23.07.2026\n•Компилация: TryRoom\n•Описание: Неофициален, високо оценен видео плейър за Telegram, специално разработен за Android TV. Той позволява на потребителите да стриймват видеоклипове, филми и телевизионни предавания от своите Telegram канали или чатове директно на по-голям телевизионен екран, заобикаляйки нуждата от телефон или таблет.",
+      "url": "http://dl.dropbox.com/scl/fi/rcr3izctvayw9jxj6m6zi/EchoGram.apk?rlkey=sa0cykt216voub41sqzse0y4x&st=8zbkz7pv&dl=1",
+      "ver": " 1.0.1",
+      "category": "Плейъри"
+    },
+    {
+      "title": "TVBoxBG Installer",
+      "description": "•Дата на добавяне: 18.07.2026\n•Компилация: TopperBG\n•Описание: Импровизиран магазин за приложения, събирани и организирани от потребители на групата TVBoxBG в телеграм.",
+      "url": "http://dl.dropbox.com/scl/fi/b9qh1l8ackj0rw5dkmdtw/tvboxbg.apk?rlkey=w697i7hsknnzrpzne1m9x00zj&st=9ypgkkd4&dl=1",
+      "ver": " 7.7",
+      "category": "Магазини"
+    },
+    {
+      "title": "ADB TV App Manager",
+      "description": "•Дата на добавяне: 18.07.2026\n•Компилация: Официална\n•Описание: Мощно приложение за Android TV и Google TV, което ви позволява да управлявате, деактивирате (замразявате) и деинсталирате приложения, без да е необходим root достъп. Единственото изискване е да активирате Опции за програмисти (Developer Options) и включите Отстраняване на грешки през USB в настройките на вашето устройство. Използва се Android Debug Bridge (ADB), за да взаимодейства със системните файлове директно от него.",
+      "url": "http://dl.dropbox.com/scl/fi/mz6jdeplx7yocc6o88e35/ADBTV.apk?rlkey=wyh0taf73j27d0kibkktr8ji4&st=cagg9owh&dl=1",
+      "ver": " 1.12",
+      "category": "Инструменти"
+    },
+    {
+      "title": "Vimu Media Player (ARM-v7a)",
+      "description": "•Дата на добавяне: 18.07.2026\n•Компилация: Strannik\n•Описание: Специализиран видео и аудио плейър, създаден специално за Android TV. С негова помощ можете да възпроизвеждате файлове локално или от USB устройства, както и стрийминг на съдържание от домашни мрежи като SMB, DLNA и WebDAV. Модифицирана версия с активиран лиценз и работещ Dolby Vision.",
+      "url": "http://dl.dropbox.com/scl/fi/6oav5jntoye2tsruialnk/VimuMediaPlayer-ARM-v7a.apk?rlkey=f5757mt78n8eb4a1rmklosinu&st=wkisjsm7&dl=1",
+      "ver": " 10.10",
+      "category": "Плейъри"
+    },
+    {
+      "title": "Vimu Media Player (ARM-v8a)",
+      "description": "•Дата на добавяне: 18.07.2026\n•Компилация: Strannik\n•Описание: Специализиран видео и аудио плейър, създаден специално за Android TV. С негова помощ можете да възпроизвеждате файлове локално или от USB устройства, както и стрийминг на съдържание от домашни мрежи като SMB, DLNA и WebDAV. Модифицирана версия с активиран лиценз и работещ Dolby Vision.",
+      "url": "http://dl.dropbox.com/scl/fi/t1yyyc1lbulwj8c360v88/VimuMediaPlayer-ARM-v8a.apk?rlkey=qsh9lygkhf3w0qwgmlmnribff&st=apjdjjff&dl=1",
+      "ver": " 10.10",
+      "category": "Плейъри"
+    },
+    {
+      "title": "Button Mapper Pro",
+      "description": "•Дата на добавяне: 17.07.2026\n•Компилация: Maximoff\n•Описание: Приложението улеснява назначаването на персонализирани действия с бутоните за сила на звука, бутона Bixby или други хардуерни бутони на вашия телефон, таблет или телевизор. Стартирайте приложения и преки пътища или задайте персонализирани действия при единични, двойни и дълги натискания на хардуерните бутони на вашето устройство.",
+      "url": "http://dl.dropbox.com/scl/fi/hwauk6wy2fe7befky83v1/ButtonMapper.apk?rlkey=b6tdehmmh47tjda4z1kdsw8wo&st=72fh7te7&dl=1",
+      "ver": " 4.07",
+      "category": "Инструменти"
+    },
+    {
+      "title": "Downloader for TVBoxBG",
+      "description": "•Дата на добавяне: 16.07.2026\n•Компилация: fidyBG\n•Описание: Импровизиран магазин за приложения, събирани и организирани от потребители на групата TVBoxBG в телеграм.",
+      "url": "http://dl.dropbox.com/scl/fi/uj90cvo8pxsbpp7qdrbem/Downloader.apk?rlkey=bnt7zc4xcj1shk3t1l60502bo&st=fxia3wo3&dl=1",
+      "ver": " 9.9.9",
+      "category": "Магазини"
+    },
+    {
+      "title": "Projectivy+ Launcher Premium",
+      "description": "•Дата на добавяне: 16.07.2026\n•Компилация: fidyBG\n•Описание: Кажете сбогом на претрупаните екрани и натрапчивите реклами. Запознайте се с Projectivy Launcher, най-добрият персонализируем лаунчър, който превръща началния ви екран в елегантен център за забавление без реклами. Автоматично замества заводския лаунчър, дори той да не може да се деактивира или деинсталира без допълнителни действия или програми. Модифицирана версия с обновен вътрешен магазин за инсталиране на приложения и корекции на българския превод.",
+      "url": "http://dl.dropbox.com/scl/fi/m5y2wya55yfa14snx9y2s/Projectivybg.apk?rlkey=wp4rc8kyyv8ao19qweveoc8xq&st=f78ltyw1&dl=1",
+      "ver": " 4.71",
+      "category": "Лаунчъри"
+    },
+    {
+      "title": "ES File Explorer Premium",
+      "description": "•Дата на добавяне: 05.06.2026\n•Компилация: Balatan\n•Описание: Известният софтуер за управление и организиране на файлове, папки и хранилища в Android, iOS и компютри беше един от най-изтегляните файлови мениджъри в миналото. Той обаче беше премахнат от Google Play, поради опасения за поверителността и сигурността, тъй като компанията майка беше хваната в измамни кликвания, рекламен софтуер и прекомерни фонови процеси.",
+      "url": "http://dl.dropbox.com/scl/fi/6551ky2ylnrj1ehyk92au/esfile.apk?rlkey=va5ek1lt0sx4q25q8xwufwi19&st=guuxu7mg&dl=1",
+      "ver": " 4.4.3.7",
+      "category": "Файл мениджъри"
+    },
+    {
+      "title": "Kodi BG (ARM-v7a)",
+      "description": "•Дата на добавяне: 30.05.2026\n•Компилация: fidyBG\n•Описание: Модифицирана версия на добре познатият мултимедиен развлекателен център, който обединява всички ваши дигитални медии в красив и лесен за ползване интерфейс.",
+      "url": "http://dl.dropbox.com/scl/fi/cfc5v7ghk458lrqteujy6/Kodi-BG-ARM-v7a.apk?rlkey=4yf0pxt01qjemn8r8m4bklgru&st=agj1yl5g&dl=1",
+      "ver": " 21.3",
+      "category": "Мултимедия"
+    },
+    {
+      "title": "Kodi BG (ARM-v8a)",
+      "description": "•Дата на добавяне: 30.05.2026\n•Компилация: fidyBG\n•Описание: Модифицирана версия на добре познатият мултимедиен развлекателен център, който обединява всички ваши дигитални медии в красив и лесен за ползване интерфейс.",
+      "url": "http://dl.dropbox.com/scl/fi/vuqci61z6h4cupabcgsr0/Kodi-BG-ARM-v8a.apk?rlkey=07y0yx7tdtbgwi3nem12046ks&st=58qf6ukv&dl=1",
+      "ver": " 21.3",
+      "category": "Мултимедия"
+    },
+    {
+      "title": "TizenTube",
+      "description": "•Дата на добавяне: 18.05.2026\n•Компилация: BlackFlux\n•Описание: Безплатен клиент за YouTube с отворен код, който премахва всички реклами, пропуска спонсори и ви дава пълен контрол върху гледането. Модифицирана версия с оригиналното име и лого на YouTube.",
+      "url": "http://dl.dropbox.com/scl/fi/w0k3hzm64mqbsfufmidmt/TizenTube.apk?rlkey=avbokben1nuiufatkpwnht5zc&st=mv6thpjt&dl=1",
+      "ver": " 2.0.2",
+      "category": "Стрийминг"
+    },
+    {
+      "title": "Sparkle TV Plus",
+      "description": "•Дата на добавяне: 08.05.2026\n•Компилация: fidyBG\n•Описание: Лесен за употреба първокласен IPTV плейър, който издига гледането на телевизия на ново ниво и не прави компромис с функционалността. Поддържат се формати на доставчици като m3u, Xtream кодове, xmltv и ефирна антена, използваща HD HomeRun, Plex или Jellyfin. Модифицирана версия преведена на български език.",
+      "url": "http://dl.dropbox.com/scl/fi/mhwvzhq62o6e4nze4u0w4/Sparkle.apk?rlkey=dczhh5nlevpyolyxx2vcfmgtx&st=0am7dmv6&dl=1",
+      "ver": " 2.3.1",
+      "category": "Телевизия"
+    },
+    {
+      "title": "Modi (ARM-v7a)",
+      "description": "•Дата на добавяне: 27.04.2026\n•Компилация: fidyBG\n•Описание: Супер олекотена модификация на КОДИ за тези, които го използват предимно за плейър. Може да се инсталира заедно с официалните версии. Основните промени са: български език по подразбиране, заменен е стандартния облик със Aquafluence, промяна в настройките по подразбиране, леки оптимизации и подобрения.",
+      "url": "http://dl.dropbox.com/scl/fi/3tjatan17p0ujm69savmq/Modi-ARM-v7a.apk?rlkey=ftgbniugk3rrk8dy0a7ch0wtf&st=6km696ip&dl=1",
+      "ver": " 21.3",
+      "category": "Мултимедия"
+    },
+    {
+      "title": "Modi (ARM-v8a)",
+      "description": "•Дата на добавяне: 27.04.2026\n•Компилация: fidyBG\n•Описание: Супер олекотена модификация на КОДИ за тези, които го използват предимно за плейър. Може да се инсталира заедно с официалните версии. Основните промени са: български език по подразбиране, заменен е стандартния облик със Aquafluence, промяна в настройките по подразбиране, леки оптимизации и подобрения.",
+      "url": "://dl.dropbox.com/scl/fi/jzppa5czhp4f4br4cms4g/Modi-ARM-v8a.apk?rlkey=70mth54golez4mscpm39hhlr7&st=vspzyasn&dl=1",
+      "ver": " 21.3",
+      "category": "Мултимедия"
+    },
+    {
+      "title": "Modi Plus (ARM-v7a)",
+      "description": "•Дата на добавяне: 27.04.2026\n•Компилация: fidyBG\n•Описание: Модификация на КОДИ предимно за поточно гледане на филми и сериали през торент тракери със автоматично търсене на български субтитри. Предварително са инсталирани няколко хранилища, официалните добавки Elementum и Elementum Burst, както и модифицираните Bulgarian Subs, SubLoader, TorrServer Client, BulTor и p2pBG.",
+      "url": "http://dl.dropbox.com/scl/fi/fetjo58c610z9srcp9esp/ModiPlus.apk?rlkey=oyw6xhj3h6bjeoo4s8ir9vfbm&st=cct9esb7&dl=1",
+      "ver": " 21.3.27",
+      "category": "Мултимедия"
+    },
+    {
+      "title": "fidy WEB App",
+      "description": "•Дата на добавяне: 12.04.2026\n•Компилация: fidyBG\n•Описание: Уеб базирано приложение с подбрани линкове за бърз достъп до най-използваните сайтове за торенти, онлайн филми, сериали, видео, телевизия на живо, уеб камери и т.н. За по-лесна навигация е нужна мишка.",
+      "url": "http://dl.dropbox.com/scl/fi/oos5ux5m25m8ry740k5gx/fidyWEB.apk?rlkey=5qqoko1e0o5edl16d3hk2zizt&st=d40pt4nd&dl=1",
+      "ver": " 5.0",
+      "category": "Инструменти"
+    },
+    {
+      "title": "TorrServe Matrix",
+      "description": "•Дата на добавяне: 26.02.2026\n•Компилация: Официална\n•Описание: Програма, която позволява на потребителите да гледат торенти онлайн, без да е необходимо предварително изтегляне на файлове. Основната функционалност на TorrServer включва кеширане на торенти и последващо прехвърляне на данни чрез HTTP протокол към плейър по желание, което позволява размерът на кеша да се регулира според системните параметри и скоростта на интернет връзката на потребителя.",
+      "url": "http://dl.dropbox.com/scl/fi/18yzf96qevk1txprqnrpe/TorrServe.apk?rlkey=po4bk5rgpw68msydlxjxu0n0h&st=76u8i40z&dl=1",
+      "ver": " 141.Client",
+      "category": "Стрийминг"
+    },
+    {
+      "title": "Aptoide TV App Store",
+      "description": "•Дата на добавяне: 14.02.2026\n•Компилация: Официална\n•Описание: Безплатен алтернативен магазин за приложения за Android TV.",
+      "url": "http://dl.dropbox.com/scl/fi/f5a1z53z5n4wl9etn22yv/AptoideTV.apk?rlkey=xjem5lxgo2m81z2ddswtk8mb1&st=hi8i3efb&dl=1",
+      "ver": " 5.1.3",
+      "category": "Магазини"
+    },
+    {
+      "title": "IPTV Smarters Pro",
+      "description": "•Дата на добавяне: 09.01.2026\n•Компилация: TryRoom\n•Описание: Невероятен медиен стрийминг плейър, разработен специално за потребители, които искат да имат възможността да гледат телевизия на живо, филми, сериали и TV Catchup на своя смарт телевизор.",
+      "url": "http://dl.dropbox.com/scl/fi/bnfujo2ev1bojjh0qxxvp/IPTVSmarters.apk?rlkey=acldidry72duyzsevs96x19n5&st=uy8kcct0&dl=1",
+      "ver": " 5.0",
+      "category": "Телевизия"
+    },
+    {
+      "title": "OTT Navigator Premium",
+      "description": "•Дата на добавяне: 05.01.2026\n•Компилация: TryRoom\n•Описание: Мощен, изчистен, модерен IPTV видео плейър. Създайте свой собствен плейлист - ние ще се погрижим за останалото. Въведете вашия m3u линк или Xtream код акаунт и започнете да гледате телевизия на живо, филми и сериали в изискан интерфейс, предназначен за ежедневна употреба.",
+      "url": "http://dl.dropbox.com/scl/fi/r6aj0fdfaksl7kbjf288a/OTTNavigator.apk?rlkey=as1wpldli3hxis9qaxtcf0mi8&st=77jzzqgq&dl=1",
+      "ver": " 1.7.4.1",
+      "category": "Телевизия"
+    },
+    {
+      "title": "TiViMate Premium",
+      "description": "•Дата на добавяне: 28.09.2025\n•Компилация: fidyBG\n•Описание: Много популярен и лесен за работа IPTV плейър, който е смятан за най-добрия в класа си заради опростеният интерфейс и гладкото управление с дистанционно. Това е стара модифицирана и клонирана версия изцяло на български език, което означава че получавате всички платени функции на плейъра и едновременно може да имате и официалната версия на същото устройство, ако желаете.",
+      "url": "http://dl.dropbox.com/scl/fi/5ptlrxkcle8s6ojphxex1/tivimatebg.apk?rlkey=esb33njyzg1ce6cg0ec1mlkte&st=kqdxqz4y&dl=1",
+      "ver": " 2.1.5",
+      "category": "Телевизия"
+    },
+    {
+      "title": "Send Files To TV",
+      "description": "•Дата на добавяне: 22.08.2025\n•Компилация: TryRoom\n•Описание: Лесно прехвърляне на файлове към Android TV от мобилен телефон или компютър. Модифицирана версия без реклами.",
+      "url": "http://dl.dropbox.com/scl/fi/xru7oouflbgafay8q1jc5/sfttv.apk?rlkey=j22fe7bj2vv1ief3wnx9nox21&st=6tup22md&dl=1",
+      "ver": " 1.4.22b",
+      "category": "Инструменти"
+    },
+    {
+      "title": "Tevegram Premium (ARM-v7a)",
+      "description": "•Дата на добавяне: 14.08.2025\n•Компилация: TryRoom\n•Описание: Неофициален Telegram клиент, създаден специално за Android TV, който преоткрива начина, по който взаимодействате с функциите на Telegram. Гледайте филмите и медиите си, пишете си с приятели, семейство и колеги директно от вашия телевизор. Не пропускайте нито един момент от любимите си предавания или филми, тъй като уникалните плаващи известия на Tevegram предоставят важни актуализации и съобщения, без да прекъсват зрителското ви изживяване.",
+      "url": "http://dl.dropbox.com/scl/fi/ak1obszjauxf9v8ht5f33/Tevegram-ARM-v7a.apk?rlkey=l1z5owiqrf8c92lwu5qeqwbgx&st=ebaajdu0&dl=1",
+      "ver": " 3.3.9",
+      "category": "Инструменти"
+    },
+    {
+      "title": "Tevegram Premium (ARM-v8a)",
+      "description": "•Дата на добавяне: 14.08.2025\n•Компилация: TryRoom\n•Описание: Неофициален Telegram клиент, създаден специално за Android TV, който преоткрива начина, по който взаимодействате с функциите на Telegram. Гледайте филмите и медиите си, пишете си с приятели, семейство и колеги директно от вашия телевизор. Не пропускайте нито един момент от любимите си предавания или филми, тъй като уникалните плаващи известия на Tevegram предоставят важни актуализации и съобщения, без да прекъсват зрителското ви изживяване.",
+      "url": "http://dl.dropbox.com/scl/fi/2d6u6wghz1jnxu9xp1y3y/Tevegram-ARM-v8a.apk?rlkey=525p1to5jkm32pc5rw3ydgdlb&st=bobg7l02&dl=1",
+      "ver": " 3.3.9",
+      "category": "Инструменти"
+    },
+    {
+      "title": "Replaio Radio for TV Premium",
+      "description": "•Дата на добавяне: 12.06.2025\n•Компилация: Nurik\n•Описание: Популярно приложение за интернет радио, което позволява на потребителите да слушат стрийминг на над 50 000 радиостанции от цял свят. То действа като оптимизиран медиен плейър, без да хоства аудио съдържание. С безплатна регистрация можете да синхронизирате любимите си радиостанции между всички устройства.",
+      "url": "http://dl.dropbox.com/scl/fi/uc4dz90heix6bso8f9636/ReplaioTV.apk?rlkey=ecnlbrahu9mwraezy6ci6bsii&st=xuc06cit&dl=1",
+      "ver": " 1.0.3tv",
+      "category": "Плейъри"
+    },
+    {
+      "title": "Matrix TV Live Wallpaper",
+      "description": "•Дата на добавяне: 30.03.2025\n•Компилация: ogo2012\n•Описание: Скрийнсейвър с анимиран ефект на кода от Матрицата за устройства с Android TV. Модифицирана версия без реклами.",
+      "url": "http://dl.dropbox.com/scl/fi/kltvf3yo3wmdiavr9hfy2/MatrixTV.apk?rlkey=9ym3vno0ukk7897s0g2q6cihs&st=d46ioxgo&dl=1",
+      "ver": " 1.1.0",
+      "category": "Скрийнсейвъри"
+    },
+    {
+      "title": "Wolfy Launcher",
+      "description": "•Дата на добавяне: 08.01.2025\n•Компилация: fidyBG\n•Описание: Персонализиран лаунчър, създаден от SweenWolf, който ще промени потребителския интерфейс на вашето стрийминг устройство, след което вече няма да виждате рекламите показвани от заводския. Поддържа и добавяне на притурки. Тази модифицирана версия е изцяло преведена на български език.",
+      "url": "http://dl.dropbox.com/scl/fi/0vcr98oh2dtg57ikvahhi/WolfyBG.apk?rlkey=n8f070rktaz56a7i30n0xa79p&st=7b9yf7ci&dl=1",
+      "ver": " 1.3.BG",
+      "category": "Лаунчъри"
     }
   ]
 }
