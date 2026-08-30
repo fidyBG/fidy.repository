@@ -228,6 +228,38 @@
 			</assets>
 		</extension>
 	</addon>
+	<addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.7">
+		<requires>
+			<!--<import addon="xbmc.python" version="3.0.0"/>-->
+		</requires>
+		<extension point="xbmc.addon.repository">
+			<dir>
+				<info>http://127.0.0.1:65223/addons.xml</info>
+				<checksum>http://127.0.0.1:65223/addons.xml.md5</checksum>
+				<datadir>http://127.0.0.1:65223/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.python.script" library="default.py"/>
+		<extension point="xbmc.service" library="service.py"/>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<license>See https://github.com/ElementumOrg/repository.elementumorg/blob/master/LICENSE</license>
+			<source>https://github.com/ElementumOrg/repository.elementumorg</source>
+			<summary lang="en">GitHub virtual Add-on repository</summary>
+			<description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
+			<news>
+- Allow running in standalone mode
+- Migrate to GitHub API
+- Add support for "tag_pattern" field
+- Add support for private repositories by supplying a "token"
+- Try to automatically determine zip ref from version
+- Multiple minor improvements
+        </news>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="repository.jellyfin.kodi" name="Kodi Jellyfin Addons" version="1.0.0" provider-name="null_pointer,angelblue05,sualfred,im85288,xnappo">
 		<requires>
 			<import addon="xbmc.addon" version="12.0.0"/>
@@ -442,25 +474,6 @@
 			<description lang="en">The 'Nerdsrepo' is the Repository of the german Kodi Community 'Kodinerds' (www.kodinerds.net). Most of the hosted Addons here are active developed and supported by the members of the Community. Nerdsrepo is an unofficial Repository of the Kodi Media Center Software</description>
 			<summary lang="de">Addon Repository der Kodinerds Community</summary>
 			<description lang="de">Das 'Nerdsrepo' ist das Addon Repository der deutschen Kodi-Community 'Kodinerds' (www.kodinerds.net). Die meisten der hier im Nerdsrepo gehosteten Addons werden von den Mitgliedern der Community aktiv entwickelt und unterstützt. Das Nerdsrepo ist ein unoffizielles Repository der Kodi Media Center Software.</description>
-			<disclaimer/>
-			<platform>all</platform>
-			<assets>
-				<icon>icon.png</icon>
-				<fanart>fanart.jpg</fanart>
-			</assets>
-		</extension>
-	</addon>
-	<addon id="repository.thetriple666mafia" name="[COLOR red]thetriple666Mafia[/COLOR]" version="1.1" provider-name="thetriple666mafia">
-		<extension point="xbmc.addon.repository" name="Example Repository">
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/blry12/thetriple666mafia/refs/heads/main/repo/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/blry12/thetriple666mafia/refs/heads/main/repo/zips/addons.xml</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/blry12/thetriple666mafia/refs/heads/main/repo/zips/</datadir>
-			</dir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>thetriple666mafia</summary>
-			<description>Repo for the thetriple666mafia Wizard</description>
 			<disclaimer/>
 			<platform>all</platform>
 			<assets>
@@ -931,7 +944,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="21.7.12.fmod32" name="EON PVR" provider-name="Nirvana">
+	<addon id="pvr.eon" version="21.8.6.fmod" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
@@ -955,7 +968,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="21.7.12.fmod64" name="EON PVR" provider-name="Nirvana">
+	<addon id="pvr.eon" version="21.8.6.fmod64" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
@@ -979,7 +992,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="21.7.12.linux64" name="EON PVR" provider-name="Nirvana">
+	<addon id="pvr.eon" version="21.8.6.linux" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
@@ -996,15 +1009,15 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<assets>
 				<icon>eon.png</icon>
 			</assets>
-			<summary lang="en">EON PVR Client for Linux (64-bit)</summary>
-			<summary lang="bg">EON ПВР Клиент за Linux (64-bit)</summary>
+			<summary lang="en">EON PVR Client for Linux</summary>
+			<summary lang="bg">EON ПВР Клиент за Linux</summary>
 			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
 			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
 			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="plugin.video.eonvod" version="1.1.0.fmod" name="EON On Demand" provider-name="dEXE">
+	<addon id="plugin.video.eonvod" version="1.2.0.fmod" name="EON On Demand" provider-name="dEXE">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="pvr.eon" version="20.0.0"/>
@@ -1018,7 +1031,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<summary lang="en">Browse and play EON On Demand</summary>
 			<summary lang="bg">Гледайте видеотеката на EON</summary>
 			<description lang="en">Browses the EON On Demand catalogue and plays films and series in Kodi.[CR][CR]Uses the account, device and stream credentials already held by [B]pvr.eon[/B]. The VOD plugin does not store independent EON credentials and does not create a second EON device or session.[CR][CR]Install and configure [B]pvr.eon[/B] first, then open Live TV once so it can log in and save the session.</description>
-			<description lang="bg">Видео по заявка (VOD) е видео каталог с филмите и сериалите на EON, които може да гледате в Коди. Използва същият акаунт, който е в [B]EON PVR[/B] добавката. Не може да се използва самостоятелно или с друг акаунт, така че първо инсталирайте и настройте [B]EON PVR[/B].</description>
+			<description lang="bg">Каталог с филмите и сериалите на EON, които може да гледате в Коди. Използва същият акаунт, който е в [B]EON PVR[/B] добавката. Не може да се използва самостоятелно или с друг различен акаунт, така че първо инсталирайте и настройте [B]EON PVR[/B].</description>
 			<disclaimer lang="en">Unofficial add-on. Not affiliated with, endorsed by or supported by United Group, SBB, Telemach, Vivacom, Nova or any related company. A valid EON subscription is required. No content is provided or hosted by this add-on.</disclaimer>
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 			<platform>all</platform>
@@ -1359,6 +1372,31 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
+	<addon id="script.elementum.burstBG" name="Elementum [COLOR FF00D000]Burst[/COLOR] [COLOR FFFF3B3B]BG[/COLOR]" version="2026.08.21.01" provider-name="MartinStZ">
+		<requires>
+			<import addon="xbmc.addon" version="16.0.0"/>
+			<import addon="plugin.video.elementum" optional="true"/>
+			<import addon="script.module.kodi-six"/>
+			<import addon="script.module.requests"/>
+			<import addon="script.module.future" version="0.16.0.4"/>
+			<import addon="script.module.beautifulsoup4" version="0.0.1"/>
+		</requires>
+		<extension point="xbmc.python.script" library="burst.py">
+			<provides>executable</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Elementum BG torrents provider</summary>
+			<description lang="en">Elementum BurstBG is a lean and mean multi-provider for Elementum.</description>
+			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+			<website>https://elementum.surge.sh</website>
+			<source/>
+			<forum>TODO</forum>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="plugin.video.elementum" name="Elementum" version="0.1.114" provider-name="elgatito">
 		<requires>
 			<import addon="xbmc.addon" version="16.0.0"/>
@@ -1430,6 +1468,46 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="sv">Skaparen äger inte eller är värd av något innehåll som finns i detta tillägg. Författaren är inte ansluten till eller på något annat sätt en del av Kodi, Team Kodi eller XBMC Foundation.</disclaimer>
 			<language>en el es de fi fr he hr it nl pt ro sk sv</language>
 			<platform>android-aarch64</platform>
+			<website>http://elementum.surge.sh/</website>
+			<source>https://github.com/elgatito/plugin.video.elementum</source>
+			<forum/>
+			<license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="plugin.video.elementum" name="Elementum" version="0.1.114.linux" provider-name="elgatito">
+		<requires>
+			<import addon="xbmc.addon" version="16.0.0"/>
+			<import addon="repository.elementumorg" optional="true"/>
+			<import addon="script.module.kodi-six"/>
+			<import addon="script.module.requests" version="2.9.1"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="navigation.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.service" library="service.py" start="startup"/>
+		<extension point="xbmc.python.module" library="resources/site-packages"/>
+		<extension point="xbmc.subtitle.module" library="navigation.py"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="ru">Elementum: Стриминг видео</summary>
+			<summary lang="en">Elementum: Media streaming</summary>
+			<summary lang="hr">Elementum: Medijsko strujanje</summary>
+			<summary lang="es">Elementum: Transmisión de medios</summary>
+			<summary lang="sv">Elementum: medieströmning</summary>
+			<description lang="ru">Elementum это дополнение для поиска и воспроизведения торрентов. Дополнение не ходит на запрещенные сайты самостоятельно. Хотя, для поиска используются дополнения (называемые провайдерами), которые устанавливаются отдельно.[CR]Этот проект является ответвлением хорошо извесных, но не поддерживаемых Pulsar/Quasar от steeve и scakemyer.</description>
+			<description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
+			<description lang="hr">Elementum je pogon pretraživanja i strujanja. Ne posjećuje torrent web stranice iz pravnih razloga. Ipak, koristi posebno napravljene dodatke (nazvane pružatelji usluge) koji su instalirani odvojeno.[CR]Ovaj projekt je ogranak dobro poznatih, ali više ne održavanih Pulsar/Quasar projekata od autora steevea i scakemyera.</description>
+			<description lang="es">Elementum es un motor de búsqueda y transmisión torrent. No navega por sitios web torrent por razones legales. Sin embargo, llama a complementos especialmente diseñados para ello (denominados providers o proveedores) que se instalan por separado.[CR]Este proyecto es un fork de los bien conocidos, pero ya sin soporte proyectos Pulsar/Quasar de steeve y scakemyer.[CR]</description>
+			<description lang="sv">Elementum är en torrentsöknings- och strömningsmotor. Det går inte till torrentwebbplatser av juridiska skäl. Den anropar dock speciellt utformade tillägg (kallade leverantörer) som installeras separat.[CR]Detta projekt är en förgrening av de välkända, men inte längre underhållna Pulsar/Quasar-projekten av steeve och scakemyer. </description>
+			<disclaimer lang="ru">Автор дополнения не несёт ответственности за скачивание или поиск информации и содержимого в этом дополнении. Автор никак не связан с Kodi, командой Kodi, или XBMC Foundation.</disclaimer>
+			<disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+			<disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
+			<disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
+			<disclaimer lang="sv">Skaparen äger inte eller är värd av något innehåll som finns i detta tillägg. Författaren är inte ansluten till eller på något annat sätt en del av Kodi, Team Kodi eller XBMC Foundation.</disclaimer>
+			<language>en el es de fi fr he hr it nl pt ro sk sv</language>
+			<platform>linux</platform>
 			<website>http://elementum.surge.sh/</website>
 			<source>https://github.com/elgatito/plugin.video.elementum</source>
 			<forum/>
