@@ -1,6 +1,27 @@
 {
   "apps": [
     {
+      "title": "Solid Explorer File Manager Pro",
+      "description": "• Дата на добавяне: 01.09.2026\n• Компилация: Balatan\n• Описание: Файлов мениджър предлагащ управление чрез два панела с елегантен и интуитивен интерфейс, който крие мощни функции за организиране на файлове и архиви локално, по мрежата и облачно, което го прави отличен избор за всички потребители.",
+      "url": "http://dl.dropbox.com/scl/fi/ut3qmeuksogfmygv321aq/SolidX.apk?rlkey=z4tbw1z0tlu1uh0i0aedxe0zj&st=mlam9f78&dl=1",
+      "ver": " v3.5.20",
+      "category": "Файл мениджъри"
+    },
+    {
+      "title": "SmartTube",
+      "description": "• Дата на добавяне: 01.09.2026\n• Компилация: Официална\n• Описание: Медиен клиент за YouTube с отворен код за Android TV с разширени функции за възпроизвеждане на любимите ви видеоклипове без реклами.",
+      "url": "http://dl.dropbox.com/scl/fi/l13zvb1h9yhpy0l88lero/SmartTube.apk?rlkey=51qrxxslcg3fe80eugd6y8qy0&st=vuit73qt&dl=1",
+      "ver": " v32.38",
+      "category": "Стрийминг"
+    },
+    {
+      "title": "Movian M7",
+      "description": "• Дата на добавяне: 01.09.2026\n• Компилация: Официална\n• Описание: Медиен център с отворен код подобно на КОДИ. Проектирано предимно за телевизионни интерфейси, то позволява на потребителите да стриймват локални и интернет видеоклипове, музика и подкасти. Особено популярно е в общността на домашните разработчици на PlayStation 3 заради заобикалянето на ограниченията на оригиналните файлови формати.",
+      "url": "http://dl.dropbox.com/scl/fi/wm9xgie5447ywcskgpxpb/movian.apk?rlkey=ctswu9clm4cmwsdu0oi1wnjl6&st=kcposeh5&dl=1",
+      "ver": " v7.0.280",
+      "category": "Мултимедия"
+    },
+    {
       "title": "Kodi BG (ARM-v7a)",
       "description": "• Дата на добавяне: 31.08.2026\n• Компилация: fidyBG\n• Описание: Модифицирана версия на добре познатият мултимедиен развлекателен център, който обединява всички ваши дигитални медии в красив и лесен за ползване интерфейс.",
       "url": "http://dl.dropbox.com/scl/fi/cfc5v7ghk458lrqteujy6/Kodi-BG-ARM-v7a.apk?rlkey=4yf0pxt01qjemn8r8m4bklgru&st=agj1yl5g&dl=1",
@@ -43,13 +64,6 @@
       "category": "Файл мениджъри"
     },
     {
-      "title": "Movian M7",
-      "description": "• Дата на добавяне: 28.08.2026\n• Компилация: Официална\n• Описание: Медиен център с отворен код подобно на КОДИ. Проектирано предимно за телевизионни интерфейси, то позволява на потребителите да стриймват локални и интернет видеоклипове, музика и подкасти. Особено популярно е в общността на домашните разработчици на PlayStation 3 заради заобикалянето на ограниченията на оригиналните файлови формати.",
-      "url": "http://dl.dropbox.com/scl/fi/wm9xgie5447ywcskgpxpb/movian.apk?rlkey=ctswu9clm4cmwsdu0oi1wnjl6&st=kcposeh5&dl=1",
-      "ver": " v7.0.279",
-      "category": "Мултимедия"
-    },
-    {
       "title": "AIDA64",
       "description": "• Дата на добавяне: 25.08.2026\n• Компилация: Strannik\n• Описание: Мощен инструмент за получаване на изчерпателна информация за вашето устройство, както за хардуера, така и за софтуера. Модифицирана версия без реклами.",
       "url": "http://dl.dropbox.com/scl/fi/ir1nor0e2o42bjlpqvbqm/AIDA64.apk?rlkey=6t0mq04dfq5it0kaypi2vgfr4&st=pjlx1qzh&dl=1",
@@ -83,13 +97,6 @@
       "url": "http://dl.dropbox.com/scl/fi/7owjk61fc91nd5rkzfb4r/MonetLauncher.apk?rlkey=nhto8darznz2zfb64a3i42bwa&st=28gaygs1&dl=1",
       "ver": " v1.0.76",
       "category": "Лаунчъри"
-    },
-    {
-      "title": "Solid Explorer File Manager Pro",
-      "description": "• Дата на добавяне: 21.08.2026\n• Компилация: Balatan\n• Описание: Файлов мениджър предлагащ управление чрез два панела с елегантен и интуитивен интерфейс, който крие мощни функции за организиране на файлове и архиви локално, по мрежата и облачно, което го прави отличен избор за всички потребители.",
-      "url": "http://dl.dropbox.com/scl/fi/ut3qmeuksogfmygv321aq/SolidX.apk?rlkey=z4tbw1z0tlu1uh0i0aedxe0zj&st=mlam9f78&dl=1",
-      "ver": " v3.5.19",
-      "category": "Файл мениджъри"
     },
     {
       "title": "Emby for Android TV",
@@ -153,13 +160,6 @@
       "url": "http://dl.dropbox.com/scl/fi/k6i84wdad1y4hgbe4szkn/IPTV.apk?rlkey=n4of7nc8mscw3wxnt9k9mumhn&st=a4hf8r42&dl=1",
       "ver": " v9.1.25",
       "category": "Телевизия"
-    },
-    {
-      "title": "SmartTube",
-      "description": "• Дата на добавяне: 08.08.2026\n• Компилация: Официална\n• Описание: Медиен клиент за YouTube с отворен код за Android TV с разширени функции за възпроизвеждане на любимите ви видеоклипове без реклами.",
-      "url": "http://dl.dropbox.com/scl/fi/l13zvb1h9yhpy0l88lero/SmartTube.apk?rlkey=51qrxxslcg3fe80eugd6y8qy0&st=vuit73qt&dl=1",
-      "ver": " v32.10",
-      "category": "Стрийминг"
     },
     {
       "title": "X-plore File Manager",
