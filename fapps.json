@@ -1,6 +1,20 @@
 {
   "apps": [
     {
+      "title": "Flux BG",
+      "description": "• Дата на добавяне: 06.09.2026\n• Компилация: fidyBG\n• Описание: Гледайте филми, сериали и телевизия в едно приложение за Android TV и Google TV. Flux събира в себе си красив каталог с информация от TMDB, търсене на торент релийзи чрез парсър сървъри Jackett/Prowlarr или JacRed, вграден торент енджин и плейър. Ако желаете може да ползвате и външен торент сървър (напр.TorrServe) или плейър по желание (напр.KODI,VLC,Vimu). Поддържа дори и m3u плейлисти с EPG за IPTV. В тази модифицирана версия е добавен български език.",
+      "url": "http://dl.dropbox.com/scl/fi/8ya2x7xjy26646ttxy19e/FluxBG-v1.58-fidyBG.apk?rlkey=h3va1j4t97m21bhj93htqe9ui&st=ozwf68ly&dl=1",
+      "ver": " v1.58",
+      "category": "Стрийминг"
+    },
+    {
+      "title": "MiXplorer Silver File Manager",
+      "description": "• Дата на добавяне: 28.08.2026\n• Компилация: Balatan\n• Описание: Бърз, красив, надежден и пълнофункционален файлов мениджър за Android с опростен и интуитивен потребителски интерфейс.",
+      "url": "http://dl.dropbox.com/scl/fi/j1spxj219vtebi8qhpc10/MiXplorer.apk?rlkey=fb5u5ze1ay77102plza77175n&st=9c4rawhf&dl=1",
+      "ver": " v6.71.15",
+      "category": "Файл мениджъри"
+    },
+    {
       "title": "TorrServe Matrix",
       "description": "• Дата на добавяне: 05.09.2026\n• Компилация: Официална\n• Описание: Програма, която позволява на потребителите да гледат торенти онлайн, без да е необходимо предварително изтегляне на файлове. Основната функционалност на TorrServer включва кеширане на торенти и последващо прехвърляне на данни чрез HTTP протокол към плейър по желание, което позволява размерът на кеша да се регулира според системните параметри и скоростта на интернет връзката на потребителя.",
       "url": "http://dl.dropbox.com/scl/fi/18yzf96qevk1txprqnrpe/TorrServe.apk?rlkey=po4bk5rgpw68msydlxjxu0n0h&st=76u8i40z&dl=1",
@@ -140,20 +154,6 @@
       "url": "http://dl.dropbox.com/scl/fi/vjowpb5mx6akjetnwyvcw/XEQEqualizer.apk?rlkey=lalshhtv7w55f4hpp94e1ux5n&st=0rtscc9i&dl=1",
       "ver": " v39.0.6",
       "category": "Инструменти"
-    },
-    {
-      "title": "Flux BG",
-      "description": "• Дата на добавяне: 28.08.2026\n• Компилация: fidyBG\n• Описание: Гледайте филми, сериали и телевизия в едно приложение за Android TV и Google TV. Flux събира в себе си красив каталог с информация от TMDB, търсене на торент релийзи чрез парсър сървъри Jackett/Prowlarr или JacRed, вграден торент енджин и плейър. Ако желаете може да ползвате и външен торент сървър (напр.TorrServe) или плейър по желание (напр.KODI,VLC,Vimu). Поддържа дори и m3u плейлисти с EPG за IPTV. В тази модифицирана версия е добавен български език.",
-      "url": "http://dl.dropbox.com/scl/fi/az3vem90sxim42b4rfsxl/FluxBG.apk?rlkey=kctzaiqvyo1f8i5y7asl8t3sz&st=h2hurobp&dl=1",
-      "ver": " v1.57",
-      "category": "Стрийминг"
-    },
-    {
-      "title": "MiXplorer Silver File Manager",
-      "description": "• Дата на добавяне: 28.08.2026\n• Компилация: Balatan\n• Описание: Бърз, красив, надежден и пълнофункционален файлов мениджър за Android с опростен и интуитивен потребителски интерфейс.",
-      "url": "http://dl.dropbox.com/scl/fi/j1spxj219vtebi8qhpc10/MiXplorer.apk?rlkey=fb5u5ze1ay77102plza77175n&st=9c4rawhf&dl=1",
-      "ver": " v6.71.13",
-      "category": "Файл мениджъри"
     },
     {
       "title": "AIDA64",
