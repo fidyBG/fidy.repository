@@ -1,6 +1,13 @@
 {
   "apps": [
     {
+      "title": "Flux BG",
+      "description": "• Дата на добавяне: 06.09.2026\n• Компилация: fidyBG\n• Описание: Гледайте филми, сериали и телевизия в едно приложение за Android TV и Google TV. Flux събира в себе си красив каталог с информация от TMDB, търсене на торент релийзи чрез парсър сървъри Jackett/Prowlarr или JacRed, вграден торент енджин и плейър. Ако желаете може да ползвате и външен торент сървър (напр.TorrServe) или плейър по желание (напр.KODI,VLC,Vimu). Поддържа дори и m3u плейлисти с EPG за IPTV. В тази модифицирана версия е добавен български език.",
+      "url": "http://dl.dropbox.com/scl/fi/8ya2x7xjy26646ttxy19e/FluxBG-1.59-fidyBG.apk?rlkey=h3va1j4t97m21bhj93htqe9ui&st=ozwf68ly&dl=1",
+      "ver": " v1.59",
+      "category": "Стрийминг"
+    },
+    {
       "title": "Nexfy Launcher Premium",
       "description": "• Дата на добавяне: 09.09.2026\n• Компилация: TryRoom\n• Описание: Минималистичен, бърз и интелигентен лаунчър, който е специално разработен за Android TV устройства, което дава приоритет на скоростта, простотата и потребителското изживяване, основано на изкуствен интелект. Поддържа интеграция с API на OpenAI, Gemini, Cloudflare, OpenRouter и др. Ако сте уморени от претрупани интерфейси, натоварващи очите реклами и ненужен софтуер, който забавя системата ви, Nexfy предлага леката, модерна и интелигентна алтернатива, която търсите.",
       "url": "http://dl.dropbox.com/scl/fi/u2154gmifvyrtkwii9ljj/Nexfy-Launcher-1.2.3-MOD-TryRoom.apk?rlkey=2uxfl2t9jgh5p3avxgptebl8q&st=3pogix6y&dl=1",
@@ -20,13 +27,6 @@
       "url": "http://dl.dropbox.com/scl/fi/wm9xgie5447ywcskgpxpb/movian.apk?rlkey=ctswu9clm4cmwsdu0oi1wnjl6&st=kcposeh5&dl=1",
       "ver": " v7.0.281",
       "category": "Мултимедия"
-    },
-    {
-      "title": "Flux BG",
-      "description": "• Дата на добавяне: 06.09.2026\n• Компилация: fidyBG\n• Описание: Гледайте филми, сериали и телевизия в едно приложение за Android TV и Google TV. Flux събира в себе си красив каталог с информация от TMDB, търсене на торент релийзи чрез парсър сървъри Jackett/Prowlarr или JacRed, вграден торент енджин и плейър. Ако желаете може да ползвате и външен торент сървър (напр.TorrServe) или плейър по желание (напр.KODI,VLC,Vimu). Поддържа дори и m3u плейлисти с EPG за IPTV. В тази модифицирана версия е добавен български език.",
-      "url": "http://dl.dropbox.com/scl/fi/8ya2x7xjy26646ttxy19e/FluxBG-v1.58-fidyBG.apk?rlkey=h3va1j4t97m21bhj93htqe9ui&st=ozwf68ly&dl=1",
-      "ver": " v1.58",
-      "category": "Стрийминг"
     },
     {
       "title": "MiXplorer Silver File Manager",
