@@ -1,6 +1,13 @@
 {
   "apps": [
     {
+      "title": "SmartTube",
+      "description": "• Дата на добавяне: 14.09.2026\n• Компилация: Официална\n• Описание: Медиен клиент за YouTube с отворен код за Android TV с разширени функции за възпроизвеждане на любимите ви видеоклипове без реклами.",
+      "url": "http://dl.dropbox.com/scl/fi/l13zvb1h9yhpy0l88lero/SmartTube.apk?rlkey=51qrxxslcg3fe80eugd6y8qy0&st=vuit73qt&dl=1",
+      "ver": " v32.47",
+      "category": "Стрийминг"
+    },
+    {
       "title": "Flux BG",
       "description": "• Дата на добавяне: 13.09.2026\n• Компилация: fidyBG\n• Описание: Гледайте филми, сериали и телевизия в едно приложение за Android TV и Google TV. Flux събира в себе си красив каталог с информация от TMDB, търсене на торент релийзи чрез парсър сървъри Jackett/Prowlarr или JacRed, вграден торент енджин и плейър. Ако желаете може да ползвате и външен торент сървър (напр.TorrServe) или плейър по желание (напр.KODI,VLC,Vimu). Поддържа дори и m3u плейлисти с EPG за IPTV. В тази модифицирана версия е добавен български език.",
       "url": "http://dl.dropbox.com/scl/fi/8ya2x7xjy26646ttxy19e/FluxBG-1.60-fidyBG.apk?rlkey=h3va1j4t97m21bhj93htqe9ui&st=ozwf68ly&dl=1",
@@ -140,13 +147,6 @@
       "url": "http://dl.dropbox.com/scl/fi/ut3qmeuksogfmygv321aq/SolidX.apk?rlkey=z4tbw1z0tlu1uh0i0aedxe0zj&st=mlam9f78&dl=1",
       "ver": " v3.5.20",
       "category": "Файл мениджъри"
-    },
-    {
-      "title": "SmartTube",
-      "description": "• Дата на добавяне: 01.09.2026\n• Компилация: Официална\n• Описание: Медиен клиент за YouTube с отворен код за Android TV с разширени функции за възпроизвеждане на любимите ви видеоклипове без реклами.",
-      "url": "http://dl.dropbox.com/scl/fi/l13zvb1h9yhpy0l88lero/SmartTube.apk?rlkey=51qrxxslcg3fe80eugd6y8qy0&st=vuit73qt&dl=1",
-      "ver": " v32.38",
-      "category": "Стрийминг"
     },
     {
       "title": "Kodi BG (ARM-v7a)",
