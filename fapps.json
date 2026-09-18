@@ -1,6 +1,13 @@
 {
   "apps": [
     {
+      "title": "fidy APK Installer",
+      "description": "• Дата на добавяне: 18.09.2026\n• Компилация: fidyBG\n• Описание: Импровизиран магазин с безплатни и модифицирани приложения за Android. Могат да се инсталират по два метода - сандартно или чрез ADB (Android Debug Bridge). При ADB може да се инсталират на същото устройство или на друго с предварително въвеждане на IP адрес и порт за достъп до него.",
+      "url": "http://dl.dropbox.com/scl/fi/fjrxj58b69zzlhej6gbvk/fidy-APK-Installer-4.00.apk?rlkey=741fx1t24jk31sf9ebdn75bdo&st=ll6dgzwh&dl=1",
+      "ver": " v4.00",
+      "category": "Магазини"
+    },
+    {
       "title": "Riptide GP2",
       "description": "• Дата на добавяне: 18.09.2026\n• Компилация: AN1\n• Описание: Втората версия на добре известната игра издига всичко на екстремно високо ниво с надграждащи се водни джетове и състезатели, подобрена графика, изцяло нов режим на развитие и изцяло нова система за каскади с десетки нови трикове! С водни джетове, задвижвани от ракети, които се състезават по футуристични писти през динамична и интерактивна водна повърхност, тази игра предлага бързо, забавно и зашеметяващо изживяване. Това е модифицирана версия с неограничени ресурси.",
       "url": "http://dl.dropbox.com/scl/fi/kj9xivkjpscnwxufiahdx/Riptide-GP2-2026.08.26-MOD-AN1.apk?rlkey=cpp53zk61dy5wf6yp8r5gr7mr&st=e70zaa6w&dl=1",
@@ -146,13 +153,6 @@
       "url": "http://dl.dropbox.com/scl/fi/ezcwzcwq7d2kqtqipv1eh/FluidVideoPlayer.apk?rlkey=70b04v2z8h22rmdekypxap58y&st=3u6spl86&dl=1",
       "ver": " v2.20.39",
       "category": "Плейъри"
-    },
-    {
-      "title": "fidy APK Installer",
-      "description": "• Дата на добавяне: 02.09.2026\n• Компилация: fidyBG\n• Описание: Импровизиран магазин с безплатни и модифицирани приложения за Android. Могат да се инсталират по два метода - сандартно или чрез ADB (Android Debug Bridge). При ADB може да се инсталират на същото устройство или на друго с предварително въвеждане на IP адрес и порт за достъп до него.",
-      "url": "http://dl.dropbox.com/scl/fi/mvy9jlcvdubqxfqcpvpss/fidyAPK.apk?rlkey=l0ror9den615mx0ct82rqdqgk&st=2x5jeue4&dl=1",
-      "ver": " v3.00",
-      "category": "Магазини"
     },
     {
       "title": "Kodi BG (ARM-v7a)",
