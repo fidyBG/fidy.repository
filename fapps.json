@@ -1,6 +1,13 @@
 {
   "apps": [
     {
+      "title": "TorrServe Matrix",
+      "description": "• Дата на добавяне: 19.09.2026\n• Компилация: Официална\n• Описание: Програма, която позволява на потребителите да гледат торенти онлайн, без да е необходимо предварително изтегляне на файлове. Основната функционалност на TorrServer включва кеширане на торенти и последващо прехвърляне на данни чрез HTTP протокол към плейър по желание, което позволява размерът на кеша да се регулира според системните параметри и скоростта на интернет връзката на потребителя.",
+      "url": "http://dl.dropbox.com/scl/fi/1o2ae88j3wijvahnxi7se/TorrServe-MatriX-143.Client-Official.apk?rlkey=hh81ybzs2f4wx9vedxuq6z50o&st=gwvwxxmb&dl=1",
+      "ver": " v143.Client",
+      "category": "Стрийминг"
+    },
+    {
       "title": "fidy APK Installer",
       "description": "• Дата на добавяне: 19.09.2026\n• Компилация: fidyBG\n• Описание: Импровизиран магазин с безплатни и модифицирани приложения за Android. Могат да се инсталират по два метода - сандартно или чрез ADB (Android Debug Bridge). При ADB може да се инсталират на същото устройство или на друго с предварително въвеждане на IP адрес и порт за достъп до него.",
       "url": "http://dl.dropbox.com/scl/fi/fjrxj58b69zzlhej6gbvk/fidy-APK-Installer-4.00.apk?rlkey=741fx1t24jk31sf9ebdn75bdo&st=ll6dgzwh&dl=1",
@@ -90,13 +97,6 @@
       "url": "http://dl.dropbox.com/scl/fi/j1spxj219vtebi8qhpc10/MiXplorer.apk?rlkey=fb5u5ze1ay77102plza77175n&st=9c4rawhf&dl=1",
       "ver": " v6.71.15",
       "category": "Файл мениджъри"
-    },
-    {
-      "title": "TorrServe Matrix",
-      "description": "• Дата на добавяне: 05.09.2026\n• Компилация: Официална\n• Описание: Програма, която позволява на потребителите да гледат торенти онлайн, без да е необходимо предварително изтегляне на файлове. Основната функционалност на TorrServer включва кеширане на торенти и последващо прехвърляне на данни чрез HTTP протокол към плейър по желание, което позволява размерът на кеша да се регулира според системните параметри и скоростта на интернет връзката на потребителя.",
-      "url": "http://dl.dropbox.com/scl/fi/18yzf96qevk1txprqnrpe/TorrServe.apk?rlkey=po4bk5rgpw68msydlxjxu0n0h&st=76u8i40z&dl=1",
-      "ver": " v142.Client",
-      "category": "Стрийминг"
     },
     {
       "title": "M3U IPTV Premium",
