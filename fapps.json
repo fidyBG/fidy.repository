@@ -1,6 +1,27 @@
 {
   "apps": [
     {
+      "title": "EchoGram Premium",
+      "description": "• Дата на добавяне: 24.09.2026\n• Компилация: TryRoom\n• Описание: Неофициален, високо оценен видео плейър за Telegram, специално разработен за Android TV. Той позволява на потребителите да стриймват видеоклипове, филми и телевизионни предавания от своите Telegram канали или чатове директно на по-голям телевизионен екран, заобикаляйки нуждата от телефон или таблет.",
+      "url": "http://dl.dropbox.com/scl/fi/u3gnzkh6tcew6omf5ou7v/EchoGram-Premium-1.0.7.0-TryRoom.apk?rlkey=yoin3o0xrb4g5vlefg1ykqofv&st=yzdhdu2k&dl=1",
+      "ver": " v1.0.7.0",
+      "category": "Плейъри"
+    },
+    {
+      "title": "Solid Explorer File Manager Pro",
+      "description": "• Дата на добавяне: 24.09.2026\n• Компилация: Balatan\n• Описание: Файлов мениджър предлагащ управление чрез два панела с елегантен и интуитивен интерфейс, който крие мощни функции за организиране на файлове и архиви локално, по мрежата и облачно, което го прави отличен избор за всички потребители.",
+      "url": "http://dl.dropbox.com/scl/fi/v2brhz4b761ht2527esom/Solid-Explorer-Pro-3.6.1-Balatan.apk?rlkey=pahu9htfy9eoekmmax2ncjpye&st=n0hah7ns&dl=1",
+      "ver": " v3.6.1",
+      "category": "Файл мениджъри"
+    },
+    {
+      "title": "SmartTube",
+      "description": "• Дата на добавяне: 24.09.2026\n• Компилация: Официална\n• Описание: Медиен клиент за YouTube с отворен код за Android TV с разширени функции за възпроизвеждане на любимите ви видеоклипове без реклами.",
+      "url": "http://dl.dropbox.com/scl/fi/l13zvb1h9yhpy0l88lero/SmartTube.apk?rlkey=51qrxxslcg3fe80eugd6y8qy0&st=vuit73qt&dl=1",
+      "ver": " v32.56",
+      "category": "Стрийминг"
+    },
+    {
       "title": "Flux BG",
       "description": "• Дата на добавяне: 23.09.2026\n• Компилация: fidyBG\n• Описание: Гледайте филми, сериали и телевизия в едно приложение за Android TV и Google TV. Flux събира в себе си красив каталог с информация от TMDB, търсене на торент релийзи чрез парсър сървъри Jackett/Prowlarr или JacRed, вграден торент енджин и плейър. Ако желаете може да ползвате и външен торент сървър (напр.TorrServe) или плейър по желание (напр.KODI,VLC,Vimu). Поддържа дори и m3u плейлисти с EPG за IPTV. В тази модифицирана версия е добавен български език.",
       "url": "http://dl.dropbox.com/scl/fi/v4qodzd3uu80znqh3p6xd/FluxBG-1.61-fidyBG.apk?rlkey=h6rdefd4mvepxb8917uiq2910&st=ds0u3wxy&dl=1",
@@ -78,13 +99,6 @@
       "category": "Стрийминг"
     },
     {
-      "title": "Solid Explorer File Manager Pro",
-      "description": "• Дата на добавяне: 18.09.2026\n• Компилация: Balatan\n• Описание: Файлов мениджър предлагащ управление чрез два панела с елегантен и интуитивен интерфейс, който крие мощни функции за организиране на файлове и архиви локално, по мрежата и облачно, което го прави отличен избор за всички потребители.",
-      "url": "http://dl.dropbox.com/scl/fi/ihdvxuf61gxc8ht1sic2c/Solid-Explorer-Pro-3.6.0-Balatan.apk?rlkey=6dwccvf3mtuwgaowq02an81b8&st=9c131yxn&dl=1",
-      "ver": " v3.6.0",
-      "category": "Файл мениджъри"
-    },
-    {
       "title": "Monet Launcher Premium",
       "description": "• Дата на добавяне: 16.09.2026\n• Компилация: TryRoom\n• Описание: Алтернативен лаунчър, създаден специално за устройства с Android TV и Google TV. Основната му цел е да замени фабричния интерфейс, премахвайки натрапчивите реклами и тромавия дизайн. Основното му вдъхновение идва от дизайнерския език Material You на Google, като интерфейсът му автоматично променя своите цветове, акценти и теми спрямо избрания от вас тапет (ефект, известен в Android като „Monet“).",
       "url": "http://dl.dropbox.com/scl/fi/wa0g8f09zn6ex48tjdta3/Monet-Launcher-Premium-1.0.87-TryRoom.apk?rlkey=8g10kuhg12z8to6mcthgbd2rv&st=tvg4b9cl&dl=1",
@@ -96,13 +110,6 @@
       "description": "• Дата на добавяне: 14.09.2026\n• Компилация: Официална\n• Описание: Инструмент за откриване на най-новите продукции във филмовата индустрия, включително филми, телевизионни сериали, анимационни филми и друга информация, чрез уебсайта с отворен код TMDB. Приложението поддържа плъгини, които включват решения за онлайн гледане, търсене на торенти и показване на рейтинги на филми и телевизионни сериали от услуги на трети страни (Kinopoisk, TMDB, IMDB).",
       "url": "http://dl.dropbox.com/scl/fi/xkmz0b8xvvhkf53fdk4ou/LAMPA.apk?rlkey=nxmmhgh1nzutu9k1tvjeylz0u&st=u7wkf2t0&dl=1",
       "ver": " v1.13.1",
-      "category": "Стрийминг"
-    },
-    {
-      "title": "SmartTube",
-      "description": "• Дата на добавяне: 14.09.2026\n• Компилация: Официална\n• Описание: Медиен клиент за YouTube с отворен код за Android TV с разширени функции за възпроизвеждане на любимите ви видеоклипове без реклами.",
-      "url": "http://dl.dropbox.com/scl/fi/l13zvb1h9yhpy0l88lero/SmartTube.apk?rlkey=51qrxxslcg3fe80eugd6y8qy0&st=vuit73qt&dl=1",
-      "ver": " v32.47",
       "category": "Стрийминг"
     },
     {
@@ -300,13 +307,6 @@
       "url": "http://dl.dropbox.com/scl/fi/ix1m5etdb03oaib2kcj8z/FileManagerPlus.apk?rlkey=kj0yvdn1iwipl9yv7fm3t0l4o&st=o34eklom&dl=1",
       "ver": " v3.8.3",
       "category": "Файл мениджъри"
-    },
-    {
-      "title": "EchoGram Premium",
-      "description": "• Дата на добавяне: 23.07.2026\n• Компилация: TryRoom\n• Описание: Неофициален, високо оценен видео плейър за Telegram, специално разработен за Android TV. Той позволява на потребителите да стриймват видеоклипове, филми и телевизионни предавания от своите Telegram канали или чатове директно на по-голям телевизионен екран, заобикаляйки нуждата от телефон или таблет.",
-      "url": "http://dl.dropbox.com/scl/fi/y8sgfzhyi8i3ed0u18zyw/EchoGram-Premium-1.0.1-TryRoom.apk?rlkey=6yjq93ilwll7dicjewswyzzmh&st=3hyb989k&dl=1",
-      "ver": " v1.0.1",
-      "category": "Плейъри"
     },
     {
       "title": "TVBoxBG Installer",
