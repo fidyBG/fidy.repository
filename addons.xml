@@ -773,7 +773,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="skin.aquafluencenew" version="2026.09" name="Aquafluence Skin 2026" provider-name="fidyBG">
+	<addon id="skin.aquafluencenew" version="2026.10" name="Aquafluence Skin 2026" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
 		</requires>
@@ -794,7 +794,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="skin.aquafluencenew" version="2026.09.linux" name="Aquafluence Skin 2026" provider-name="fidyBG">
+	<addon id="skin.aquafluencenew" version="2026.10.linux" name="Aquafluence Skin 2026" provider-name="fidyBG">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
 		</requires>
@@ -1204,7 +1204,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.video.p2pbg" name="p2p BG " version="2026.05.05.01.fmod" provider-name="MartinStZ">
+	<addon id="plugin.video.p2pbg" name="p2p BG " version="2026.09.24.01.fmod" provider-name="MartinStZ">
 		<requires>
 			<import addon="script.module.requests" version="1.1.0"/>
 			<import addon="script.module.beautifulsoup4" version="0.0.1"/>
@@ -1221,8 +1221,8 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<description lang="en">Watching torrents without downloading.[CR][CR][COLOR red][B]Required Elementum or TorrServer Client addon connected with active server![/B][/COLOR]</description>
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-			<news lang="bg">•Добавена е опция за плейване чрез TorrServer Client.[CR]•Поправка на филтъра за българско аудио.</news>
-			<news lang="en">•Added playing option via TorrServer Client.[CR]•BG audio filter fixed.</news>
+			<news lang="bg">•Добавена е опция за плейване чрез TorrServer Client</news>
+			<news lang="en">•Added playing option via TorrServer Client</news>
 			<assets>
 				<icon>p2pbg.png</icon>
 			</assets>
