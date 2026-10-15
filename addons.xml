@@ -944,14 +944,14 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="21.8.6.fmod" name="EON PVR" provider-name="Nirvana">
+	<addon id="pvr.eon" version="21.8.7.fmod" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
 			<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
 			<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
 			<import addon="inputstream.adaptive" minversion="20.0.0"/>
-			<import addon="script.module.inputstreamhelper" version="0.5.8"/>
+			<import addon="script.module.inputstreamhelper" version="0.8.6"/>
 		</requires>
 		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
 		<extension point="xbmc.addon.metadata">
@@ -968,14 +968,14 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="pvr.eon" version="21.8.6.fmod64" name="EON PVR" provider-name="Nirvana">
+	<addon id="pvr.eon" version="21.8.7.fmod64" name="EON PVR" provider-name="Nirvana">
 		<requires>
 			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
 			<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
 			<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
 			<import addon="inputstream.adaptive" minversion="20.0.0"/>
-			<import addon="script.module.inputstreamhelper" version="0.5.8"/>
+			<import addon="script.module.inputstreamhelper" version="0.8.6"/>
 		</requires>
 		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
 		<extension point="xbmc.addon.metadata">
