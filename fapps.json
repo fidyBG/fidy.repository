@@ -1,6 +1,20 @@
 {
   "apps": [
     {
+      "title": "Kodi BG 22 RC1 (ARM-v7a)",
+      "description": "🔹Дата на добавяне: 16.10.2026\n🔹Компилация: fidyBG\n🔹Описание: Модифицирана RC (Real Candidate) версия!!!\nВсе по-близо сме до стабилна версия, но Kodi 22 PIERS е все още в стадий на разработка и НЕ СЕ ПРЕПОРЪЧВА директен ъпдейт върху по-стари версии, поради възможни сривове на системата или на инсталираните добавки, които все още не са оптимизирани за работа с нея!",
+      "url": "http://dl.dropbox.com/scl/fi/cfc5v7ghk458lrqteujy6/Kodi-BG-ARM-v7a.apk?rlkey=4yf0pxt01qjemn8r8m4bklgru&st=30eu4vps&dl=1",
+      "ver": " v22.0.3",
+      "category": "Коди"
+    },
+    {
+      "title": "Kodi BG 22 RC1 (ARM-v8a)",
+      "description": "🔹Дата на добавяне: 16.10.2026\n🔹Компилация: fidyBG\n🔹Описание: Модифицирана RC (Real Candidate) версия!!!\nВсе по-близо сме до стабилна версия, но Kodi 22 PIERS е все още в стадий на разработка и НЕ СЕ ПРЕПОРЪЧВА директен ъпдейт върху по-стари версии, поради възможни сривове на системата или на инсталираните добавки, които все още не са оптимизирани за работа с нея!",
+      "url": "http://dl.dropbox.com/scl/fi/vuqci61z6h4cupabcgsr0/Kodi-BG-ARM-v8a.apk?rlkey=07y0yx7tdtbgwi3nem12046ks&st=qi17egi9&dl=1",
+      "ver": " v22.0.3",
+      "category": "Коди"
+    },
+    {
       "title": "Flux BG",
       "description": "🔹Дата на добавяне: 16.10.2026\n🔹Компилация: fidyBG\n🔹Описание: Гледайте филми, сериали и телевизия в едно приложение за Android TV и Google TV. Flux събира в себе си красив каталог с информация от TMDB, търсене на торент релийзи чрез парсър сървъри Jackett/Prowlarr или JacRed, вграден торент енджин и плейър. Ако желаете може да ползвате и външен торент сървър (напр.TorrServe) или плейър по желание (напр.KODI,VLC,Vimu). Поддържа дори и m3u плейлисти с EPG за IPTV.\n🔹Модифицирана версия с добавен български език.",
       "url": "http://dl.dropbox.com/scl/fi/8uxv5l6gn6plo9b7txine/FluxBG-1.64-fidyBG.apk?rlkey=39q2u15nitb412cph0e37mzc6&st=adu59g0o&dl=1",
@@ -195,13 +209,6 @@
       "url": "http://dl.dropbox.com/scl/fi/dy4ksrflpzpati1lt6uz7/ATV-Launcher-Pro-0.1.41-fidyBG.apk?rlkey=bhusulzcivjy2x59rrhxth7f7&st=xwdvp2tg&dl=1",
       "ver": " v0.1.41",
       "category": "Лаунчъри"
-    },
-    {
-      "title": "Kodi BG 22 BETA (ARM-v7a)",
-      "description": "🔹Дата на добавяне: 26.09.2026\n🔹Компилация: fidyBG\n🔹Описание: Модифицирана БЕТА версия!!! Kodi 22 PIERS е в много ранен стадий на разработка и не се препоръчва директен ъпдейт върху по-стари версии, поради възможни сривове на системата или на инсталираните добавки, които все още не са оптимизирани за работа с нея.",
-      "url": "http://dl.dropbox.com/scl/fi/t130yq28x1kol71jzofkw/KodiBG-22.0.2-BETA-ARM-v7a-20260925.apk?rlkey=93z3ymbrzuqro0kybkhd4vjpo&st=6c8r1a63&dl=1",
-      "ver": " v22.0.2",
-      "category": "Коди"
     },
     {
       "title": "Rally Fury - Extreme Racing",
