@@ -1,6 +1,27 @@
 {
   "apps": [
     {
+      "title": "Flux BG",
+      "description": "🔹Дата на добавяне: 16.10.2026\n🔹Компилация: fidyBG\n🔹Описание: Гледайте филми, сериали и телевизия в едно приложение за Android TV и Google TV. Flux събира в себе си красив каталог с информация от TMDB, търсене на торент релийзи чрез парсър сървъри Jackett/Prowlarr или JacRed, вграден торент енджин и плейър. Ако желаете може да ползвате и външен торент сървър (напр.TorrServe) или плейър по желание (напр.KODI,VLC,Vimu). Поддържа дори и m3u плейлисти с EPG за IPTV.\n🔹Модифицирана версия с добавен български език.",
+      "url": "http://dl.dropbox.com/scl/fi/8uxv5l6gn6plo9b7txine/FluxBG-1.64-fidyBG.apk?rlkey=39q2u15nitb412cph0e37mzc6&st=adu59g0o&dl=1",
+      "ver": " v1.64",
+      "category": "Стрийминг"
+    },
+    {
+      "title": "Monet Launcher Premium",
+      "description": "🔹Дата на добавяне: 16.10.2026\n🔹Компилация: TryRoom\n🔹Описание: Алтернативен лаунчър, създаден специално за устройства с Android TV и Google TV. Основната му цел е да замени фабричния интерфейс, премахвайки натрапчивите реклами и тромавия дизайн. Основното му вдъхновение идва от дизайнерския език Material You на Google, като интерфейсът му автоматично променя своите цветове, акценти и теми спрямо избрания от вас тапет (ефект, известен в Android като „Monet“).",
+      "url": "http://dl.dropbox.com/scl/fi/9qr7edaxqubng72smhq44/Monet-Launcher-Premium-1.0.97-TryRoom.apk?rlkey=06bd1ycsfjh5374janom2f4hj&st=glce65o1&dl=1",
+      "ver": " v1.0.97",
+      "category": "Лаунчъри"
+    },
+    {
+      "title": "XEQ Equalizer Pro",
+      "description": "🔹Дата на добавяне: 16.10.2026\n🔹Компилация: TryRoom\n🔹Описание: Еквалайзер и професионален усилвател на басите за Android, създаден за потребители, които искат пълен контрол над звука си. XEQ осигурява звук със студийно качество без никакви изкривявания.",
+      "url": "http://dl.dropbox.com/scl/fi/41ap6q438lddsmfy2eb3h/XEQ-Equalizer-Pro-42.5.0-TryRoom.apk?rlkey=wo22hrv37y8bpmwv0s42biiu4&st=g9k56fld&dl=1",
+      "ver": " v42.5.0",
+      "category": "Инструменти"
+    },
+    {
       "title": "Movian M7",
       "description": "🔹Дата на добавяне: 15.10.2026\n🔹Компилация: Proximo\n🔹Описание: Медиен център с отворен код, подобен на Коди. Проектиран предимно за телевизионни интерфейси, той позволява на потребителите да имат достъп до локалната си мултимедия и да стриймват онлайн торенти, видеоклипове, музика, подкасти, радиа, телевизия на живо и предавания на запис.\n🔹Модифицирана версия с алтернативно хранилище от PROXIMO, съдържащо много български добавки - p2pBG, Bultor, BGsubs, FilmiZip, Nova Play, bTV Plus, Voyo и други. Всички добавки са със свободен достъп. Подкрепете проекта, ако сте доволни!",
       "url": "http://dl.dropbox.com/scl/fi/mys6bf2rhwi4lbonuw2r9/Movian-M7-7.0.287-MOD-Proximo.apk?rlkey=em55ix8apfd5kauv49pi08wr6&st=er22fjmo&dl=1",
@@ -127,25 +148,11 @@
       "category": "Лаунчъри"
     },
     {
-      "title": "XEQ Equalizer Pro",
-      "description": "🔹Дата на добавяне: 04.10.2026\n🔹Компилация: TryRoom\n🔹Описание: Еквалайзер и професионален усилвател на басите за Android, създаден за потребители, които искат пълен контрол над звука си. XEQ осигурява звук със студийно качество без никакви изкривявания.",
-      "url": "http://dl.dropbox.com/scl/fi/z4ath7nwpu4okxsvn2b26/XEQ-Equalizer-Pro-42.0.0-TryRoom.apk?rlkey=95agdm8ogs9lntjp42xr9kmj8&st=rrehjxr1&dl=1",
-      "ver": " v42.0.0",
-      "category": "Инструменти"
-    },
-    {
       "title": "X-plore File Manager",
       "description": "🔹Дата на добавяне: 02.10.2026\n🔹Компилация: youarefinished\n🔹Описание: Високоефективен файлов мениджър с два панела, създаден за опитни потребители, които се нуждаят от усъвършенствани инструменти за управление на локални файлове, достъп до локални мрежи, отдалечени сървъри (облаци) и навигиране във вътрешни йерархии на директории.\n🔹Модифицирана версия без реклами.",
       "url": "http://dl.dropbox.com/scl/fi/lbj4mr7j6ed43pmjsdjw4/X-plore-4.50.05-MOD-youarefinished.apk?rlkey=i7w3xxvmng36timwyg6tswwr8&st=pimxw4e3&dl=1",
       "ver": " v4.50.05",
       "category": "Файл мениджъри"
-    },
-    {
-      "title": "Monet Launcher Premium",
-      "description": "🔹Дата на добавяне: 02.10.2026\n🔹Компилация: TryRoom\n🔹Описание: Алтернативен лаунчър, създаден специално за устройства с Android TV и Google TV. Основната му цел е да замени фабричния интерфейс, премахвайки натрапчивите реклами и тромавия дизайн. Основното му вдъхновение идва от дизайнерския език Material You на Google, като интерфейсът му автоматично променя своите цветове, акценти и теми спрямо избрания от вас тапет (ефект, известен в Android като „Monet“).",
-      "url": "http://dl.dropbox.com/scl/fi/m4w8yq687dv4i88ht9fy6/Monet-Launcher-Premium-1.0.93-TryRoom.apk?rlkey=5abcdmbr4omgx4gamzfnymomw&st=deblzlvb&dl=1",
-      "ver": " v1.0.93",
-      "category": "Лаунчъри"
     },
     {
       "title": "Aerial Views Screensaver",
@@ -181,13 +188,6 @@
       "url": "http://dl.dropbox.com/scl/fi/cag97ejflcpfkwt9yem9e/OTT-Navigator-Premium-1.7.5.2-TryRoom.apk?rlkey=yucsbjrda48k076pm8ozq5wrh&st=ljgfqvcy&dl=1",
       "ver": " v1.7.5.2",
       "category": "Телевизия"
-    },
-    {
-      "title": "Flux BG",
-      "description": "🔹Дата на добавяне: 29.09.2026\n🔹Компилация: fidyBG\n🔹Описание: Гледайте филми, сериали и телевизия в едно приложение за Android TV и Google TV. Flux събира в себе си красив каталог с информация от TMDB, търсене на торент релийзи чрез парсър сървъри Jackett/Prowlarr или JacRed, вграден торент енджин и плейър. Ако желаете може да ползвате и външен торент сървър (напр.TorrServe) или плейър по желание (напр.KODI,VLC,Vimu). Поддържа дори и m3u плейлисти с EPG за IPTV.\n🔹Модифицирана версия с добавен български език.",
-      "url": "http://dl.dropbox.com/scl/fi/zmglew389gosaicvg4wxq/FluxBG-1.62-fidyBG.apk?rlkey=fb5nkuevpl30wk4o24rwc3j0c&st=vqk4r0wf&dl=1",
-      "ver": " v1.62",
-      "category": "Стрийминг"
     },
     {
       "title": "ATV Launcher Pro",
