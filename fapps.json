@@ -1,6 +1,27 @@
 {
   "apps": [
     {
+      "title": "Sparkle TV Plus",
+      "description": "🔹Дата на добавяне: 26.10.2026\n🔹Компилация: fidyBG\n🔹Описание: Лесен за употреба първокласен IPTV плейър, който издига гледането на телевизия на ново ниво и не прави компромис с функционалността. Поддържат се всички модерни формати - m3u, Xtream кодове, Stalker портали, xmltv, както и достъп до лични сървъри и устройства - Enigma2, HD HomeRun, Plex и Jellyfin.\n🔹Модифицирана версия на български език (устройството също трябва да е на български!).",
+      "url": "http://dl.dropbox.com/scl/fi/k4ks6iua6mjmizpjinhq7/Sparkle-TV-Plus-2.4.0-fidyBG.apk?rlkey=62ek16cqkvo8mprbliu38c0ih&st=2snjfohu&dl=1",
+      "ver": " v2.4.0",
+      "category": "Телевизия"
+    },
+    {
+      "title": "Monet Launcher Premium",
+      "description": "🔹Дата на добавяне: 26.10.2026\n🔹Компилация: TryRoom\n🔹Описание: Алтернативен лаунчър, създаден специално за устройства с Android TV и Google TV. Основната му цел е да замени фабричния интерфейс, премахвайки натрапчивите реклами и тромавия дизайн. Основното му вдъхновение идва от дизайнерския език Material You на Google, като интерфейсът му автоматично променя своите цветове, акценти и теми спрямо избрания от вас тапет (ефект, известен в Android като „Monet“).",
+      "url": "http://dl.dropbox.com/scl/fi/vyg4oqa830n0y8ru67eul/Monet-Launcher-Premium-1.1.0-TryRoom.apk?rlkey=rtyrudxwnv2bz2wpyyityhpb5&st=3kr09t4k&dl=1",
+      "ver": " v1.1.0",
+      "category": "Лаунчъри"
+    },
+    {
+      "title": "Emby for Android TV",
+      "description": "🔹Дата на добавяне: 26.10.2026\n🔹Компилация: Kirlif'\n🔹Описание: Клиент за вашия личен медиен Emby сървър, с който може да гледате вашите видеоклипове, музика, снимки и телевизия на живо на всички ваши телевизионни устройства, където и да се намирате.\n🔹Модифицирана версия с отключени платени функции за приложението.",
+      "url": "http://dl.dropbox.com/scl/fi/e03hg5xnm2xutkxece5o3/Emby-ATV-Unlocked-2.5.03g-Kirlif.apk?rlkey=lk1doubz6x7qpzr1014lki3qs&st=edwu4sjn&dl=1",
+      "ver": " v2.5.03g",
+      "category": "Стрийминг"
+    },
+    {
       "title": "KingInstaller",
       "description": "🔹Дата на добавяне: 25.10.2026\n🔹Компилация: Официална\n🔹Описание: Инсталатор за APK файлове, с помощта на който инсталираните приложения се представят пред системата като инсталирани от Google Play. Така приложенията работят като заобикалят ограниченията - много полезно за Android Auto.",
       "url": "http://dl.dropbox.com/scl/fi/v2g12i6gz9n74fosysz8s/KingInstaller-2.4-Official.apk?rlkey=9ul8ph9quadjccxlk0h83xfgi&st=a9lamld3&dl=1",
@@ -103,13 +124,6 @@
       "url": "http://dl.dropbox.com/scl/fi/8uxv5l6gn6plo9b7txine/FluxBG-1.64-fidyBG.apk?rlkey=39q2u15nitb412cph0e37mzc6&st=adu59g0o&dl=1",
       "ver": " v1.64",
       "category": "Стрийминг"
-    },
-    {
-      "title": "Monet Launcher Premium",
-      "description": "🔹Дата на добавяне: 16.10.2026\n🔹Компилация: TryRoom\n🔹Описание: Алтернативен лаунчър, създаден специално за устройства с Android TV и Google TV. Основната му цел е да замени фабричния интерфейс, премахвайки натрапчивите реклами и тромавия дизайн. Основното му вдъхновение идва от дизайнерския език Material You на Google, като интерфейсът му автоматично променя своите цветове, акценти и теми спрямо избрания от вас тапет (ефект, известен в Android като „Monet“).",
-      "url": "http://dl.dropbox.com/scl/fi/9qr7edaxqubng72smhq44/Monet-Launcher-Premium-1.0.97-TryRoom.apk?rlkey=06bd1ycsfjh5374janom2f4hj&st=glce65o1&dl=1",
-      "ver": " v1.0.97",
-      "category": "Лаунчъри"
     },
     {
       "title": "Movian M7",
@@ -271,13 +285,6 @@
       "url": "http://dl.dropbox.com/scl/fi/u3gnzkh6tcew6omf5ou7v/EchoGram-Premium-1.0.7.0-TryRoom.apk?rlkey=yoin3o0xrb4g5vlefg1ykqofv&st=yzdhdu2k&dl=1",
       "ver": " v1.0.7.0",
       "category": "Плейъри"
-    },
-    {
-      "title": "Emby for Android TV",
-      "description": "🔹Дата на добавяне: 23.09.2026\n🔹Компилация: Kirlif'\n🔹Описание: Клиент за вашия личен медиен Emby сървър, с който може да гледате вашите видеоклипове, музика, снимки и телевизия на живо на всички ваши телевизионни устройства, където и да се намирате.",
-      "url": "http://dl.dropbox.com/scl/fi/hb593x0tmzh8c63orfr6z/Emby-ATV-Unlocked-v2.1.59g-Kirlif.apk?rlkey=y48z7pjln1yf2yi1l9rrjimnh&st=29z9wad2&dl=1",
-      "ver": " v2.1.59g",
-      "category": "Стрийминг"
     },
     {
       "title": "Nexfy Launcher Premium",
@@ -453,13 +460,6 @@
       "url": "http://dl.dropbox.com/scl/fi/4udx09zg48raofr8e3vs7/ES-File-Explorer-Premium-4.4.3.7-Balatan.apk?rlkey=rpa1lqat9cf8ldwrg83r7o66p&st=4e5jnkd2&dl=1",
       "ver": " v4.4.3.7",
       "category": "Файл мениджъри"
-    },
-    {
-      "title": "Sparkle TV Plus",
-      "description": "🔹Дата на добавяне: 08.05.2026\n🔹Компилация: fidyBG\n🔹Описание: Лесен за употреба първокласен IPTV плейър, който издига гледането на телевизия на ново ниво и не прави компромис с функционалността. Поддържат се формати на доставчици като m3u, Xtream кодове, xmltv и ефирна антена, използваща HD HomeRun, Plex или Jellyfin.\n🔹Модифицирана версия на български език (устройството също трябва да е на български!).",
-      "url": "http://dl.dropbox.com/scl/fi/t1cep8c7huu3bz2k4ckb2/Sparkle-TV-Plus-2.3.1-fidyBG.apk?rlkey=4yagtpdvkjz1oyjsoaddtfgby&st=1um6f2cw&dl=1",
-      "ver": " v2.3.1",
-      "category": "Телевизия"
     },
     {
       "title": "Modi (ARM-v7a)",
