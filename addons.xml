@@ -1539,4 +1539,25 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
+	<addon id="service.subtitles.subsbg" name="SubsBG" version="1.0.0" provider-name="SubsBG.com">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+		</requires>
+		<extension point="xbmc.subtitle.module" library="service.py" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_GB">Bulgarian subtitles from SubsBG.com</summary>
+			<summary lang="bg_BG">Български субтитри от SubsBG.com</summary>
+			<description lang="en_GB">Bulgarian subtitles for movies and TV episodes from SubsBG.com. No account required.</description>
+			<description lang="bg_BG">Български субтитри за филми и сериали от SubsBG.com. Без регистрация. Инструкции: https://subsbg.com/kodi</description>
+			<disclaimer lang="en_GB">Provides subtitles only. Independent addon, not affiliated with Team Kodi.</disclaimer>
+			<platform>all</platform>
+			<license>MIT</license>
+			<language>bg</language>
+			<website>https://subsbg.com/kodi</website>
+			<assets>
+				<icon>resources/icon.png</icon>
+			</assets>
+			<news>1.0.0: Initial release. Automatic and manual search, release selection, Bulgarian subtitles.</news>
+		</extension>
+	</addon>
 </addons>
