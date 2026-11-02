@@ -1,6 +1,20 @@
 {
   "apps": [
     {
+      "title": "Televizo Premium",
+      "description": "🔹Дата на добавяне: 02.11.2026\n🔹Компилация: IanWONeill\n🔹Описание: IPTV плейър за устройства с Android, който позволява на потребителите да гледат телевизия на живо, филми и сериали, като свързват свои собствени плейлисти от външни IPTV доставчици. Поддържа M3U плейлисти и Xtream кодове, както и електронен програмен справочник (EPG), таймшифт и архиви.",
+      "url": "http://dl.dropbox.com/scl/fi/e4xxj9sn2r7bsflo1vuvl/Televizo-Premium-1.9.9.44-g-DexUnpacker.apk?rlkey=wbhw5evjid3diusw8xt23k26p&st=yp0zm8gz&dl=1",
+      "ver": " v1.9.9.44-d",
+      "category": "Телевизия"
+    },
+    {
+      "title": "XEQ Equalizer Pro",
+      "description": "🔹Дата на добавяне: 02.11.2026\n🔹Компилация: TryRoom\n🔹Описание: Еквалайзер и професионален усилвател на басите за Android, създаден за потребители, които искат пълен контрол над звука си. XEQ осигурява звук със студийно качество без никакви изкривявания.",
+      "url": "http://dl.dropbox.com/scl/fi/jt4eevy9yphuq7u5cmj6r/XEQ-Equalizer-Pro-42.10.0-TryRoom.apk?rlkey=h51b1gs5yiwcwsg5ct75jm80p&st=gh3jev0y&dl=1",
+      "ver": " v42.10.0",
+      "category": "Инструменти"
+    },
+    {
       "title": "Emby for Android TV",
       "description": "🔹Дата на добавяне: 01.11.2026\n🔹Компилация: Kirlif'\n🔹Описание: Клиент за вашия личен медиен Emby сървър, с който може да гледате вашите видеоклипове, музика, снимки и телевизия на живо на всички ваши телевизионни устройства, където и да се намирате.\n🔹Модифицирана версия с отключени платени функции в приложението.",
       "url": "http://dl.dropbox.com/scl/fi/snlne6e4wk69z68ybmb4t/Emby-ATV-Unlocked-2.5.04g-Kirlif.apk?rlkey=yts8hs4l5q5eza3koorytwghw&st=pc54qs63&dl=1",
@@ -62,12 +76,6 @@
       "url": "http://dl.dropbox.com/scl/fi/4c66c223y82a71kgf58kt/Vanced-5.6.81.111-MOD-HeroMods.apk?rlkey=x775k330v4kvldizipfl596ik&st=jo1idtwi&dl=1",
       "ver": " v5.6.81.111",
       "category": "Стрийминг"
-    },{
-      "title": "XEQ Equalizer Pro",
-      "description": "🔹Дата на добавяне: 24.10.2026\n🔹Компилация: TryRoom\n🔹Описание: Еквалайзер и професионален усилвател на басите за Android, създаден за потребители, които искат пълен контрол над звука си. XEQ осигурява звук със студийно качество без никакви изкривявания.",
-      "url": "http://dl.dropbox.com/scl/fi/ov6rp7qicu1rt0ut1a4z0/XEQ-Equalizer-Pro-42.8.0-TryRoom.apk?rlkey=pu3goikv8wucif005cqffw97w&st=45vphhen&dl=1",
-      "ver": " v42.8.0",
-      "category": "Инструменти"
     },
     {
       "title": "NewTube",
@@ -180,14 +188,7 @@
       "url": "http://dl.dropbox.com/scl/fi/xkiz2rrtdbik89r1oz81i/TPlayer-Premium-8.2b-youarefinished.apk?rlkey=yaf5e57p6vb0c4ntgp849lpnk&st=tt4d730a&dl=1",
       "ver": " v8.2b",
       "category": "Плейъри"
-    },
-    {
-      "title": "Televizo Premium",
-      "description": "🔹Дата на добавяне: 13.10.2026\n🔹Компилация: IanWONeill\n🔹Описание: IPTV плейър за устройства с Android, който позволява на потребителите да гледат телевизия на живо, филми и сериали, като свързват свои собствени плейлисти от външни IPTV доставчици. Поддържа M3U плейлисти и Xtream кодове, както и електронен програмен справочник (EPG), таймшифт и архиви.",
-      "url": "http://dl.dropbox.com/scl/fi/6hu04o4yxce409uftsl6j/Televizo-Premium-1.9.9.43-d-IanWONeill.apk?rlkey=sog83pxkgdxtr43fgwwjrpkl7&st=m15wcukg&dl=1",
-      "ver": " v1.9.9.43-d",
-      "category": "Телевизия"
-    },
+    },y
     {
       "title": "LAMPA",
       "description": "🔹Дата на добавяне: 12.10.2026\n🔹Компилация: Официална\n🔹Описание: Инструмент за откриване на най-новите продукции във филмовата индустрия, включително филми, телевизионни сериали, анимационни филми и друга информация, чрез уебсайта с отворен код TMDB. Приложението поддържа плъгини, които включват решения за онлайн гледане, търсене на торенти и показване на рейтинги на филми и телевизионни сериали от услуги на трети страни (Kinopoisk, TMDB, IMDB).",
