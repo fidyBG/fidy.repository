@@ -925,7 +925,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.program.bscfusion" name="FusionTV" version="2026.11.01.01.fmod" provider-name="kodi1">
+	<addon id="plugin.program.bscfusion" name="FusionTV" version="2026.11.09.01.fmod" provider-name="kodi1">
 		<requires>
 			<import addon="script.module.requests" version="1.1.0"/>
 			<import addon="script.module.simplejson" version="3.3.0"/>
@@ -935,8 +935,8 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">Bulsatcom Fusion TV addon</summary>
 			<summary lang="bg">Добавка за Булсатком Фюжън ТВ</summary>
-			<description lang="en">Addon for watching Bulsatcom Fusion TV.[CR]Support live TV, radio , EPG and timeshift.[CR][CR]Thanks to otem, Majide, barev, MartinStZ and PlamenIP.</description>
-			<description lang="bg">Добавка за гледане на Булсатком Фюжън ТВ.[CR]Поддържа ТВ на живо, радио, електронен програмен справочник (EPG) и таймшифт.[CR][CR]Благодарности към otem, Majide, barev, MartinStZ and PlamenIP.</description>
+			<description lang="en">Addon for watching Bulsatcom Fusion TV.[CR]Support live TV, radio and EPG.[CR][CR]Thanks to otem, Majide, barev, MartinStZ and PlamenIP.</description>
+			<description lang="bg">Добавка за гледане на Булсатком Фюжън ТВ.[CR]Поддържа ТВ на живо, радио и електронен програмен справочник (EPG).[CR][CR]Благодарности към otem, Majide, barev, MartinStZ and PlamenIP.</description>
 			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
 			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
 			<assets>
