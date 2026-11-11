@@ -60,6 +60,53 @@
 			</assets>
 		</extension>
 	</addon>
+	<addon id="repository.majide" name="Majide Add-on repository" version="0.21.1" provider-name="Majide">
+		<extension point="xbmc.addon.repository" name="Majide Add-on repository">
+			<!-- Kodi 20 Nexus -->
+			<dir minversion="19.90.0" maxversion="20.89.999">
+				<info compressed="false">https://andromeda.eu.org/addons/nexus/addons.xml</info>
+				<checksum verify="sha256">https://andromeda.eu.org/addons/nexus/addons.sha256</checksum>
+				<datadir zip="true">https://andromeda.eu.org/addons/nexus</datadir>
+				<artdir>https://andromeda.eu.org/addons/nexus</artdir>
+				<hashes>sha256</hashes>
+			</dir>
+			<!-- Kodi 21 Omega -->
+			<dir minversion="20.90.0" maxversion="21.89.999">
+				<info compressed="false">https://andromeda.eu.org/addons/omega/addons.xml</info>
+				<checksum verify="sha256">https://andromeda.eu.org/addons/omega/addons.sha256</checksum>
+				<datadir zip="true">https://andromeda.eu.org/addons/omega</datadir>
+				<artdir>https://andromeda.eu.org/addons/omega</artdir>
+				<hashes>sha256</hashes>
+			</dir>
+			<!-- Kodi 22 Piers -->
+			<dir minversion="21.90.0" maxversion="22.89.999">
+				<info compressed="false">https://andromeda.eu.org/addons/piers/addons.xml</info>
+				<checksum verify="sha256">https://andromeda.eu.org/addons/piers/addons.sha256</checksum>
+				<datadir zip="true">https://andromeda.eu.org/addons/piers</datadir>
+				<artdir>https://andromeda.eu.org/addons/piers</artdir>
+				<hashes>sha256</hashes>
+			</dir>
+			<!-- https://github.com/Gujal00/ResolveURL -->
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="bg_BG">Инсталира добавки на Majide</summary>
+			<summary lang="en_US">Install Add-ons of Majide</summary>
+			<description lang="bg_BG">Сваля и инсталира добавки от неофициалното хранилище на Majide.</description>
+			<description lang="en_US">Download and install add-ons from unofficial repository of Majide.</description>
+			<disclaimer lang="bg_BG">Majide не е автор на всички добавки в хранилището и не носи отговорност за съдържанието им и ефекта от инсталирането им във вашето устройство!</disclaimer>
+			<disclaimer lang="en_US">Majide did not make all the add-ons in this repository and is not responsible for their content and effect of installing them on your device!</disclaimer>
+			<platform>all</platform>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="repository.dexe" name="dEXE's Addons Repository" version="1.0.11" provider-name="dEXE">
 		<extension point="xbmc.addon.repository" name="dEXE's Addons Repository">
 			<dir>
@@ -994,33 +1041,6 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.video.vavooto" name="VAVOO.BG" version="2026.08.17.fmod" provider-name="kasi,michaz">
-		<requires>
-			<import addon="xbmc.python" version="3.0.1"/>
-			<import addon="script.module.requests"/>
-			<import addon="script.module.resolveurl"/>
-			<import addon="script.module.dateutil"/>
-			<import addon="inputstream.adaptive"/>
-			<import addon="inputstream.ffmpegdirect"/>
-			<import addon="script.module.infotagger"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="resources/main.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.python.module" library="resources"/>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="de">VAVOO.TO Video Add-on</summary>
-			<summary lang="bg">Телевизия, филми и сериали от VAVOO</summary>
-			<description lang="de">Video-Add-on für Live-TV, Filme und Serien mit VAVOO- und Stalker-Quellen.</description>
-			<description lang="bg">Добавка за безплатна телевизия на живо от различни държави, онлайн филми и сериали дублирани на немски език от VAVOO и STALKER портали.</description>
-			<disclaimer lang="de">Modifikation. Nutzung auf eigene Gefahr!</disclaimer>
-			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-			<platform>all</platform>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-		</extension>
-	</addon>
 	<addon id="service.subloader" name="SubLoader" version="33.1.6v.fmod" provider-name="DenimNani">
 		<extension point="xbmc.service" library="monitor.py" start="login"/>
 		<extension point="xbmc.addon.metadata">
@@ -1108,31 +1128,6 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.video.vidscr" name="VidScr BG" version="1.4.23.fmod" provider-name="Zeus768">
-		<requires>
-			<import addon="xbmc.python" version="3.0.0"/>
-			<import addon="script.module.requests" version="2.22.0"/>
-			<import addon="script.module.resolveurl" version="5.1.0" optional="true"/>
-			<import addon="inputstream.adaptive" version="2.0.0" optional="true"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<reuselanguageinvoker>true</reuselanguageinvoker>
-			<summary lang="en">Movies TV Shows via TMDB</summary>
-			<summary lang="bg">Филми и Сериали чрез TMDB</summary>
-			<description lang="en">A clean, simple Movies and TV Shows addon. Browse new releases, Oscar nominees, genres, actors, networks and a 7-day premiering calendar. Posters and metadata from TMDB, streams sourced from vidsrcme.ru (with optional vidsrc.xyz / 2embed secondary), built-in resolvers, server sub-picker, per-show quality memory, Trakt scrobbling, watched/resume indicators and 10-second stall auto-fallback.</description>
-			<description lang="bg">Изчистена и лека добавка за Филми и Сериали. Разглеждайте нови премиери, номинирани за Оскар, жанрове, актьори, мрежи и 7-дневен календар с предстоящи заглавия. Постери и метаданни от TMDB, вградени стрийм екстрактори, избор на сървър, запомняне на избраното качество за сериали, Trakt проследяване, индикатори за гледано и продължи гледането.</description>
-			<disclaimer lang="en">Modification. Use at own risk!</disclaimer>
-			<disclaimer lang="bg">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
-			<platform>all</platform>
-			<license>GPL-3.0-or-later</license>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-		</extension>
-	</addon>
 	<addon id="plugin.video.bultor" name="BulTor" version="2026.03.28.01.fmod" provider-name="MartinStZ">
 		<requires>
 			<import addon="script.module.requests" version="1.1.0"/>
@@ -1199,26 +1194,6 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<platform>all</platform>
 			<license>MIT</license>
 			<website>https://sweetradio.online</website>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-		</extension>
-	</addon>
-	<addon id="plugin.video.dzritv" name="DZRI.TV" version="0.2.1" provider-name="TopperBG">
-		<requires>
-			<import addon="xbmc.python" version="3.0.0"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="addon.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="bg">Спорт на живо от DZRI.TV</summary>
-			<summary lang="en">Live sports streams from DZRI.TV</summary>
-			<description lang="bg">Гледайте спортни събития на живо от DZRI TV.</description>
-			<description lang="en">Browse live DZRI TV events by sport and play the available HLS streams.</description>
-			<disclaimer lang="bg">Неофициална версия. Ползвате на собствена отговорност!</disclaimer>
-			<disclaimer lang="en">No official version. Use at own risk!</disclaimer>
-			<platform>all</platform>
 			<assets>
 				<icon>icon.png</icon>
 			</assets>
