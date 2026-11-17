@@ -1,6 +1,34 @@
 {
   "apps": [
     {
+      "title": "IPTV Pro",
+      "description": "🔹Дата на добавяне: 17.11.2026\n🔹Компилация: Balatan\n🔹Описание: Много добър и бърз IPTV плейър, работещ с Xtream кодове, m3u файлове и линкове.",
+      "url": "http://dl.dropbox.com/scl/fi/lghjdaqbyypqftd5sy3a5/IPTV-Pro-10.0.2-Balatan.apk?rlkey=sdhcdkgymhwm5fhwznv7gy7dy&st=sho5d3a9&dl=1",
+      "ver": " v10.0.2",
+      "category": "Телевизия"
+    },
+    {
+      "title": "Transparent Clock & Weather Pro",
+      "description": "🔹Дата на добавяне: 17.11.2026\n🔹Компилация: ogo2012\n🔹Описание: Приложение за времето, което ви помага да планирате деня си с точни прогнози, радар на живо и персонализируеми притурки за часовник и време. Получавайте почасова прогноза, както и ясна вероятност за валежи от дъжд или сняг, усещане за температури, качество на въздуха и UV индекс, влажност, видимост, посока или скорост на вятъра и тенденции в налягането, за да можете да излезете навън подготвени.",
+      "url": "http://dl.dropbox.com/scl/fi/hklq9h0bmfir90m3do5jh/Transparent-Clock-Weather-Pro-9.19.0-LITE-ogo2012.apk?rlkey=eq1xnpgeazwva3sd9y1kfg7dc&st=gqthlb5p&dl=1",
+      "ver": " v9.19.0",
+      "category": "Инструменти"
+    },
+    {
+      "title": "XEQ Equalizer Pro",
+      "description": "🔹Дата на добавяне: 17.11.2026\n🔹Компилация: TryRoom\n🔹Описание: Еквалайзер и професионален усилвател на басите за Android, създаден за потребители, които искат пълен контрол над звука си. XEQ осигурява звук със студийно качество без никакви изкривявания.",
+      "url": "http://dl.dropbox.com/scl/fi/50fgbtvye34c10h1yvge3/XEQ-Equalizer-Pro-42.13.0-TryRoom.apk?rlkey=dmc9itww2rlkpbb9uac0eh1b5&st=mnmurplt&dl=1",
+      "ver": " v42.13.0",
+      "category": "Инструменти"
+    },
+    {
+      "title": "GPS Status Pro (ARM-v8a)",
+      "description": "🔹Дата на добавяне: 17.11.2026\n🔹Компилация: Balatan\n🔹Описание: Извлечете максимума от GPS-а на вашето устройство. Показва позиция и сила на сигнала на сателитите, точност, скорост, ускорение, надморска височина, направление, ниво, завъртане, състояние на батерията, компас (с магнитен и истински север), нивелир, отбелязване или споделяне на вашето местоположение и навигиране обратно по-късно.",
+      "url": "http://dl.dropbox.com/scl/fi/fi1qeeodybr02k5lk4t5d/GPS-Status-Pro-13.0.0-ARM-v8a-Balatan.apk?rlkey=8h4jslomjawf4sg0kpo0b33sr&st=zny8hp50&dl=1",
+      "ver": " v13.0.0",
+      "category": "Авто"
+    },
+    {
       "title": "TiviMate Premium",
       "description": "🔹Дата на добавяне: 16.11.2026\n🔹Компилация: babloo\n🔹Описание: Много популярен и лесен за работа IPTV плейър, който е разработен изцяло за управление с дистанционно на голям телевизионен екран. Поддържа Xtream кодове, Stalker портали и M3U плейлисти, телевизионен справочник (EPG), таймшифт, запис локално и мулти-изглед на няколко канала едновременно. Потребителите определят TiviMate като златният стандарт сред IPTV приложенията за Android TV заради неговата бързина, стабилност и богати възможности за персонализация.",
       "url": "http://dl.dropbox.com/scl/fi/8qlphj4alzjl6eqsaabje/TiviMate-Premium-5.3.3-babloo.apk?rlkey=00ko99wuh5yaje0lxdyock7zx&st=2jc8zboa&dl=1",
@@ -90,13 +118,6 @@
       "url": "http://dl.dropbox.com/scl/fi/pl5eqffudcwg8d85sshru/LAMPA-1.13.6-Official.apk?rlkey=1g98zxd3pjq7lmcl35ana0ldo&st=r9r7hynh&dl=1",
       "ver": " v1.13.6",
       "category": "Стрийминг"
-    },
-    {
-      "title": "GPS Status Pro (ARM-v8a)",
-      "description": "🔹Дата на добавяне: 11.11.2026\n🔹Компилация: Balatan\n🔹Описание: Извлечете максимума от GPS-а на вашето устройство. Показва позиция и сила на сигнала на сателитите, точност, скорост, ускорение, надморска височина, направление, ниво, завъртане, състояние на батерията, компас (с магнитен и истински север), нивелир, отбелязване или споделяне на вашето местоположение и навигиране обратно по-късно.",
-      "url": "http://dl.dropbox.com/scl/fi/85i3nyfgd3ny3iggeg729/GPS-Status-Pro-12.2.0-ARM-v8a-Balatan.apk?rlkey=52g4666o96h5vcte5xctzdhmf&st=oyasgn1w&dl=1",
-      "ver": " v12.2.0",
-      "category": "Авто"
     },
     {
       "title": "Kodi BG 22 RC2 (ARM-v7a)",
@@ -288,13 +309,6 @@
       "category": "Магазини"
     },
     {
-      "title": "IPTV Pro",
-      "description": "🔹Дата на добавяне: 02.11.2026\n🔹Компилация: Balatan\n🔹Описание: Много добър и бърз IPTV плейър, работещ с Xtream кодове, m3u файлове и линкове.",
-      "url": "http://dl.dropbox.com/scl/fi/yijd7ueulxwk9swou5eme/IPTV-Pro-10.0.1-Balatan.apk?rlkey=51bh8jkdvbipu4cwopgxti8zu&st=aw2yivl7&dl=1",
-      "ver": " v10.0.1",
-      "category": "Телевизия"
-    },
-    {
       "title": "Projectivy+ Launcher Premium",
       "description": "🔹Дата на добавяне: 02.11.2026\n🔹Компилация: fidyBG\n🔹Описание: Кажете сбогом на претрупаните екрани и натрапчивите реклами. Запознайте се с Projectivy Launcher - най-добрият лаунчър, който превръща началния ви екран в елегантен център за забавление без реклами. Автоматично замества стандартния лаунчър на вашето устройство, дори той да не може да се деактивира или деинсталира без допълнителни действия или програми.\n🔹Модифицирана версия с обновен вътрешен магазин за инсталиране на приложения и корекции на българския превод.",
       "url": "http://dl.dropbox.com/scl/fi/eab52r0usl9x3jsiq7dqf/Projectivy-Launcher-Premium-4.73-fidyBG.apk?rlkey=20xlz9u7j9l0oiktpp9i7cjbl&st=ote0f80h&dl=1",
@@ -307,13 +321,6 @@
       "url": "http://dl.dropbox.com/scl/fi/gmhn2tap6tq8ymtw82h66/File-Manager-Plus-Premium-3.8.5-Balatan.apk?rlkey=3cbpsej1aihqdkzdcr8w0wqyc&st=41gtiwca&dl=1",
       "ver": " v3.8.5",
       "category": "Файл мениджъри"
-    },
-    {
-      "title": "XEQ Equalizer Pro",
-      "description": "🔹Дата на добавяне: 02.11.2026\n🔹Компилация: TryRoom\n🔹Описание: Еквалайзер и професионален усилвател на басите за Android, създаден за потребители, които искат пълен контрол над звука си. XEQ осигурява звук със студийно качество без никакви изкривявания.",
-      "url": "http://dl.dropbox.com/scl/fi/jt4eevy9yphuq7u5cmj6r/XEQ-Equalizer-Pro-42.10.0-TryRoom.apk?rlkey=h51b1gs5yiwcwsg5ct75jm80p&st=gh3jev0y&dl=1",
-      "ver": " v42.10.0",
-      "category": "Инструменти"
     },
     {
       "title": "Emby for Android TV",
@@ -468,13 +475,6 @@
       "url": "http://dl.dropbox.com/scl/fi/u3gnzkh6tcew6omf5ou7v/EchoGram-Premium-1.0.7.0-TryRoom.apk?rlkey=yoin3o0xrb4g5vlefg1ykqofv&st=yzdhdu2k&dl=1",
       "ver": " v1.0.7.0",
       "category": "Плейъри"
-    },
-    {
-      "title": "Transparent Clock & Weather Pro",
-      "description": "🔹Дата на добавяне: 10.09.2026\n🔹Компилация: ogo2012\n🔹Описание: Приложение за времето, което ви помага да планирате деня си с точни прогнози, радар на живо и персонализируеми притурки за часовник и време. Получавайте почасова прогноза, както и ясна вероятност за валежи от дъжд или сняг, усещане за температури, качество на въздуха и UV индекс, влажност, видимост, посока или скорост на вятъра и тенденции в налягането, за да можете да излезете навън подготвени.",
-      "url": "http://dl.dropbox.com/scl/fi/78hv8fg0mw45tzmq556lq/Transparent-Clock-Weather-Pro-9.15.3-LITE-ogo2012.apk?rlkey=4ls1dcvqnun2nob32kw3eqocx&st=fzeh4be4&dl=1",
-      "ver": " v9.15.3",
-      "category": "Инструменти"
     },
     {
       "title": "MiXplorer Silver File Manager",
