@@ -950,6 +950,33 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			</assets>
 		</extension>
 	</addon>
+	<addon id="plugin.program.spacextv" name="SpaceXTV" version="2026.11.08.1148.7.fmod" provider-name="Blagovest Klisarski">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0"/>
+			<import addon="script.module.requests" version="1.1.0"/>
+		</requires>
+		<extension point="xbmc.python.script" library="default.py">
+			<provides>executable</provides>
+		</extension>
+		<extension point="xbmc.service" library="service.py" start="login"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_GB">Bulsat live TV and TV guide, launched straight into Kodi</summary>
+			<summary lang="bg_BG">Bulsat телевизия на живо и ТВ програма директно в Kodi</summary>
+			<description lang="en_GB">SpaceXTV puts your Bulsat IPTV subscription into Kodi's Live TV.[CR][CR]It signs in to your account, builds the full channel list with logos and genres plus a ready-to-use TV guide, sets up PVR IPTV Simple Client for you - then quietly keeps everything fresh in the background.[CR][CR]Built for low-power Android TV boxes: fast updates, a light TV guide, and Live TV reloads only when your channels really change - never in the middle of what you are watching.[CR][CR]Setup takes one step: after installing, sign in with your Bulsat username and password, then open TV in the Kodi main menu.[CR][CR]Made by Blagovest Klisarski - blagovestklisarski.com</description>
+			<description lang="bg_BG">SpaceXTV пренася абонамента ви за Bulsat IPTV в телевизията на Kodi.[CR][CR]Влиза в акаунта ви, подготвя всички канали с лога и жанрове и готова ТВ програма, настройва PVR IPTV Simple Client вместо вас и тихо поддържа всичко актуално във фонов режим.[CR][CR]Създаден за слаби Android TV боксове: бързо обновяване, лека ТВ програма, а телевизията се презарежда само при реална промяна в каналите - никога докато гледате.[CR][CR]Настройката е една стъпка: след инсталиране влезте с потребителското име и паролата си за Bulsat и отворете Телевизия от главното меню.[CR][CR]Автор: Blagovest Klisarski - blagovestklisarski.com</description>
+			<disclaimer lang="en_GB">Modification. Use at own risk!</disclaimer>
+			<disclaimer lang="bg_BG">Модифицирана версия. Ползвате на собствена отговорност!</disclaimer>
+			<news>2026.11.08.1148.7 - Forum thread on kodibg.org for questions and help (link on the add-on's info page).[CR]2026.11.07.1959.7 - Fix: channels no longer stop after about an hour. Bulsat ends a session about an hour after its last request - SpaceXTV now keeps it alive like Bulsat's own player (a tiny "what's on now" request every 5 minutes, never a sign-in). If a channel still stops by itself, SpaceXTV notices it at once, gets fresh links when needed and starts the same channel again.[CR]2026.11.07.1607.7 - SpaceXTV is now open source on GitHub (GPL-3.0). Install the SpaceXTV Repository once and Kodi keeps SpaceXTV up to date by itself.[CR]2026.11.05.2227.7 - Channels fix themselves: if Bulsat stops accepting the links early (e.g. your account signed in on another device), SpaceXTV notices it - a channel fails to play, Kodi starts, or a quick check while you use Kodi - gets fresh links, reloads Live TV and starts the channel you wanted. Timed refreshes no longer sign in while you are watching or using the remote.[CR]2026.11.05.0354.7 - Live TV is switched back on exactly when Kodi has finished stopping it (read from Kodi's own log) instead of after a guessed pause - right on fast and slow boxes alike. Fresh install no longer waits 45 s for an empty IPTV Simple. Each box learns any extra time it needs.[CR]2026.11.05.0331.7 - New menu item "Show SpaceXTV log": shows what SpaceXTV did (and how long Live TV took) right on the TV.[CR]2026.11.05.0317.7 - Much faster Live TV reload (about 1 minute less): IPTV Simple is switched off while the TV guide downloads, so Kodi has finished removing it by the time it is switched back on (switching on too early was getting lost). SpaceXTV learns the pause your box needs; the safety re-try now comes after 20 s instead of 60 s.[CR]2026.11.05.0251.7 - Fix: Live TV could stay on "PVR manager is starting up" after changing settings (e.g. 18+) - SpaceXTV now waits until Kodi has really stopped Live TV before switching it back on, never touches it while it is still loading, and fixes it by itself if Kodi gets stuck. "Done" only when the channels are really there; live seconds counter while loading.[CR]2026.11.05.0243.7 - One loading bar from start to finish: the PVR IPTV Simple install question (where needed) now comes right after signing in, before loading. No more "Open TV now?" popup - just an "All set" message once the channels are in Live TV.[CR]2026.11.05.0225.7 - Live TV: the progress bar stays until the channels are really loaded, then "Open TV now?" (no more "PVR manager is starting up" with nothing happening). Settings changes (e.g. 18+) apply right away. No fixed waits.[CR]2026.11.05.7 - Bulgarian language (follows Kodi's language). Sign-in window appears right after install. Fix: possible Kodi crash right after installing PVR IPTV Simple Client. No duplicate IPTV Simple configuration.[CR]2026.11.05.3 - Fix: welcome window could stay on screen after signing in. Signing in from the menu also sets up Live TV. Offers to install PVR IPTV Simple Client where it is missing.[CR]2026.11.05.2 - Sign-in prompt on first start and automatic Live TV setup. New rocket logo.[CR]2026.11.05.1 - New add-on id with automatic import from Space Plug-In. Channel list refreshes just before the stream links expire (about every 9 h instead of every hour).[CR]2026.11.04.1 - Renamed to SpaceXTV. Much faster and lighter updates, smaller TV guide, Live TV reloads only when channels change and never during playback.</news>
+			<platform>all</platform>
+			<license>GPL-3.0-only</license>
+			<forum>https://kodibg.org/forum/thread-1777.html</forum>
+			<source>https://github.com/beBoss/spacextv</source>
+			<website>https://blagovestklisarski.com</website>
+			<assets>
+				<icon>resources/icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
 	<addon id="plugin.program.bscfusion" name="FusionTV" version="2026.11.09.01.fmod" provider-name="kodi1">
 		<requires>
 			<import addon="script.module.requests" version="1.1.0"/>
@@ -967,6 +994,54 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<assets>
 				<icon>resources/fusion.png</icon>
 			</assets>
+		</extension>
+	</addon>
+	<addon id="pvr.eon" version="21.8.7.fmod" name="EON PVR" provider-name="Nirvana">
+		<requires>
+			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+			<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+			<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
+			<import addon="inputstream.adaptive" minversion="20.0.0"/>
+			<import addon="script.module.inputstreamhelper" version="0.8.6"/>
+		</requires>
+		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+		<extension point="xbmc.addon.metadata">
+			<platform>android-armv7</platform>
+			<license>GPL-2.0-or-later</license>
+			<assets>
+				<icon>eon.png</icon>
+			</assets>
+			<summary lang="en">EON PVR Client for Android 32-bit</summary>
+			<summary lang="bg">EON ПВР Клиент за Android 32-bit</summary>
+			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
+			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
+			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
+		</extension>
+	</addon>
+	<addon id="pvr.eon" version="21.8.7.fmod64" name="EON PVR" provider-name="Nirvana">
+		<requires>
+			<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+			<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+			<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+			<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
+			<import addon="inputstream.adaptive" minversion="20.0.0"/>
+			<import addon="script.module.inputstreamhelper" version="0.8.6"/>
+		</requires>
+		<extension point="kodi.pvrclient" library_android="libpvr.eon.so"/>
+		<extension point="xbmc.addon.metadata">
+			<platform>android-aarch64</platform>
+			<license>GPL-2.0-or-later</license>
+			<assets>
+				<icon>eon.png</icon>
+			</assets>
+			<summary lang="en">EON PVR Client for Android 64-bit</summary>
+			<summary lang="bg">EON ПВР Клиент за Android 64-bit</summary>
+			<description lang="en">PVR-Client for EON TV. Supports TV, TV-Guide (EPG) and 7 day replay.[CR][CR][CR][COLOR red][B]Subscription required.[/B][/COLOR]</description>
+			<description lang="bg">ПВР клиент за EON TV. Поддържа канали на живо, електронен програмен справочник (EPG) и връщане назад до 7 дни.[CR][CR][CR][COLOR red][B]Нужен е платен абонамент![/B][/COLOR]</description>
+			<disclaimer lang="en">No official version. All trademarks belong to EON. Use at own risk!</disclaimer>
+			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
 	<addon id="pvr.eon" version="21.8.12.fmod" name="EON PVR" provider-name="Nirvana">
@@ -1042,7 +1117,7 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
 			<disclaimer lang="bg">Неофициална версия. Всички права принадлежат на EON. Ползвате на собствена отговорност!</disclaimer>
 		</extension>
 	</addon>
-	<addon id="plugin.video.eonvod" version="1.2.2.fmod" name="EON On Demand" provider-name="dEXE">
+	<addon id="plugin.video.eonvod" version="1.2.3.fmod" name="EON On Demand" provider-name="dEXE">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="pvr.eon" version="20.0.0"/>
