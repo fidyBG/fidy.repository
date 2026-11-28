@@ -1,6 +1,20 @@
 {
   "apps": [
     {
+      "title": "fidy APK Installer",
+      "description": "🔹Дата на добавяне: 28.11.2026\n🔹Компилация: fidyBG\n🔹Категория: Магазини\n🔹Описание: Импровизиран магазин с безплатни и модифицирани приложения за Android. Могат да се инсталират по два метода - стандартно или чрез ADB (Android Debug Bridge). При ADB може да се инсталират на същото устройство или на друго с предварително въвеждане на IP адрес и порт за достъп до него.",
+      "url": "http://dl.dropbox.com/scl/fi/fxvfejtppkqsduiybygus/fidy-APK-Installer-6.00.apk?rlkey=w8lx83p6hxcx99vz2slck2219&st=v9otjvce&dl=1",
+      "ver": " v6.00",
+      "category": "Магазини"
+    },
+    {
+      "title": "Aurora App Store",
+      "description": "🔹Дата на добавяне: 28.11.2026\n🔹Компилация: Официална\n🔹Категория: Магазини\n🔹Описание: Неофициален клиент за Google Play. Търсете, изтегляйте и инсталирайте приложения от официалния магазин Google Play. Можете да разглеждате описания на приложения, екранни снимки, актуализации и да съхраните APK файл директно от Google Play на вашето устройство.",
+      "url": "http://dl.dropbox.com/scl/fi/4a37oktesx6jf0avt22cm/Aurora-Store-4.8.5-Official.apk?rlkey=ggwvzthuw3arr5egk5i9cln76&st=4ms6n200&dl=1",
+      "ver": " v4.8.5",
+      "category": "Магазини"
+    },
+    {
       "title": "Jellyfin for Android TV",
       "description": "🔹Дата на добавяне: 27.11.2026\n🔹Компилация: fidyBG\n🔹Категория: Стрийминг\n🔹Описание:  Безплатно медийно решение с отворен код, създадено от доброволци, което ви дава пълен контрол над вашите медии. Колекционирайте, управлявайте и стриймвайте медийни файлове с перфектно качество към всяко устройство от вашия собствен Jellyfin сървър, без никакви условия и ограничения.\n🔹Модифицирана версия с корекция на българския превод.",
       "url": "http://dl.dropbox.com/scl/fi/lpd5t0yxyog5r4y5ruipd/Jellyfin-Android-TV-0.20.1-MOD-fidyBG.apk?rlkey=gwf8ola1539yqxluf899muonq&st=7rmcyfye&dl=1",
@@ -456,13 +470,6 @@
       "category": "Плейъри"
     },
     {
-      "title": "fidy APK Installer",
-      "description": "🔹Дата на добавяне: 08.10.2026\n🔹Компилация: fidyBG\n🔹Категория: Магазини\n🔹Описание: Импровизиран магазин с безплатни и модифицирани приложения за Android. Могат да се инсталират по два метода - стандартно или чрез ADB (Android Debug Bridge). При ADB може да се инсталират на същото устройство или на друго с предварително въвеждане на IP адрес и порт за достъп до него.",
-      "url": "http://dl.dropbox.com/scl/fi/houxf0myo0o1gi4jfa55p/fidy-APK-Installer-5.00.apk?rlkey=rnu10kei7v9pkbte2jcaw7apx&st=o6be0utm&dl=1",
-      "ver": " v5.00",
-      "category": "Магазини"
-    },
-    {
       "title": "Riptide GP2",
       "description": "🔹Дата на добавяне: 05.10.2026\n🔹Компилация: AN1\n🔹Категория: Игри\n🔹Описание: Втората версия на добре известната игра издига всичко на екстремно високо ниво с надграждащи се водни джетове и състезатели, подобрена графика, изцяло нов режим на развитие и изцяло нова система за каскади с десетки нови трикове! С водни джетове, задвижвани от ракети, които се състезават по футуристични писти през динамична и интерактивна водна повърхност, тази игра предлага бързо, забавно и зашеметяващо изживяване.\n🔹Модифицирана версия с неограничени ресурси.",
       "url": "http://dl.dropbox.com/scl/fi/tjt5gfzt1jwf6w48yoox1/Riptide-GP2-2026.10.03-MOD-AN1.apk?rlkey=ip0z85yca78tuprzepkpz5l0v&st=q6bkw959&dl=1",
@@ -545,13 +552,6 @@
       "url": "http://dl.dropbox.com/scl/fi/3p6z60eq0wtq7l1hog3p8/Emotn-UI-Launcher-1.1.0.2-Official.apk?rlkey=5u6siz0kl23ohulgxv9mqbjpe&st=mn168mau&dl=1",
       "ver": " v1.1.0.2",
       "category": "Лаунчъри"
-    },
-    {
-      "title": "Aurora App Store",
-      "description": "🔹Дата на добавяне: 28.07.2026\n🔹Компилация: Официална\n🔹Категория: Магазини\n🔹Описание: Неофициален клиент за Google Play. Търсете, изтегляйте и инсталирайте приложения от официалния магазин Google Play. Можете да разглеждате описания на приложения, екранни снимки, актуализации и да съхраните APK файл директно от Google Play на вашето устройство.",
-      "url": "http://dl.dropbox.com/scl/fi/xqzpo4kfxmkt9q6ebwbkk/Aurora-Store-4.8.4-Official.apk?rlkey=yqxw46rxtzi22fap3lbjsly77&st=12wb0mi5&dl=1",
-      "ver": " v4.8.4",
-      "category": "Магазини"
     },
     {
       "title": "TeaTv",
